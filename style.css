@@ -1,9 +1,6 @@
 /*******************************************************************************
-Slate Theme for Github Pages
-by Jason Costello, @jsncostello
+Based on Slate Theme for Github Pages by Jason Costello, @jsncostello
 *******************************************************************************/
-
-@import url(pygment_trac.css);
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -61,12 +58,13 @@ body {
   background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  text-align: justify;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
+  margin: 20px 0 10px 0;
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
@@ -125,9 +123,27 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
+a.doc {
+  padding: 1px 4px;
+  margin: 0 0 0 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,.1);
+  background-color: #aaa;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
 #main_content a:hover {
   color: #0069ba;
   text-shadow: #0090ff 0px 0px 2px;
+}
+
+a.doc:hover {
+  background-color: #fff;
+  box-shadow: 0 0 0px;
 }
 
 footer a:hover {
@@ -143,7 +159,7 @@ strong {
   font-weight: bold;
 }
 
-img {
+img.normal {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
@@ -158,6 +174,26 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
+img.foto {
+  position: absolute;
+  display: block;
+  padding: 0;
+  margin: 60px 30px;
+  border: 0;
+  top: 0;
+  right: 0;
+  float: right;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+img.adjust {
+  width: 100%;
+  max-width: 100%;
+}
+
 pre, code {
   width: 100%;
   color: #222;
@@ -169,9 +205,6 @@ pre, code {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-
-
 }
 
 pre {
@@ -204,8 +237,8 @@ ul, ol, dl {
 }
 
 ul li {
-  list-style: inside;
-  padding-left: 20px;
+  list-style: disc outside;
+  margin-left: 20px;
 }
 
 ol li {
@@ -257,11 +290,6 @@ form {
   padding: 20px;
 }
 
-img {
-  width: 100%;
-  max-width: 100%;
-}
-
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -277,19 +305,19 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#forkme_banner {
+#foto {
   display: block;
   position: absolute;
   top:0;
   right: 10px;
   z-index: 10;
-  padding: 10px 50px 10px 10px;
+  padding: 10px;
+  margin: 0px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
-  font-weight: 700;
+  background: #555;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 #header_wrap {
@@ -305,7 +333,7 @@ Full-Width Styles
   padding: 50px 10px 30px 10px;
 }
 
-#project_title {
+#title {
   margin: 0;
   color: #fff;
   font-size: 42px;
@@ -313,61 +341,20 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#project_tagline {
+#affiliation {
   color: #fff;
-  font-size: 24px;
-  font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
 }
 
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
-
-.zip_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
-
-.tar_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 10px;
-}
-
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
-}
-
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #ffffff;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 #footer_wrap {
@@ -394,7 +381,7 @@ Small Device Styles
     max-width: 480px;
   }
 
-  #project_title {
+  #title {
   font-size: 32px;
   }
 
