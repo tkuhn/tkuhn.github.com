@@ -37,19 +37,23 @@ computational linguistics, bioinformatics, and logic programming.
 
 ### Events
 
-Organizer and Chair:
+###### Organizer and Chair
 
-- [CNL 2012](http://attempto.ifi.uzh.ch/site/cnl2012/): Third Workshop on Controlled Natural
-  Language 2012
+- [CNL 2012](http://attempto.ifi.uzh.ch/site/cnl2012/):
+  Third Workshop on Controlled Natural Language
 
-Program Committee Member:
+###### Program Committee Member
 
-- [CNL 2012](http://attempto.ifi.uzh.ch/site/cnl2012/): Third Workshop on Controlled Natural
-  Language
-- [CNL 2010](http://staff.um.edu.mt/mros1/cnl2010): Second Workshop on Controlled Natural Language
-- [SemWiki 2010](http://kmt.salzburgresearch.at/display/SEMWIKI10): Fifth Workshop on Semantic Wikis
-- [SemWiki 2009](http://www.kiwi-project.eu/index.php/semwiki/): Fourth Workshop on Semantic Wikis
-- [CNL 2009](http://attempto.ifi.uzh.ch/site/cnl2009/): Workshop on Controlled Natural Language
+- [CNL 2012](http://attempto.ifi.uzh.ch/site/cnl2012/):
+  Third Workshop on Controlled Natural Language
+- [CNL 2010](http://staff.um.edu.mt/mros1/cnl2010):
+  Second Workshop on Controlled Natural Language
+- [SemWiki 2010](http://kmt.salzburgresearch.at/display/SEMWIKI10):
+  Fifth Workshop on Semantic Wikis
+- [SemWiki 2009](http://www.kiwi-project.eu/index.php/semwiki/):
+  Fourth Workshop on Semantic Wikis
+- [CNL 2009](http://attempto.ifi.uzh.ch/site/cnl2009/):
+  First Workshop on Controlled Natural Language
 
 
 ### Invited Talks
@@ -69,7 +73,7 @@ Program Committee Member:
 
 ### Publications
 
-Journal Articles:
+###### Journal Articles
 
 - Tobias Kuhn and Stefan Hoefler.
   Coral: Corpus Access in Controlled Language.
@@ -81,7 +85,13 @@ Journal Articles:
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2012swj.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2012swj.bib)
 
-Book Chapters:
+###### Books
+
+- Tobias Kuhn and Norbert E. Fuchs (editors).
+  _Proceedings of the Third International Workshop on Controlled Natural Language (CNL 2012)_.
+  Springer, 2012.
+
+###### Book Chapters
 
 - Norbert E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
   ACE can be described by itself.
@@ -94,15 +104,15 @@ Book Chapters:
   Controlled English for Reasoning on the Semantic Web.
   In _Semantic Techniques for the Web — The REWERSE Perspective_.
   Springer, 2009.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/decoi2009rewerse.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/decoi2009rewerse.bib)
 - Norbert E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
   Attempto Controlled English for Knowledge Representation.
   In _Reasoning Web, Fourth International Summer School 2008_. Springer, 2008.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/reasoningweb2008_fuchs.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/reasoningweb2008_fuchs.bib)
 
-Consensus Statements:
+###### Consensus Statements
 
 - Adam Wyner, Krasimir Angelov, Guntis Barzdins, Danica Damljanovic, Brian Davis, Norbert Fuchs,
   Stefan Hoefler, Ken Jones, Kaarel Kaljurand, Tobias Kuhn, Martin Luts, Jonathan Pool, Mike
@@ -110,97 +120,98 @@ Consensus Statements:
   On Controlled Natural Languages: Properties and Prospects.
   In _Proceedings of the Workshop on Controlled Natural Language (CNL 2009)_.
   Springer, 2010.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2009main_wyner.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2009main_wyner.bib)
 
-Conference and Workshop Papers:
+###### Conference and Workshop Papers
 
 - Tobias Kuhn, ThaiBinh Luong, and Michael Krauthammer.
   Finding and Accessing Diagrams in Biomedical Publications.
   In _Proceedings of the American Medical Informatics Association (AMIA) 2012 Annual Symposium_.
   To appear.
+  [PDF](pub/kuhn2012amia.pdf)
   [BibTeX](pub/kuhn2012amia.bib)
 - Tobias Kuhn.
   Codeco: A Practical Notation for Controlled English Grammars in Predictive Editors.
   In _Proceedings of the Second Workshop on Controlled Natural Language (CNL 2010)_.
   Springer, 2012.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2010main_kuhn.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2010main_kuhn.bib)
 - Tobias Kuhn.
   Codeco: A Grammar Notation for Controlled Natural Language in Predictive Editors.
   In _Pre-Proceedings of the Second Workshop on Controlled Natural Language (CNL 2010)_.
   CEUR-WS, 2010.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2010_kuhn.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2010_kuhn.bib)
 - Tobias Kuhn.
   An Evaluation Framework for Controlled Natural Languages.
   In _Proceedings of the Workshop on Controlled Natural Language (CNL 2009)_.
   Springer, 2010.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2009main_kuhn.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2009main_kuhn.bib)
 - Richard N. Shiffman, George Michel, Michael Krauthammer, Norbert E. Fuchs, Kaarel Kaljurand, and
   Tobias Kuhn.
   Writing Clinical Practice Guidelines in Controlled Natural Language.
   In _Proceedings of the Workshop on Controlled Natural Language (CNL 2009)_.
   Springer, 2010.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2009main_shiffman.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2009main_shiffman.bib)
 - Tobias Kuhn.
   How Controlled English Can Improve Semantic Wikis.
   In _Proceedings of the Fourth Workshop on Semantic Wikis, European Semantic Web Conference 2009_.
   CEUR-WS, 2009.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/semwiki2009_kuhn.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/semwiki2009_kuhn.bib)
 - Richard Shiffman, George Michel, Michael Krauthammer, Norbert E. Fuchs, Kaarel Kaljurand, and
   Tobias Kuhn.
   Controlled Natural Language for Clinical Practice Guidelines.
   In _Pre-Proceedings of the Workshop on Controlled Natural Language (CNL 2009)_.
   CEUR-WS, 2009.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2009_shiffman.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2009_shiffman.bib)
 - Tobias Kuhn.
   How to Evaluate Controlled Natural Languages.
   In _Pre-Proceedings of the Workshop on Controlled Natural Language (CNL 2009)_.
   CEUR-WS, 2009.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2009_kuhn.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2009_kuhn.bib)
 - Tobias Kuhn and Rolf Schwitter.
   Writing Support for Controlled Natural Languages.
   In _Proceedings of the Australasian Language Technology Association (ALTA) Workshop 2008_.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/alta2008_kuhnschwitter.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/alta2008_kuhnschwitter.bib)
 - Tobias Kuhn.
   AceWiki: Collaborative Ontology Management in Controlled Natural Language.
   In _Proceedings of the 3rd Semantic Wiki Workshop_.
   CEUR-WS, 2008.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn08acewiki_onto.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn08acewiki_onto.bib)
 - Tobias Kuhn.
   AceWiki: A Natural and Expressive Semantic Wiki.
   In _Proceedings of Semantic Web User Interaction at CHI 2008: Exploring HCI Challenges_.
   CEUR-WS, 2009.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn08acewiki.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn08acewiki.bib)
 - Gerold Schneider, Kaarel Kaljurand, Fabio Rinaldi, and Tobias Kuhn.
   Pro3Gres Parser in the CoNLL Domain Adaptation Shared Task.
   In _Proceedings of the CoNLL Shared Task Session of EMNLP-CoNLL 2007_.
-  [PDF]()
+  [PDF](http://acl.ldc.upenn.edu/D/D07/D07-1128.pdf)
 - Tobias Kuhn.
   AceRules: Executing Rules in Controlled Natural Language.
   In _Proceedings of the First International Conference on Web Reasoning and Rule Systems
   (RR2007)_.
   Springer, 2007.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn07acerules.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn07acerules.bib)
 - Tobias Kuhn, Loic Royer, Norbert E. Fuchs, and Michael Schroeder.
   Improving Text Mining with Controlled Natural Language: A Case Study for Protein Interactions.
   In _Proceedings of the 3rd International Workshop on Data Integration in the Life Sciences 2006
   (DILS'06)_.
   Springer, 2006.
-  [PDF]()
-  [BibTeX]() 
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/dils2006_kuhn.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/dils2006_kuhn.bib) 
 
-Posters and Demos:
+###### Posters and Demos
 
 - Tobias Kuhn and Michael Krauthammer.
   Image Retrieval in Controlled English.
@@ -210,28 +221,28 @@ Posters and Demos:
   Controlled natural language policies.
   In _Poster and Demo Proceedings of the 16th ACM Conference on Computer and Communications Security
   (CCS 2009)_.
-  [PDF]()
+  [PDF](http://www.sigsac.org/ccs/CCS2009/pd/abstract_24.pdf)
 - Tobias Kuhn.
   Combining Semantic Wikis and Controlled Natural Language.
   In _Proceedings of the Poster and Demonstration Session at the 7th International Semantic Web
   Conference (ISWC2008)_.
   CEUR-WS, 2008.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/iswc2008pd_kuhn.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/iswc2008pd_kuhn.bib)
 
-Theses:
+###### Theses
 
 - Tobias Kuhn.
   _Controlled English for Knowledge Representation_.
   Doctoral thesis, Faculty of Economics, Business Administration and Information Technology of the
   University of Zurich, 2010.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/doctoral_thesis_kuhn.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/doctoral_thesis_kuhn.bib)
 - Tobias Kuhn.
   _Expressing Knowledge about Protein Interactions in Attempto Controlled English_.
   Diploma Thesis, Department of Informatics, University of Zurich, 2006.
-  [PDF]()
-  [BibTeX]()
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/Kuhn_Tobias.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/Kuhn_Tobias.bib)
 
 
 ### Short CV
