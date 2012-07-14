@@ -115,6 +115,11 @@ Consensus Statements:
 
 Conference and Workshop Papers:
 
+- Tobias Kuhn, ThaiBinh Luong, and Michael Krauthammer.
+  Finding and Accessing Diagrams in Biomedical Publications.
+  In _Proceedings of the American Medical Informatics Association (AMIA) 2012 Annual Symposium_.
+  To appear.
+  [BibTeX](pub/kuhn2012amia.bib)
 - Tobias Kuhn.
   Codeco: A Practical Notation for Controlled English Grammars in Predictive Editors.
   In _Proceedings of the Second Workshop on Controlled Natural Language (CNL 2010)_.
@@ -197,6 +202,10 @@ Conference and Workshop Papers:
 
 Posters and Demos:
 
+- Tobias Kuhn and Michael Krauthammer.
+  Image Retrieval in Controlled English.
+  In _Conference on Semantics in Healthcare and Life Sciences (CSHALS 2012)_.
+  [BibTeX](pub/kuhn2012cshals.bib)
 - Juri Luca De Coi, Peter Fankhauser, Tobias Kuhn, Wolfgang Nejdl, and Daniel Olmedilla.
   Controlled natural language policies.
   In _Poster and Demo Proceedings of the 16th ACM Conference on Computer and Communications Security
@@ -245,3 +254,4 @@ Theses:
 - **2001-2006:** Studies in Economy and Computer Science ("Wirtschaftsinformatik") at the
   University of Zurich; graduation as a "Diplom-Informatiker" (Dipl. Inform.), equivalent to a
   Master of Science in Computer Science
+
