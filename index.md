@@ -216,7 +216,9 @@ computational linguistics, bioinformatics, and logic programming.
 - Tobias Kuhn and Michael Krauthammer.
   Image Retrieval in Controlled English.
   In _Conference on Semantics in Healthcare and Life Sciences (CSHALS 2012)_.
+  [PDF](pub/kuhn2012cshals.pdf)
   [BibTeX](pub/kuhn2012cshals.bib)
+  [Poster](pub/kuhn2012cshals-poster.pdf)
 - Juri Luca De Coi, Peter Fankhauser, Tobias Kuhn, Wolfgang Nejdl, and Daniel Olmedilla.
   Controlled natural language policies.
   In _Poster and Demo Proceedings of the 16th ACM Conference on Computer and Communications Security
@@ -229,6 +231,7 @@ computational linguistics, bioinformatics, and logic programming.
   CEUR-WS, 2008.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/iswc2008pd_kuhn.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/iswc2008pd_kuhn.bib)
+  [Poster](http://attempto.ifi.uzh.ch/site/pubs/papers/iswc2008acewikiposter.pdf)
 
 ###### Theses
 
