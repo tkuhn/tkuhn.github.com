@@ -75,15 +75,17 @@ computational linguistics, bioinformatics, and logic programming.
 
 ###### Journal Articles
 
+- Tobias Kuhn. A Principled Approach to Grammars for Controlled Natural Languages and Predictive Editors.
+  _Journal of Logic, Language and Information_, to appear.
+- Tobias Kuhn. The Understandability of OWL Statements in Controlled English.
+  _Semantic Web_, to appear.
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2012swj.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2012swj.bib)
 - Tobias Kuhn and Stefan Hoefler.
   Coral: Corpus Access in Controlled Language.
   _Corpora_, 7(2), 2012, to appear.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhnhoefler2013coral.bib)
-- Tobias Kuhn. The Understandability of OWL Statements in Controlled English.
-  _Semantic Web_, to appear.
-  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2012swj.pdf)
-  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2012swj.bib)
 
 ###### Books
 
@@ -125,10 +127,16 @@ computational linguistics, bioinformatics, and logic programming.
 
 ###### Conference and Workshop Papers
 
+- Tobias Kuhn and Michael Krauthammer.
+  Image Mining from Gel Diagrams in Biomedical Publications.
+  In _Proceedings of the 5th International Symposium on Semantic Mining in Biomedicine (SMBM)_.
+  2012, to appear.
+  [PDF](pub/kuhn2012smbm.pdf)
+  [BibTeX](pub/kuhn2012smbm.bib)
 - Tobias Kuhn, ThaiBinh Luong, and Michael Krauthammer.
   Finding and Accessing Diagrams in Biomedical Publications.
   In _Proceedings of the American Medical Informatics Association (AMIA) 2012 Annual Symposium_.
-  To appear.
+  2012, to appear.
   [PDF](pub/kuhn2012amia.pdf)
   [BibTeX](pub/kuhn2012amia.bib)
 - Tobias Kuhn.
