@@ -77,6 +77,8 @@ computational linguistics, bioinformatics, and logic programming.
 
 - Tobias Kuhn. A Principled Approach to Grammars for Controlled Natural Languages and Predictive Editors.
   _Journal of Logic, Language and Information_, to appear.
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2012jlli.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2012jlli.bib)
 - Tobias Kuhn. The Understandability of OWL Statements in Controlled English.
   _Semantic Web_, to appear.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2012swj.pdf)
@@ -90,8 +92,10 @@ computational linguistics, bioinformatics, and logic programming.
 ###### Books
 
 - Tobias Kuhn and Norbert E. Fuchs (editors).
-  _Proceedings of the Third International Workshop on Controlled Natural Language (CNL 2012)_.
+  _Proceedings of the Third International Workshop on Controlled Natural Language (CNL 2012)_,
+  Lecture Notes in Computer Science 7427.
   Springer, 2012.
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2012.bib)
 
 ###### Book Chapters
 
@@ -141,7 +145,7 @@ computational linguistics, bioinformatics, and logic programming.
   [BibTeX](pub/kuhn2012amia.bib)
 - Tobias Kuhn.
   Codeco: A Practical Notation for Controlled English Grammars in Predictive Editors.
-  In _Proceedings of the Second Workshop on Controlled Natural Language (CNL 2010)_.
+  In _Proceedings of the Second International Workshop on Controlled Natural Language (CNL 2010)_.
   Springer, 2012.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2010main_kuhn.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2010main_kuhn.bib)
