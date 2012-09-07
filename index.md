@@ -2,8 +2,7 @@
 
 I am a postdoctoral associate at Yale working on controlled natural languages, knowledge
 representation and text/image mining. In addition, my fields of interest include artificial
-intelligence, the semantic web, software engineering, automated reasoning, rule systems,
-computational linguistics, bioinformatics, and logic programming.
+intelligence, the semantic web, bioinformatics, rule systems, and computational semantics.
 
 
 ### Projects
@@ -132,9 +131,15 @@ computational linguistics, bioinformatics, and logic programming.
 ###### Conference and Workshop Papers
 
 - Tobias Kuhn and Michael Krauthammer.
+  Underspecified Scientific Claims in Nanopublications.
+  In _Proceedings of the Workshop on the Web of Linked Entities (WoLE)_.
+  2012.
+  [PDF](pub/kuhn2012wole.pdf)
+  [BibTeX](pub/kuhn2012wole.bib)
+- Tobias Kuhn and Michael Krauthammer.
   Image Mining from Gel Diagrams in Biomedical Publications.
   In _Proceedings of the 5th International Symposium on Semantic Mining in Biomedicine (SMBM)_.
-  2012, to appear.
+  2012.
   [PDF](pub/kuhn2012smbm.pdf)
   [BibTeX](pub/kuhn2012smbm.bib)
 - Tobias Kuhn, ThaiBinh Luong, and Michael Krauthammer.
@@ -223,8 +228,12 @@ computational linguistics, bioinformatics, and logic programming.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/dils2006_kuhn.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/dils2006_kuhn.bib) 
 
-###### Posters and Demos
+###### Reviewed Posters and Demos
 
+- Tobias Kuhn and Michael Krauthammer.
+  Representing Biomedical Claims with Underspecified Statements in Nanopublications.
+  In _Poster Session of the 11th International Conference on Computational Biology (ECCB'12)_.
+  [Poster](pub/kuhn2012eccb-poster.pdf)
 - Tobias Kuhn and Michael Krauthammer.
   Image Retrieval in Controlled English.
   In _Conference on Semantics in Healthcare and Life Sciences (CSHALS 2012)_.
