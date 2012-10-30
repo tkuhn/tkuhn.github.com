@@ -268,6 +268,12 @@ intelligence, the semantic web, bioinformatics, rule systems, and computational 
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/Kuhn_Tobias.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/Kuhn_Tobias.bib)
 
+###### Selected Drafts
+
+- Tobias Kuhn.
+  Survey and Classification of Controlled Natural Languages.
+  [PDF](pub/kuhn_draft_cnl.pdf)
+
 
 ### Short CV
 
