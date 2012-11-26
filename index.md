@@ -82,7 +82,7 @@ intelligence, the semantic web, bioinformatics, rule systems, and computational 
   _Semantic Web_, to appear.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2012swj.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2012swj.bib)
-- Tobias Kuhn and Stefan Hoefler.
+- Tobias Kuhn and Stefan Höfler.
   Coral: Corpus Access in Controlled Language.
   _Corpora_, 7(2), 2012, to appear.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf)
