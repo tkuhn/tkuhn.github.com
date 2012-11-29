@@ -4,6 +4,11 @@ I am a postdoctoral associate at Yale working on controlled natural languages, k
 representation and text/image mining. In addition, my fields of interest include artificial
 intelligence, the semantic web, bioinformatics, rule systems, and computational semantics.
 
+Me on other sites:
+
+- [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ)
+- [LinkedIn](http://www.linkedin.com/profile/view?id=18606482)
+- [GitHub](https://github.com/tkuhn)
 
 ### Projects
 
@@ -84,9 +89,9 @@ intelligence, the semantic web, bioinformatics, rule systems, and computational 
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2012swj.bib)
 - Tobias Kuhn and Stefan Höfler.
   Coral: Corpus Access in Controlled Language.
-  _Corpora_, 7(2), 2012, to appear.
-  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf)
-  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhnhoefler2013coral.bib)
+  _Corpora_, 7(2), 2012.
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2012coral.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhnhoefler2012coral.bib)
 
 ###### Books
 
