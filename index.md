@@ -63,7 +63,8 @@ Me on other sites:
 ### Invited Talks
 
 - _AceWiki_.
-  Grammatical Framework Summer School, Barcelona, 23 August 2011
+  Grammatical Framework Summer School, Barcelona, 23 August 2011.
+  [PDF](http://attempto.ifi.uzh.ch/site/talks/files/gfss2011acewiki.pdf)
 - _Semantic Web für Menschen wie du und ich_ (in German).
   16th KnowTalk at KnowGravity Inc., Zurich, 1 February 2011.
   [PDF](http://attempto.ifi.uzh.ch/site/talks/files/knowtalk_2011_kuhn.pdf)
