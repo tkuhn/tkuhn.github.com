@@ -1,8 +1,7 @@
 ### About Me
 
-I am a postdoctoral associate at Yale working on controlled natural languages, knowledge
-representation and text/image mining. In addition, my fields of interest include artificial
-intelligence, the semantic web, bioinformatics, rule systems, and computational semantics.
+I am a postdoc working on the semantic web, knowledge representation, controlled natural
+languages, artificial intelligence, computational linguistics, and bioinformatics.
 
 Me on other sites:
 
@@ -13,10 +12,8 @@ Me on other sites:
 ### Projects
 
 - [MOLTO](http://www.molto-project.eu/) is a project on multilingual online translations
-- [Attempto](http://attempto.ifi.uzh.ch/) is a research project dedicated to the development and
-  application of the controlled natural language ACE
-- [ERGO](http://gem.med.yale.edu/ergo/) was a project dedicated to research on how formal methods
-  can improve the development and application of medical guidelines
+- [Attempto](http://attempto.ifi.uzh.ch/) is a research group working on controlled natural language
+- [ERGO](http://gem.med.yale.edu/ergo/) was a project on formal methods for medical guidelines
 - [REWERSE](http://rewerse.net/) was a research network of excellence on "Reasoning on the Web"
 
 
@@ -26,13 +23,13 @@ Me on other sites:
   images in biomedical publications
 - [AceWiki](http://attempto.ifi.uzh.ch/acewiki) is a semantic wiki based on controlled natural
   language
-- [ACE](http://attempto.ifi.uzh.ch/site/docs/ace_nutshell.html) (Attempto Controlled English) is a
-  subset of natural English that can be automatically translated into formal logic
+- [ACE](http://attempto.ifi.uzh.ch/site/docs/ace_nutshell.html) is a controlled English that can be
+  automatically translated into formal logic
 - [ACE Editor](http://attempto.ifi.uzh.ch/aceeditor) is a controlled natural language editor
-- [Ontograph](http://attempto.ifi.uzh.ch/site/docs/ontograph/) is a framework to test and compare
-  the understandability of controlled natural languages and other logic languages
+- [Ontograph](http://attempto.ifi.uzh.ch/site/docs/ontograph/) is a framework for testing the
+  understandability of logic languages
 - [Codeco](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2010_kuhn.pdf) is a grammar notation
-  specifically designed for controlled natural languages and predictive editors
+  for controlled natural languages and predictive editors
 - [AceRules](http://attempto.ifi.uzh.ch/acerules) is a rule system based on ACE
 - [Coral](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf) is a query
   interface for annotated text corpora
@@ -85,9 +82,9 @@ Me on other sites:
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2012jlli.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2012jlli.bib)
 - Tobias Kuhn. The Understandability of OWL Statements in Controlled English.
-  _Semantic Web_, to appear.
-  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2012swj.pdf)
-  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2012swj.bib)
+  _Semantic Web_, 4(1), 2013.
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2013swj.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2013swj.bib)
 - Tobias Kuhn and Stefan Höfler.
   Coral: Corpus Access in Controlled Language.
   _Corpora_, 7(2), 2012.
@@ -284,10 +281,9 @@ Me on other sites:
 ### Short CV
 
 - **2012:** Postdoctoral associate at Yale University in the Department of Pathology
-- **2011:** Work for the University of Helsinki within the MOLTO project
+- **2011:** Researcher for the University of Helsinki within the MOLTO project
 - **2011:** Lecturer and postdoc researcher at the University of Malta
-- **2010:** Postdoc position at the Institute of Computational Linguistics of the University of
-  Zurich
+- **2010:** Postdoc at the Institute of Computational Linguistics of the University of Zurich
 - **2010:** Guest researcher at the Computer Science Department of the University of Chile in the
   PLEIAD group (Programming Languages and Environments for Intelligent, Adaptable and Distributed
   systems)
