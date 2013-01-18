@@ -136,7 +136,7 @@ Me on other sites:
 - Tobias Kuhn and Michael Krauthammer.
   Underspecified Scientific Claims in Nanopublications.
   In _Proceedings of the Workshop on the Web of Linked Entities (WoLE)_.
-  2012.
+  CEUR-WS, 2012.
   [PDF](pub/kuhn2012wole.pdf)
   [BibTeX](pub/kuhn2012wole.bib)
 - Tobias Kuhn and Michael Krauthammer.
