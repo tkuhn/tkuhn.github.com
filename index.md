@@ -280,6 +280,7 @@ Me on other sites:
 
 ### Short CV
 
+- **2013:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling and Simulation
 - **2012:** Postdoctoral associate at Yale University in the Department of Pathology
 - **2011:** Researcher for the University of Helsinki within the MOLTO project
 - **2011:** Lecturer and postdoc researcher at the University of Malta
