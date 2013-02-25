@@ -78,9 +78,9 @@ Me on other sites:
 ###### Journal Articles
 
 - Tobias Kuhn. A Principled Approach to Grammars for Controlled Natural Languages and Predictive Editors.
-  _Journal of Logic, Language and Information_, to appear.
-  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2012jlli.pdf)
-  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2012jlli.bib)
+  _Journal of Logic, Language and Information_, 22(1), 2013.
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2013jlli.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2013jlli.bib)
 - Tobias Kuhn. The Understandability of OWL Statements in Controlled English.
   _Semantic Web_, 4(1), 2013.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2013swj.pdf)
@@ -133,6 +133,14 @@ Me on other sites:
 
 ###### Conference and Workshop Papers
 
+- Tobias Kuhn, Paolo Emilio Barbano, Mate Levente Nagy, and Michael Krauthammer.
+  Broadening the Scope of Nanopublications.
+  In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
+  2013, to appear.
+- Kaarel Kaljurand and Tobias Kuhn.
+  Multilingual semantic wiki based on Attempto Controlled English and Grammatical Framework.
+  In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
+  2013, to appear.
 - Tobias Kuhn and Michael Krauthammer.
   Underspecified Scientific Claims in Nanopublications.
   In _Proceedings of the Workshop on the Web of Linked Entities (WoLE)_.
@@ -148,7 +156,7 @@ Me on other sites:
 - Tobias Kuhn, ThaiBinh Luong, and Michael Krauthammer.
   Finding and Accessing Diagrams in Biomedical Publications.
   In _Proceedings of the American Medical Informatics Association (AMIA) 2012 Annual Symposium_.
-  2012, to appear.
+  2012.
   [PDF](pub/kuhn2012amia.pdf)
   [BibTeX](pub/kuhn2012amia.bib)
 - Tobias Kuhn.
