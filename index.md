@@ -1,6 +1,6 @@
 ### About Me
 
-I am a postdoc working on the semantic web, knowledge representation, controlled natural
+I am a postdoc working on the semantic web, social systems, controlled natural
 languages, artificial intelligence, computational linguistics, and bioinformatics.
 
 Me on other sites:
@@ -137,6 +137,8 @@ Me on other sites:
   Broadening the Scope of Nanopublications.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
   2013, to appear.
+  [PDF](pub/kuhn2013eswc.pdf)
+  [BibTeX](pub/kuhn2013eswc.bib)
 - Kaarel Kaljurand and Tobias Kuhn.
   Multilingual semantic wiki based on Attempto Controlled English and Grammatical Framework.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
@@ -291,7 +293,7 @@ Me on other sites:
 - **2013:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling and Simulation
 - **2012:** Postdoctoral associate at Yale University in the Department of Pathology
 - **2011:** Researcher for the University of Helsinki within the MOLTO project
-- **2011:** Lecturer and postdoc researcher at the University of Malta
+- **2011:** Lecturer and researcher at the University of Malta
 - **2010:** Postdoc at the Institute of Computational Linguistics of the University of Zurich
 - **2010:** Guest researcher at the Computer Science Department of the University of Chile in the
   PLEIAD group (Programming Languages and Environments for Intelligent, Adaptable and Distributed
