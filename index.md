@@ -284,7 +284,7 @@ Me on other sites:
 ###### Selected Drafts
 
 - Tobias Kuhn.
-  Survey and Classification of Controlled Natural Languages.
+  A Survey and Classification of Controlled Natural Languages.
   [PDF](pub/kuhn_draft_cnl.pdf)
 
 
