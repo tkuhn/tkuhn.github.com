@@ -5,6 +5,7 @@ FL,First-order logic,,5,3,1,4,f w a,,,
 FL,COBOL,,5,2,2,3,f w a i g,,,
 FL,Manchester OWL Syntax,,5,2,2,4,f w a,,,
 CNL,AECMA Simplified English,AECMA-SE,2,5,5,1,c w d i,1986,2004,ILSAM / "CE at Douglas"
+CNL,AIDA,,2,5,4,1,f w a,2013,today,
 CNL,"Airbus Warning Language",,2,1,3,3,c w d i,2003,?,
 CNL,ALCOGRAM,,2,5,5,1,c t w d a i,1992,?,COGRAM
 CNL,ASD Simplified Technical English,ASD-STE,2,5,5,1,c t w d i,2004,today,AECMA-SE
