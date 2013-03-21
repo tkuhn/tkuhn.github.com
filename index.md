@@ -8,6 +8,8 @@ Me on other sites:
 - [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ)
 - [LinkedIn](http://www.linkedin.com/profile/view?id=18606482)
 - [GitHub](https://github.com/tkuhn)
+- [Twitter](https://twitter.com/txkuhn)
+
 
 ### Projects
 
