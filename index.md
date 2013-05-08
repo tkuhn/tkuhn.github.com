@@ -3,16 +3,17 @@
 I am a postdoc working on the semantic web, social systems, controlled natural
 languages, artificial intelligence, computational linguistics, and bioinformatics.
 
-Me on other sites:
-
-- [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ)
-- [LinkedIn](http://www.linkedin.com/profile/view?id=18606482)
-- [GitHub](https://github.com/tkuhn)
-- [Twitter](https://twitter.com/txkuhn)
+Me on
+[Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ),
+[LinkedIn](http://www.linkedin.com/profile/view?id=18606482),
+[GitHub](https://github.com/tkuhn), and
+[Twitter](https://twitter.com/txkuhn).
 
 
 ### Projects
 
+- [Open Scholar Foundation](http://www.openscholarfoundation.org/) will certify scholars who openly
+  share their results and data
 - [MOLTO](http://www.molto-project.eu/) is a project on multilingual online translations
 - [Attempto](http://attempto.ifi.uzh.ch/) is a research group working on controlled natural language
 - [ERGO](http://gem.med.yale.edu/ergo/) was a project on formal methods for medical guidelines
@@ -79,6 +80,11 @@ Me on other sites:
 
 ###### Journal Articles
 
+- Tobias Kuhn.
+  A Survey and Classification of Controlled Natural Languages.
+  _Computational Linguistics_, to appear.
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2013cl.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2013cl.bib)
 - Tobias Kuhn. A Principled Approach to Grammars for Controlled Natural Languages and Predictive Editors.
   _Journal of Logic, Language and Information_, 22(1), 2013.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2013jlli.pdf)
@@ -257,6 +263,12 @@ Me on other sites:
   [PDF](pub/kuhn2012cshals.pdf)
   [BibTeX](pub/kuhn2012cshals.bib)
   [Poster](pub/kuhn2012cshals-poster.pdf)
+- Tobias Kuhn.
+  AceWiki: A Semantic Wiki Using Controlled English.
+  In _Proceedings of the Poster Session at the 6th European Semantic Web Conference (ESWC09)_.
+  CEUR-WS, 2008.
+  [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2009eswcp.pdf)
+  [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2009eswcp.bib)
 - Juri Luca De Coi, Peter Fankhauser, Tobias Kuhn, Wolfgang Nejdl, and Daniel Olmedilla.
   Controlled natural language policies.
   In _Poster and Demo Proceedings of the 16th ACM Conference on Computer and Communications Security
@@ -285,11 +297,15 @@ Me on other sites:
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/Kuhn_Tobias.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/Kuhn_Tobias.bib)
 
-###### Selected Drafts
 
-- Tobias Kuhn.
-  A Survey and Classification of Controlled Natural Languages.
-  [PDF](pub/kuhn_draft_cnl.pdf)
+### Awards
+
+- **Winner** of the 1k Challenge at the Beyond the PDF 2 conference in 2013 for my proposal of an
+  _Open Scholar Foundation_
+- **Mercator Award** of the University of Zurich in 2009 for my dissertation project on _Controlled
+  English for Knowledge Representation_
+- **Best Paper Award** at the Fourth Workshop on Semantic Wikis 2009 for my paper _How Controlled
+  English Can Improve Semantic Wikis_
 
 
 ### Short CV
