@@ -22,6 +22,7 @@ Me on
 
 ### Products
 
+- [Nanobrowser](http://nanobrowser.inn.ac/) is a browser and interface for nanopublications
 - [Yale Image Finder](http://krauthammerlab.med.yale.edu/imagefinder/) is a search engine for
   images in biomedical publications
 - [AceWiki](http://attempto.ifi.uzh.ch/acewiki) is a semantic wiki based on controlled natural
