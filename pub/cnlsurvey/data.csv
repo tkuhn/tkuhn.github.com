@@ -9,6 +9,7 @@ CNL,AIDA,,2,5,4,1,f w a,2013,today,
 CNL,"Airbus Warning Language",,2,1,3,3,c w d i,2003,?,
 CNL,ALCOGRAM,,2,5,5,1,c t w d a i,1992,?,COGRAM
 CNL,ASD Simplified Technical English,ASD-STE,2,5,5,1,c t w d i,2004,today,AECMA-SE
+CNL,"Atomate Language",,4,2,4,3,f w d a,2010,?,CLOnE / ACE / "GINO's Guided English" / "Ginseng's Guided English"
 CNL,Attempto Controlled English,ACE,4,3,4,3,f w a,1996,today,
 CNL,Avaya Controlled English,Avaya CE,2,5,5,1,c t w d i,2003,?,
 CNL,Basic English,,2,5,5,1,c w,1930,today,
@@ -20,7 +21,7 @@ CNL,Caterpillar Fundamental English,CFE,2,5,5,1,c w d i,1971,1982,Basic English
 CNL,Caterpillar Technical English,CTE,2,5,5,1,c t w d i,1991,1998?,CFE / KCE
 CNL,Clear And Simple English,CASE,2,5,5,1,c w d i,1986?,?,CFE
 CNL,ClearTalk,,3,3,3,3,f w a,1990,2006?,
-CNL,"CLEF Query Language",,5,1,4,3,f w d a,2007,?,Drafter Language
+CNL,"CLEF Query Language",,5,1,4,3,f w d a,2007,?,"Drafter Language"
 CNL,COGRAM,,2,5,5,1,c t w d a i,1989,?,
 CNL,Common Logic Controlled English,CLCE,5,3,3,3,f w a,2004,?,
 CNL,Computer Processable English,CPE,5,2,4,3,f w a,1996,1999?,
@@ -42,7 +43,7 @@ CNL,DL-English,,5,2,4,4,f w a,2009,2011,Lite Natural Language
 CNL,"Drafter Language",,4,1,4,3,f w d a,1998,?,
 CNL,E-Prime,,1,5,5,1,c w a,1965,1997?,
 CNL,E2V,,5,2,4,4,f w a,2003,2004?,
-CNL,IBM's EasyEnglish,,1,5,5,1,c t w i,1997,2006?,Controlled English at IBM?
+CNL,IBM's EasyEnglish,,1,5,5,1,c t w i,1997,2006?,"Controlled English at IBM"?
 CNL,Wycliffe Associates' EasyEnglish,,2,5,5,1,c t w d,2003,today,
 CNL,Ericsson English,EE,2,5,5,1,c t? w d i,1983,?,ILSAM
 CNL,FAA Air Traffic Control Phraseology,FAA Phraseology,2,1,3,2,c s d g,1984?,2011,
@@ -52,7 +53,7 @@ CNL,ForTheL,,5,3,3,3,f w d a,2000,2007?,
 CNL,Gellish English,,4,2,4,3,f w a i,1998,today,
 CNL,General Motors Global English,General Motors GE,2,5,5,1,c t w d i,2000,?,CASL
 CNL,Gherkin,,5,3,4,3,f w d a,2011,today,
-CNL,"GINO's Guided English",,4,2,4,3,f w a,2006,?,Ginseng's Controlled English
+CNL,"GINO's Guided English",,4,2,4,3,f w a,2006,?,"Ginseng's Guided English"
 CNL,"Ginseng's Guided English",,5,1,4,3,f w a,2004,2010?,
 CNL,Hyster Easy Language Program,HELP,2,5,5,1,c w d i,1987,?,SMART Plain English
 CNL,ICAO Phraseology,,2,1,3,2,c s d g,1984?,today,
@@ -64,7 +65,7 @@ CNL,ITA Controlled English,ITA CE,3,3,3,3,f w d? i,2010,today,CLCE
 CNL,KANT Controlled English,KCE,2,5,5,1,t w d? a,1991,1995?,
 CNL,Kodak International Service Language,KISL,2,5,5,1,c w d i,1983,?,CFE?
 CNL,Lite Natural Language,,5,2,4,4,f w a,2007,?,E2V
-CNL,"Massachusetts Legislative Drafting Language",,2,5,5,1,c w d g,2001,today,E2V
+CNL,"Massachusetts Legislative Drafting Language",,2,5,5,1,c w d g,2001,today,
 CNL,"MILE Query Language",,4,1,4,3,f w d a,2000,?,
 CNL,Multinational Customized English,MCE,2,5,5,1,t w d i,1982,?,ILSAM
 CNL,Nortel Standard English,NSE,2,5,5,1,c w d? i,1996,2000,SMART Plain English?
@@ -80,7 +81,7 @@ CNL,PENG-D,,5,3,4,3,f w a,2004,?,PENG
 CNL,PENG Light,,5,3,4,3,f w a,2008,2011,PENG
 CNL,Perkins Approved Clear English,PACE,2,5,5,1,c t w d i,1980,1990?,ILSAM
 CNL,PERMIS Controlled Natural Language,PERMIS CNL,5,2,4,4,f w d a,2008,2011,CLOnE
-CNL,"PILLS Language",,4,1,5,3,t f d a,2002,?,ICONOCLAST Language
+CNL,"PILLS Language",,4,1,5,3,t f d a,2002,?,"ICONOCLAST Language"
 CNL,Plain Language,,1,5,5,1,c w g,1972?,2011,
 CNL,PoliceSpeak,,2,1,3,2,c s d g,1992,1996?,
 CNL,"PROSPER Controlled English","PROSPER CE",4,3,4,3,f w d a,1999,2000?,
