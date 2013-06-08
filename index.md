@@ -145,13 +145,13 @@ Me on
 - Tobias Kuhn, Paolo Emilio Barbano, Mate Levente Nagy, and Michael Krauthammer.
   Broadening the Scope of Nanopublications.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
-  2013, to appear.
+  2013.
   [PDF](pub/kuhn2013eswc.pdf)
   [BibTeX](pub/kuhn2013eswc.bib)
 - Kaarel Kaljurand and Tobias Kuhn.
   A Multilingual Semantic Wiki Based on Attempto Controlled English and Grammatical Framework.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
-  2013, to appear.
+  2013.
   [PDF](http://attempto.ifi.uzh.ch/site/pubs/papers/eswc2013_kaljurand.pdf)
   [BibTeX](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/eswc2013_kaljurand.bib)
 - Tobias Kuhn and Michael Krauthammer.
