@@ -63,6 +63,9 @@ Me on
 
 ### Invited Talks
 
+- _Controlled Natural Language and Opportunities for Standardization_.
+  Keynote at the International Workshop on Terminology, Languages, and Content (LaRC), Pretoria (South Africa), 8 June 2013.
+  [PDF](http://www.tkuhn.ch/talk/larc2013cnl.pdf)
 - _AceWiki_.
   Grammatical Framework Summer School, Barcelona, 23 August 2011.
   [PDF](http://attempto.ifi.uzh.ch/site/talks/files/gfss2011acewiki.pdf)
