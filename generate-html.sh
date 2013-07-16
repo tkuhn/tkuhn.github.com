@@ -8,5 +8,6 @@ cat index-template.html \
   | sed 's/>PDF<\/a>/ class="doc">PDF<\/a>/' \
   | sed 's/>BibTeX<\/a>/ class="doc">BibTeX<\/a>/' \
   | sed 's/>Poster<\/a>/ class="doc">Poster<\/a>/' \
+  | sed 's/>Video<\/a>/ class="doc">Video<\/a>/' \
   > index.html
 rm index-content.html
