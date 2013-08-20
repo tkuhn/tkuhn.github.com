@@ -6,8 +6,8 @@ languages, artificial intelligence, computational linguistics, and bioinformatic
 Me on
 [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ),
 [LinkedIn](http://www.linkedin.com/profile/view?id=18606482),
-[GitHub](https://github.com/tkuhn), and
-[Twitter](https://twitter.com/txkuhn).
+[GitHub](https://github.com/tkuhn),
+[Twitter](https://twitter.com/txkuhn), and [ImpactStory](http://impactstory.org/tkuhn).
 
 
 ### Projects
