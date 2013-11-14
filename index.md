@@ -26,7 +26,9 @@ Me on
 
 ### Products
 
-- [Nanopub Validator](http://nanopub.inn.ac) is an unofficial validator for nanopublications
+- [nanopub-java](https://github.com/Nanopublication/nanopub-java) is the official Java library for
+  nanopublications
+- [Nanopub Validator](http://nanopub.inn.ac) is a validator interface for nanopublications
 - [Nanobrowser](http://nanobrowser.inn.ac/) is a browser and interface for nanopublications
 - [Yale Image Finder](http://krauthammerlab.med.yale.edu/imagefinder/) is a search engine for
   images in biomedical publications
