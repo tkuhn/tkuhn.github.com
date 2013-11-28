@@ -14,22 +14,14 @@ Me on
 [SlideShare](http://www.slideshare.net/TobiasKuhn).
 
 
-### Projects
-
-- [Open Scholar Foundation](http://www.openscholarfoundation.org/) will certify scholars who openly
-  share their results and data
-- [MOLTO](http://www.molto-project.eu/) is a project on multilingual online translations
-- [Attempto](http://attempto.ifi.uzh.ch/) is a research group working on controlled natural language
-- [ERGO](http://gem.med.yale.edu/ergo/) was a project on formal methods for medical guidelines
-- [REWERSE](http://rewerse.net/) was a research network of excellence on "Reasoning on the Web"
-
-
-### Products
+### Products and Projects
 
 - [nanopub-java](https://github.com/Nanopublication/nanopub-java) is the official Java library for
   nanopublications
 - [Nanopub Validator](http://nanopub.inn.ac) is a validator interface for nanopublications
 - [Nanobrowser](http://nanobrowser.inn.ac/) is a browser and interface for nanopublications
+- [Open Scholar Foundation](http://www.openscholarfoundation.org/) will certify scholars who openly
+  share their results and data
 - [Yale Image Finder](http://krauthammerlab.med.yale.edu/imagefinder/) is a search engine for
   images in biomedical publications
 - [AceWiki](http://attempto.ifi.uzh.ch/acewiki) is a semantic wiki based on controlled natural
@@ -45,6 +37,10 @@ Me on
 - [Coral](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf) is a query
   interface for annotated text corpora
 - [bchart](http://www.ctan.org/pkg/bchart) is a LaTeX package for drawing simple bar charts
+- [Attempto](http://attempto.ifi.uzh.ch/) is a research group working on controlled natural language
+- [MOLTO](http://www.molto-project.eu/) was a project on multilingual online translations
+- [ERGO](http://gem.med.yale.edu/ergo/) was a project on formal methods for medical guidelines
+- [REWERSE](http://rewerse.net/) was a research network of excellence on "Reasoning on the Web"
 
 
 ### Publications
@@ -274,26 +270,21 @@ Me on
 
 ### Events
 
-###### Organizer and Chair
-
+- [CNL 2014](http://attempto.ifi.uzh.ch/site/cnl2014/):
+  Fourth Workshop on Controlled Natural Language (organizer and chair)
 - [CNL 2012](http://attempto.ifi.uzh.ch/site/cnl2012/):
-  Third Workshop on Controlled Natural Language
-
-###### Program Committee Member
-
-- [CNL 2012](http://attempto.ifi.uzh.ch/site/cnl2012/):
-  Third Workshop on Controlled Natural Language
+  Third Workshop on Controlled Natural Language (organizer and chair)
 - [CNL 2010](http://staff.um.edu.mt/mros1/cnl2010):
-  Second Workshop on Controlled Natural Language
+  Second Workshop on Controlled Natural Language (PC member)
 - [SemWiki 2010](http://kmt.salzburgresearch.at/display/SEMWIKI10):
-  Fifth Workshop on Semantic Wikis
+  Fifth Workshop on Semantic Wikis (PC member)
 - [SemWiki 2009](http://www.kiwi-project.eu/index.php/semwiki/):
-  Fourth Workshop on Semantic Wikis
+  Fourth Workshop on Semantic Wikis (PC member)
 - [CNL 2009](http://attempto.ifi.uzh.ch/site/cnl2009/):
-  First Workshop on Controlled Natural Language
+  First Workshop on Controlled Natural Language (PC member)
 
 
-### Invited Talks
+### Selected Invited Talks
 
 - _Controlled Natural Language and Opportunities for Standardization_.
   Keynote at the International Workshop on Terminology, Languages, and Content (LaRC), Pretoria (South Africa), 8 June 2013.
