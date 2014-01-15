@@ -9,6 +9,7 @@ Me on
 [GitHub](https://github.com/tkuhn),
 [Twitter](https://twitter.com/txkuhn),
 [ImpactStory](http://impactstory.org/tkuhn),
+[Orcid](http://orcid.org/0000-0002-1267-0234),
 [Videolectures](http://videolectures.net/tobias_kuhn),
 [Vimeo](https://vimeo.com/user21894821), and
 [SlideShare](http://www.slideshare.net/TobiasKuhn).
@@ -47,6 +48,10 @@ Me on
 
 ###### Journal Articles
 
+- Tobias Kuhn and Alexandre Bergel.
+  Verifiable Source Code Documentation in Controlled Natural Language.
+  _Science of Computer Programming_, to appear.
+  [[PDF]](http://arxiv.org/pdf/1311.2702v1)
 - Tobias Kuhn.
   A Survey and Classification of Controlled Natural Languages.
   _Computational Linguistics_, to appear.
@@ -65,46 +70,6 @@ Me on
   _Corpora_, 7(2), 2012.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2012coral.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhnhoefler2012coral.bib)
-
-###### Books
-
-- Tobias Kuhn and Norbert E. Fuchs (editors).
-  _Proceedings of the Third International Workshop on Controlled Natural Language (CNL 2012)_,
-  Lecture Notes in Computer Science 7427.
-  Springer, 2012.
-  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2012.bib)
-
-###### Book Chapters
-
-- Norbert E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
-  ACE can be described by itself.
-  In _Searching Answers — Festschrift in Honour of Michael Hess on the Occasion of His 60th
-  Birthday_.
-  Monsenstein und Vannerdat, 2009.
-  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/fuchs2009festschrifthess.pdf)
-  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/fuchs2009festschrifthess.bib)
-- Juri Luca De Coi, Norbert E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
-  Controlled English for Reasoning on the Semantic Web.
-  In _Semantic Techniques for the Web — The REWERSE Perspective_.
-  Springer, 2009.
-  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/decoi2009rewerse.pdf)
-  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/decoi2009rewerse.bib)
-- Norbert E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
-  Attempto Controlled English for Knowledge Representation.
-  In _Reasoning Web, Fourth International Summer School 2008_. Springer, 2008.
-  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/reasoningweb2008_fuchs.pdf)
-  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/reasoningweb2008_fuchs.bib)
-
-###### Consensus Statements
-
-- Adam Wyner, Krasimir Angelov, Guntis Barzdins, Danica Damljanovic, Brian Davis, Norbert Fuchs,
-  Stefan Hoefler, Ken Jones, Kaarel Kaljurand, Tobias Kuhn, Martin Luts, Jonathan Pool, Mike
-  Rosner, Rolf Schwitter, and John Sowa.
-  On Controlled Natural Languages: Properties and Prospects.
-  In _Proceedings of the Workshop on Controlled Natural Language (CNL 2009)_.
-  Springer, 2010.
-  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2009main_wyner.pdf)
-  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2009main_wyner.bib)
 
 ###### Conference and Workshop Papers
 
@@ -219,7 +184,47 @@ Me on
   (DILS'06)_.
   Springer, 2006.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/dils2006_kuhn.pdf)
-  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/dils2006_kuhn.bib) 
+  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/dils2006_kuhn.bib)
+
+###### Edited Books
+
+- Tobias Kuhn and Norbert E. Fuchs (editors).
+  _Proceedings of the Third International Workshop on Controlled Natural Language (CNL 2012)_,
+  Lecture Notes in Computer Science 7427.
+  Springer, 2012.
+  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2012.bib)
+
+###### Book Chapters
+
+- Norbert E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
+  ACE can be described by itself.
+  In _Searching Answers — Festschrift in Honour of Michael Hess on the Occasion of His 60th
+  Birthday_.
+  Monsenstein und Vannerdat, 2009.
+  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/fuchs2009festschrifthess.pdf)
+  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/fuchs2009festschrifthess.bib)
+- Juri Luca De Coi, Norbert E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
+  Controlled English for Reasoning on the Semantic Web.
+  In _Semantic Techniques for the Web — The REWERSE Perspective_.
+  Springer, 2009.
+  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/decoi2009rewerse.pdf)
+  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/decoi2009rewerse.bib)
+- Norbert E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
+  Attempto Controlled English for Knowledge Representation.
+  In _Reasoning Web, Fourth International Summer School 2008_. Springer, 2008.
+  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/reasoningweb2008_fuchs.pdf)
+  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/reasoningweb2008_fuchs.bib)
+
+###### Consensus Statements
+
+- Adam Wyner, Krasimir Angelov, Guntis Barzdins, Danica Damljanovic, Brian Davis, Norbert Fuchs,
+  Stefan Hoefler, Ken Jones, Kaarel Kaljurand, Tobias Kuhn, Martin Luts, Jonathan Pool, Mike
+  Rosner, Rolf Schwitter, and John Sowa.
+  On Controlled Natural Languages: Properties and Prospects.
+  In _Proceedings of the Workshop on Controlled Natural Language (CNL 2009)_.
+  Springer, 2010.
+  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2009main_wyner.pdf)
+  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/cnl2009main_wyner.bib)
 
 ###### Reviewed Posters and Demos
 
