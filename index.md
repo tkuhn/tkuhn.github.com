@@ -48,10 +48,15 @@ Me on
 
 ###### Journal Articles
 
+- Tobias Kuhn, Mate Levente Nagy, ThaiBinh Luong, and Michael Krauthammer.
+  Mining Images in Biomedical Publications: Detection and Analysis of Gel Diagrams.
+  _Journal of Biomedical Semantics_, to appear.
+  [[PDF]](http://arxiv.org/pdf/1402.2073)
+  [[Postulates]](https://gist.github.com/tkuhn/8931041)
 - Tobias Kuhn and Alexandre Bergel.
   Verifiable Source Code Documentation in Controlled Natural Language.
   _Science of Computer Programming_, to appear.
-  [[PDF]](http://arxiv.org/pdf/1311.2702v1)
+  [[PDF]](http://arxiv.org/pdf/1311.2702)
 - Tobias Kuhn.
   A Survey and Classification of Controlled Natural Languages.
   _Computational Linguistics_, to appear.
