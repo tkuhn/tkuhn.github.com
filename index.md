@@ -50,8 +50,10 @@ Me on
 
 - Tobias Kuhn, Mate Levente Nagy, ThaiBinh Luong, and Michael Krauthammer.
   Mining Images in Biomedical Publications: Detection and Analysis of Gel Diagrams.
-  _Journal of Biomedical Semantics_, to appear.
-  [[PDF]](http://arxiv.org/pdf/1402.2073)
+  _Journal of Biomedical Semantics_, 5:10, 2014.
+  [[PDF]](http://www.jbiomedsem.com/content/pdf/2041-1480-5-10.pdf)
+  [[HTML]](http://www.jbiomedsem.com/content/5/1/10)
+  [[BibTeX]](pub/kuhn2014jbiomedsem.bib)
   [[Postulates]](https://gist.github.com/tkuhn/8931041)
 - Tobias Kuhn and Alexandre Bergel.
   Verifiable Source Code Documentation in Controlled Natural Language.
@@ -59,9 +61,10 @@ Me on
   [[PDF]](http://arxiv.org/pdf/1311.2702)
 - Tobias Kuhn.
   A Survey and Classification of Controlled Natural Languages.
-  _Computational Linguistics_, to appear.
-  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2013cl.pdf)
-  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2013cl.bib)
+  _Computational Linguistics_, 40(1), 2014.
+  [[PDF]](http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00168)
+  [[HTML]](http://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00168)
+  [[BibTeX]](pub/kuhn2014cl.bib)
 - Tobias Kuhn. A Principled Approach to Grammars for Controlled Natural Languages and Predictive Editors.
   _Journal of Logic, Language and Information_, 22(1), 2013.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2013jlli.pdf)
