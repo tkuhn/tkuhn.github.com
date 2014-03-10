@@ -17,6 +17,8 @@ Me on
 
 ### Products and Projects
 
+- [Trusty URIs](http://trustyuri.net) use cryptographic hash values to make URI references
+  verifiable
 - [nanopub-java](https://github.com/Nanopublication/nanopub-java) is the official Java library for
   nanopublications
 - [Nanopub Validator](http://nanopub.inn.ac) is a validator interface for nanopublications
@@ -81,6 +83,12 @@ Me on
 
 ###### Conference and Workshop Papers
 
+- Tobias Kuhn and Michel Dumontier.
+  Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data.
+  In _Proceedings of the 11th Extended Semantic Web Conference (ESWC)_.
+  2014, to appear.
+  [[PDF]](http://arxiv.org/pdf/1401.5775v2)
+  [[BibTeX]](pub/kuhn2014eswc.bib)
 - Tobias Kuhn, Paolo Emilio Barbano, Mate Levente Nagy, and Michael Krauthammer.
   Broadening the Scope of Nanopublications.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
