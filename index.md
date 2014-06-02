@@ -23,8 +23,6 @@ Me on
   nanopublications
 - [Nanopub Validator](http://nanopub.inn.ac) is a validator interface for nanopublications
 - [Nanobrowser](http://nanobrowser.inn.ac/) is a browser and interface for nanopublications
-- [Open Scholar Foundation](http://www.openscholarfoundation.org/) will certify scholars who openly
-  share their results and data
 - [Yale Image Finder](http://krauthammerlab.med.yale.edu/imagefinder/) is a search engine for
   images in biomedical publications
 - [AceWiki](http://attempto.ifi.uzh.ch/acewiki) is a semantic wiki based on controlled natural
@@ -83,16 +81,22 @@ Me on
 
 ###### Conference and Workshop Papers
 
+- Kurt Winkler, Tobias Kuhn, and Martin Volk.
+  Evaluating the fully automatic multi-language translation of the Swiss avalanche bulletin.
+  In _Proceedings of the Fourth International Workshop on Controlled Natural Language (CNL 2014)_.
+  Springer, 2014.
+  [[PDF]](http://arxiv.org/pdf/1405.6103.pdf)
 - Tobias Kuhn and Michel Dumontier.
   Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data.
   In _Proceedings of the 11th Extended Semantic Web Conference (ESWC)_.
-  2014, to appear.
+  **Best research paper award.**
+  Springer, 2014.
   [[PDF]](http://arxiv.org/pdf/1401.5775v2)
   [[BibTeX]](pub/kuhn2014eswc.bib)
 - Tobias Kuhn, Paolo Emilio Barbano, Mate Levente Nagy, and Michael Krauthammer.
   Broadening the Scope of Nanopublications.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
-  2013.
+  Springer, 2013.
   [[PDF]](pub/kuhn2013eswc.pdf)
   [[BibTeX]](pub/kuhn2013eswc.bib)
   [[Video1]](http://videolectures.net/eswc2013_kuhn_scope/)
@@ -100,7 +104,7 @@ Me on
 - Kaarel Kaljurand and Tobias Kuhn.
   A Multilingual Semantic Wiki Based on Attempto Controlled English and Grammatical Framework.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
-  2013.
+  Springer, 2013.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/eswc2013_kaljurand.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/eswc2013_kaljurand.bib)
   [[Video]](http://videolectures.net/eswc2013_kaljurand_semantic/)
@@ -150,6 +154,7 @@ Me on
 - Tobias Kuhn.
   How Controlled English Can Improve Semantic Wikis.
   In _Proceedings of the Fourth Workshop on Semantic Wikis, European Semantic Web Conference 2009_.
+  **Best paper award.**
   CEUR-WS, 2009.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/semwiki2009_kuhn.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/semwiki2009_kuhn.bib)
@@ -326,6 +331,8 @@ Me on
 
 ### Awards
 
+- **Best Research Paper Award** at the 11th Extended Semantic Web Conference (ESWC 2014) for my
+  paper _Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data_
 - **Winner** of the 1k Challenge at the Beyond the PDF 2 conference in 2013 for my proposal of an
   _Open Scholar Foundation_
 - **Mercator Award** of the University of Zurich in 2009 for my dissertation project on _Controlled
@@ -336,7 +343,8 @@ Me on
 
 ### Short CV
 
-- **2013:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling and Simulation
+- **2013-present:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling and Simulation
+- **2014:** Researcher at the Swiss Institute of Bioinformatics (SIB) at the University of Geneva
 - **2012:** Postdoctoral associate at Yale University in the Department of Pathology
 - **2011:** Researcher for the University of Helsinki within the MOLTO project
 - **2011:** Lecturer and researcher at the University of Malta
