@@ -29,25 +29,31 @@ Me on
   language
 - [ACE](http://attempto.ifi.uzh.ch/site/docs/ace_nutshell.html) is a controlled English that can be
   automatically translated into formal logic
-- [ACE Editor](http://attempto.ifi.uzh.ch/aceeditor) is a controlled natural language editor
 - [Ontograph](http://attempto.ifi.uzh.ch/site/docs/ontograph/) is a framework for testing the
   understandability of logic languages
-- [Codeco](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2010_kuhn.pdf) is a grammar notation
-  for controlled natural languages and predictive editors
-- [AceRules](http://attempto.ifi.uzh.ch/acerules) is a rule system based on ACE
-- [Coral](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf) is a query
-  interface for annotated text corpora
-- [bchart](http://www.ctan.org/pkg/bchart) is a LaTeX package for drawing simple bar charts
-- [Attempto](http://attempto.ifi.uzh.ch/) is a research group working on controlled natural language
-- [MOLTO](http://www.molto-project.eu/) was a project on multilingual online translations
-- [ERGO](http://gem.med.yale.edu/ergo/) was a project on formal methods for medical guidelines
-- [REWERSE](http://rewerse.net/) was a research network of excellence on "Reasoning on the Web"
+- More: [Coral](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf),
+  [AceRules](http://attempto.ifi.uzh.ch/acerules),
+  [ACE Editor](http://attempto.ifi.uzh.ch/aceeditor),
+  [Codeco](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2010_kuhn.pdf),
+  [bchart](http://www.ctan.org/pkg/bchart)
+- Past projects: [Attempto](http://attempto.ifi.uzh.ch/), [MOLTO](http://www.molto-project.eu/),
+  [ERGO](http://gem.med.yale.edu/ergo/), [REWERSE](http://rewerse.net/)
 
 
 ### Publications
 
+###### Current Preprints
+
+- Tobias Kuhn, Matjaz Perc, and Dirk Helbing.
+  Inheritance patterns in citation networks reveal scientific memes.
+  [[PDF]](http://arxiv.org/pdf/1404.3757v1)
+
 ###### Journal Articles
 
+- Kaarel Kaljurand, Tobias Kuhn, and Laura Canedo.
+  Collaborative multilingual knowledge management based on controlled natural language.
+  _Semantic Web_, to appear.
+  [[PDF]](http://semantic-web-journal.net/system/files/swj524.pdf)
 - Tobias Kuhn, Mate Levente Nagy, ThaiBinh Luong, and Michael Krauthammer.
   Mining Images in Biomedical Publications: Detection and Analysis of Gel Diagrams.
   _Journal of Biomedical Semantics_, 5:10, 2014.
@@ -79,7 +85,7 @@ Me on
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2012coral.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhnhoefler2012coral.bib)
 
-###### Conference and Workshop Papers
+###### Papers at International Conferences and Workshops
 
 - Kurt Winkler, Tobias Kuhn, and Martin Volk.
   Evaluating the fully automatic multi-language translation of the Swiss avalanche bulletin.
@@ -209,6 +215,10 @@ Me on
 
 ###### Edited Books
 
+- Brian Davis, Kaarel Kaljurand, and Tobias Kuhn (editors).
+  _Proceedings of the Fourth International Workshop on Controlled Natural Language (CNL 2014)_,
+  Lecture Notes in Computer Science 8625.
+  Springer, 2014.
 - Tobias Kuhn and Norbert E. Fuchs (editors).
   _Proceedings of the Third International Workshop on Controlled Natural Language (CNL 2012)_,
   Lecture Notes in Computer Science 7427.
@@ -294,24 +304,19 @@ Me on
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/Kuhn_Tobias.bib)
 
 
-### Events
+### Organized Events
 
 - [CNL 2014](http://attempto.ifi.uzh.ch/site/cnl2014/):
   Fourth Workshop on Controlled Natural Language (organizer and chair)
 - [CNL 2012](http://attempto.ifi.uzh.ch/site/cnl2012/):
   Third Workshop on Controlled Natural Language (organizer and chair)
-- [CNL 2010](http://staff.um.edu.mt/mros1/cnl2010):
-  Second Workshop on Controlled Natural Language (PC member)
-- [SemWiki 2010](http://kmt.salzburgresearch.at/display/SEMWIKI10):
-  Fifth Workshop on Semantic Wikis (PC member)
-- [SemWiki 2009](http://www.kiwi-project.eu/index.php/semwiki/):
-  Fourth Workshop on Semantic Wikis (PC member)
-- [CNL 2009](http://attempto.ifi.uzh.ch/site/cnl2009/):
-  First Workshop on Controlled Natural Language (PC member)
 
 
 ### Selected Invited Talks
 
+- _Citation Graph Analysis to Identify Memes in Scientific Literature_.
+  Invited talk at Quic Inc., San Francisco, 11 June 2014.
+  [[Slides]](http://www.slideshare.net/TobiasKuhn/memes-35769027)
 - _Controlled Natural Language and Opportunities for Standardization_.
   Keynote at the International Workshop on Terminology, Languages, and Content (LaRC), Pretoria (South Africa), 8 June 2013.
   [[PDF]](http://www.tkuhn.ch/talk/larc2013cnl.pdf)
@@ -331,13 +336,13 @@ Me on
 
 ### Awards
 
-- **Best Research Paper Award** at the 11th Extended Semantic Web Conference (ESWC 2014) for my
+- **Best Research Paper Award** at the 11th Extended Semantic Web Conference (ESWC 2014) for the
   paper _Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data_
-- **Winner** of the 1k Challenge at the Beyond the PDF 2 conference in 2013 for my proposal of an
+- **1k Challenge Winner** at the Beyond the PDF 2 conference in 2013 for the proposal of an
   _Open Scholar Foundation_
 - **Mercator Award** of the University of Zurich in 2009 for my dissertation project on _Controlled
   English for Knowledge Representation_
-- **Best Paper Award** at the Fourth Workshop on Semantic Wikis 2009 for my paper _How Controlled
+- **Best Paper Award** at the Fourth Workshop on Semantic Wikis 2009 for the paper _How Controlled
   English Can Improve Semantic Wikis_
 
 
