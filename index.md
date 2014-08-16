@@ -97,7 +97,7 @@ Me on
   In _Proceedings of the 11th Extended Semantic Web Conference (ESWC)_.
   **Best research paper award.**
   Springer, 2014.
-  [[PDF]](http://arxiv.org/pdf/1401.5775v2)
+  [[PDF]](http://arxiv.org/pdf/1401.5775)
   [[BibTeX]](pub/kuhn2014eswc.bib)
 - Tobias Kuhn, Paolo Emilio Barbano, Mate Levente Nagy, and Michael Krauthammer.
   Broadening the Scope of Nanopublications.
