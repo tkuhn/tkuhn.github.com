@@ -99,12 +99,16 @@ Me on
   Springer, 2014.
   [[PDF]](http://arxiv.org/pdf/1401.5775)
   [[BibTeX]](pub/kuhn2014eswc.bib)
+  [[Slides]](http://www.slideshare.net/TobiasKuhn/trustyuris)
+  [[Video]](http://videolectures.net/eswc2014_kuhn_linked_data/)
+  [[Video Abstract]](http://videolectures.net/semantic_kuhn_video_journal/)
 - Tobias Kuhn, Paolo Emilio Barbano, Mate Levente Nagy, and Michael Krauthammer.
   Broadening the Scope of Nanopublications.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
   Springer, 2013.
   [[PDF]](pub/kuhn2013eswc.pdf)
   [[BibTeX]](pub/kuhn2013eswc.bib)
+  [[Slides]](http://www.slideshare.net/TobiasKuhn/aidananopubs)
   [[Video1]](http://videolectures.net/eswc2013_kuhn_scope/)
   [[Video2]](https://vimeo.com/77163363)
 - Kaarel Kaljurand and Tobias Kuhn.
