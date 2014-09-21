@@ -5,10 +5,10 @@ languages, artificial intelligence, computational linguistics, and bioinformatic
 
 Me on
 [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ),
+[ImpactStory](http://impactstory.org/tkuhn),
 [LinkedIn](http://www.linkedin.com/profile/view?id=18606482),
 [GitHub](https://github.com/tkuhn),
 [Twitter](https://twitter.com/txkuhn),
-[ImpactStory](http://impactstory.org/tkuhn),
 [Orcid](http://orcid.org/0000-0002-1267-0234),
 [Videolectures](http://videolectures.net/tobias_kuhn),
 [Vimeo](https://vimeo.com/user21894821), and
@@ -368,7 +368,7 @@ Me on
   Bioinformatics group
 - **2004-2005:** Internship and undergraduate research assistant at the Department for Computer
   Science of the ETH Zurich in the Global Information Systems group
-- **2001-2006:** Studies in Economy and Computer Science ("Wirtschaftsinformatik") at the
+- **2001-2006:** Studies in Computer Science and Economics ("Wirtschaftsinformatik") at the
   University of Zurich; graduation as a "Diplom-Informatiker" (Dipl. Inform.), equivalent to a
   Master of Science in Computer Science
 
