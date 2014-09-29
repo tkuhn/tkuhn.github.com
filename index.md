@@ -352,23 +352,25 @@ Me on
 
 ### Short CV
 
-- **2013-present:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling and Simulation
+- **2013-present:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling
+  and Simulation
 - **2014:** Researcher at the Swiss Institute of Bioinformatics (SIB) at the University of Geneva
-- **2012:** Postdoctoral associate at Yale University in the Department of Pathology
+- **2012:** Postdoctoral associate at Yale University in the bioinformatics group of Prof.
+  Krauthammer
 - **2011:** Researcher for the University of Helsinki within the MOLTO project
-- **2011:** Lecturer and researcher at the University of Malta
+- **2011:** Lecturer and researcher at the University of Malta in the Department of Intelligent
+  Computer Systems
 - **2010:** Postdoc at the Institute of Computational Linguistics of the University of Zurich
-- **2010:** Guest researcher at the Computer Science Department of the University of Chile in the
+- **2010:** Visiting scientist at the Computer Science Department of the University of Chile in the
   PLEIAD group (Programming Languages and Environments for Intelligent, Adaptable and Distributed
   systems)
 - **2006-2010:** Doctoral student at the Department of Informatics and the Institute of
   Computational Linguistics of the University of Zurich; graduation as a Doctor in Informatics (Dr.
   Inform.)
-- **2006:** Guest researcher at the Biotechnology Center of the Technical University Dresden in the
+- **2006:** Visiting scientist at the Biotechnology Center of the Technical University Dresden in the
   Bioinformatics group
-- **2004-2005:** Internship and undergraduate research assistant at the Department for Computer
+- **2004-2005:** Intern and undergraduate research assistant at the Department for Computer
   Science of the ETH Zurich in the Global Information Systems group
 - **2001-2006:** Studies in Computer Science and Economics ("Wirtschaftsinformatik") at the
   University of Zurich; graduation as a "Diplom-Informatiker" (Dipl. Inform.), equivalent to a
   Master of Science in Computer Science
-
