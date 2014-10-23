@@ -42,14 +42,13 @@ Me on
 
 ### Publications
 
-###### Current Preprints
-
-- Tobias Kuhn, Matjaz Perc, and Dirk Helbing.
-  Inheritance patterns in citation networks reveal scientific memes.
-  [[PDF]](http://arxiv.org/pdf/1404.3757v1)
 
 ###### Journal Articles
 
+- Tobias Kuhn, Matjaz Perc, and Dirk Helbing.
+  Inheritance patterns in citation networks reveal scientific memes.
+  _Physical Review X_, to appear.
+  [[PDF]](http://arxiv.org/pdf/1404.3757)
 - Kaarel Kaljurand, Tobias Kuhn, and Laura Canedo.
   Collaborative multilingual knowledge management based on controlled natural language.
   _Semantic Web_, to appear.
