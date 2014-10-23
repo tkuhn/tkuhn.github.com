@@ -62,25 +62,31 @@ Me on
   [[Postulates]](https://gist.github.com/tkuhn/8931041)
 - Tobias Kuhn and Alexandre Bergel.
   Verifiable Source Code Documentation in Controlled Natural Language.
-  _Science of Computer Programming_, to appear.
+  _Science of Computer Programming_, 96(1), 2014.
+  [[Link]](http://dx.doi.org/10.1016/j.scico.2014.01.002)
   [[PDF]](http://arxiv.org/pdf/1311.2702)
+  [[BibTeX]](pub/kuhn2014scp.bib)
 - Tobias Kuhn.
   A Survey and Classification of Controlled Natural Languages.
   _Computational Linguistics_, 40(1), 2014.
+  [[Link]](http://dx.doi.org/10.1162/COLI_a_00168)
   [[PDF]](http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00168)
   [[HTML]](http://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00168)
   [[BibTeX]](pub/kuhn2014cl.bib)
 - Tobias Kuhn. A Principled Approach to Grammars for Controlled Natural Languages and Predictive Editors.
   _Journal of Logic, Language and Information_, 22(1), 2013.
+  [[Link]](http://dx.doi.org/10.1007/s10849-012-9167-z)
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2013jlli.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2013jlli.bib)
 - Tobias Kuhn. The Understandability of OWL Statements in Controlled English.
   _Semantic Web_, 4(1), 2013.
+  [[Link]](http://www.semantic-web-journal.net/content/understandability-owl-statements-controlled-english)
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn2013swj.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn2013swj.bib)
 - Tobias Kuhn and Stefan Höfler.
   Coral: Corpus Access in Controlled Language.
   _Corpora_, 7(2), 2012.
+  [[Link]](http://dx.doi.org/10.3366/cor.2012.0026)
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2012coral.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhnhoefler2012coral.bib)
 
