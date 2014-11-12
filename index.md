@@ -43,6 +43,13 @@ Me on
 ### Publications
 
 
+###### Selected Preprints
+
+- Tobias Kuhn, Christine Chichester, Michel Dumontier, and Michael Krauthammer.
+  Publishing without Publishers: a Decentralized Approach to Dissemination, Retrieval, and Archiving of Data.
+  [[PDF]](http://arxiv.org/pdf/1411.2749)
+
+
 ###### Journal Articles
 
 - Tobias Kuhn, Matjaz Perc, and Dirk Helbing.
