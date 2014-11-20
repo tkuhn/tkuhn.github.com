@@ -2,17 +2,19 @@
 
 I am a postdoc working on the semantic web, social systems, controlled natural
 languages, artificial intelligence, computational linguistics, and bioinformatics.
+See my [CV](cv.pdf) (or its short version at the bottom of this page).
 
 Me on
 [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ),
+[Scopus](http://www.scopus.com/authid/detail.url?authorId=14056161100),
 [ImpactStory](http://impactstory.org/tkuhn),
+[Orcid](http://orcid.org/0000-0002-1267-0234),
 [LinkedIn](http://www.linkedin.com/profile/view?id=18606482),
 [GitHub](https://github.com/tkuhn),
-[Twitter](https://twitter.com/txkuhn),
-[Orcid](http://orcid.org/0000-0002-1267-0234),
-[Videolectures](http://videolectures.net/tobias_kuhn),
-[Vimeo](https://vimeo.com/user21894821), and
-[SlideShare](http://www.slideshare.net/TobiasKuhn).
+[SlideShare](http://www.slideshare.net/TobiasKuhn),
+[Vimeo](https://vimeo.com/user21894821),
+[Videolectures](http://videolectures.net/tobias_kuhn), and
+[Twitter](https://twitter.com/txkuhn).
 
 
 ### Products and Projects
