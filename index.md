@@ -109,6 +109,7 @@ Me on
 - Tobias Kuhn and Michel Dumontier.
   Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data.
   In _Proceedings of the 11th Extended Semantic Web Conference (ESWC)_.
+  **(Acceptance rate: 23%)**
   **Best research paper award.**
   Springer, 2014.
   [[PDF]](http://arxiv.org/pdf/1401.5775)
@@ -119,6 +120,7 @@ Me on
 - Tobias Kuhn, Paolo Emilio Barbano, Mate Levente Nagy, and Michael Krauthammer.
   Broadening the Scope of Nanopublications.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
+  **(Acceptance rate: 26%)**
   Springer, 2013.
   [[PDF]](pub/kuhn2013eswc.pdf)
   [[BibTeX]](pub/kuhn2013eswc.bib)
@@ -128,6 +130,7 @@ Me on
 - Kaarel Kaljurand and Tobias Kuhn.
   A Multilingual Semantic Wiki Based on Attempto Controlled English and Grammatical Framework.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
+  **(Acceptance rate: 26%)**
   Springer, 2013.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/eswc2013_kaljurand.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/eswc2013_kaljurand.bib)
@@ -135,6 +138,7 @@ Me on
 - Tobias Kuhn and Michael Krauthammer.
   Underspecified Scientific Claims in Nanopublications.
   In _Proceedings of the Workshop on the Web of Linked Entities (WoLE)_.
+  (Acceptance rate: 50%)
   CEUR-WS, 2012.
   [[PDF]](pub/kuhn2012wole.pdf)
   [[BibTeX]](pub/kuhn2012wole.bib)
@@ -220,6 +224,7 @@ Me on
   AceRules: Executing Rules in Controlled Natural Language.
   In _Proceedings of the First International Conference on Web Reasoning and Rule Systems
   (RR2007)_.
+  (Acceptance rate: 48%)
   Springer, 2007.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhn07acerules.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/kuhn07acerules.bib)
@@ -227,6 +232,7 @@ Me on
   Improving Text Mining with Controlled Natural Language: A Case Study for Protein Interactions.
   In _Proceedings of the 3rd International Workshop on Data Integration in the Life Sciences 2006
   (DILS'06)_.
+  (Acceptance rate: 39%)
   Springer, 2006.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/dils2006_kuhn.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/dils2006_kuhn.bib)
