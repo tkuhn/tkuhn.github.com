@@ -56,8 +56,10 @@ Me on
 
 - Tobias Kuhn, Matjaz Perc, and Dirk Helbing.
   Inheritance patterns in citation networks reveal scientific memes.
-  _Physical Review X_, to appear.
-  [[PDF]](http://arxiv.org/pdf/1404.3757)
+  _Physical Review X_, 4, 041036, 21 November 2014.
+  [[PDF]](https://journals.aps.org/prx/pdf/10.1103/PhysRevX.4.041036)
+  [[HTML]](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.041036)
+  [[BibTeX]](https://journals.aps.org/prx/export/10.1103/PhysRevX.4.041036?type=bibtex&download=true)
 - Kaarel Kaljurand, Tobias Kuhn, and Laura Canedo.
   Collaborative multilingual knowledge management based on controlled natural language.
   _Semantic Web_, to appear.
