@@ -1,0 +1,213 @@
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+
+<#paper> a fabio:ResearchPaper;
+    dct:title "Science Bots: A Model for the Future of Scientific Computation?";
+    pav:authoredBy <http://orcid.org/0000-0002-1267-0234>;
+    cito:citesAsAuthority <#groth2010isu>,
+        <#lebo2013prov>;
+    cito:citesAsPotentialSolution <#kuhn2012corpora>,
+        <#kuhn2014cl>;
+    cito:citesAsRelated <#abu2006sigcomm>,
+        <#bechhofer2010fwcs>,
+        <#brase2009coinfo>,
+        <#duhigg2009nyt>,
+        <#farmer2002icc>,
+        <#ferrara2014rise>,
+        <#guldbrandsson2013wikimedia>,
+        <#jones2013ssrn>,
+        <#mccusker2013dils>,
+        <#parsons2010eos>,
+        <#piwowar2013peerj>;
+    cito:credits <#halfaker2012sc>,
+        <#steiner2014wwwc>;
+    cito:extends <#kuhn2013eswc>,
+        <#kuhn2014eswc>,
+        <#kuhn2014publishing> .
+
+<#abu2006sigcomm> a fabio:ResearchPaper;
+    dct:title "A multifaceted approach to understanding the botnet phenomenon";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Moheeb Abu Rajab" ],
+        [ a foaf:Person;
+            foaf:name "Jay Zarfoss" ],
+        [ a foaf:Person;
+            foaf:name "Andreas Terzis" ],
+        [ a foaf:Person;
+            foaf:name "Fabian Monrose" ];
+    owl:sameAs <http://dx.doi.org/10.1145/1177080.1177086> .
+
+<#bechhofer2010fwcs> a fabio:ResearchPaper;
+    dct:title "Research objects: Towards exchange and reuse of digital knowledge";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Carole Goble" ],
+        [ a foaf:Person;
+            foaf:name "Matthew Gamble" ],
+        [ a foaf:Person;
+            foaf:name "David De Roure" ],
+        [ a foaf:Person;
+            foaf:name "Sean Bechhofer" ],
+        [ a foaf:Person;
+            foaf:name "Iain Buchan" ];
+    owl:sameAs <http://imageweb.zoo.ox.ac.uk/pub/2010/Proceedings/FWCS2010/05/Paper5.pdf> .
+
+<#brase2009coinfo> a fabio:ResearchPaper;
+    dct:title "DataCite - A global registration agency for research data";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Jan Brase" ];
+    owl:sameAs <http://dx.doi.org/10.1109/COINFO.2009.66> .
+
+<#duhigg2009nyt> a fabio:ResearchPaper;
+    dct:title "Stock traders find speed pays, in milliseconds";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Charles Duhigg" ];
+    owl:sameAs <http://www.nytimes.com/2009/07/24/business/24trading.html> .
+
+<#farmer2002icc> a fabio:ResearchPaper;
+    dct:title "Market force, ecology and evolution";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "J. Doyne Farmer" ];
+    owl:sameAs <http://dx.doi.org/10.1093/icc/11.5.895> .
+
+<#ferrara2014rise> a fabio:ResearchPaper;
+    dct:title "The Rise of Social Bots";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Alessandro Flammini" ],
+        [ a foaf:Person;
+            foaf:name "Filippo Menczer" ],
+        [ a foaf:Person;
+            foaf:name "Emilio Ferrara" ],
+        [ a foaf:Person;
+            foaf:name "Clayton Davis" ],
+        [ a foaf:Person;
+            foaf:name "Onur Varol" ];
+    owl:sameAs <http://arxiv.org/pdf/1407.5225> .
+
+<#groth2010isu> a fabio:ResearchPaper;
+    dct:title "The anatomy of a nanopublication";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Jan Velterop" ],
+        [ a foaf:Person;
+            foaf:name "Paul Groth" ],
+        [ a foaf:Person;
+            foaf:name "Andrew Gibson" ];
+    owl:sameAs <http://dx.doi.org/10.3233/ISU-2010-0613> .
+
+<#guldbrandsson2013wikimedia> a fabio:ResearchPaper;
+    dct:title "Swedish Wikipedia surpasses 1 million articles with aid of article creation bot";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Lennart Guldbrandsson" ];
+    owl:sameAs <http://blog.wikimedia.org/2013/06/17/swedish-wikipedia-1-million-articles/> .
+
+<#halfaker2012sc> a fabio:ResearchPaper;
+    dct:title "Bots and Cyborgs: Wikipedia's Immune System";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "John Riedl" ],
+        [ a foaf:Person;
+            foaf:name "Aaron Halfaker" ];
+    owl:sameAs <http://dx.doi.org/10.1109/MC.2012.82> .
+
+<#jones2013ssrn> a fabio:ResearchPaper;
+    dct:title "What Do We Know About High-Frequency Trading?";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Charles M. Jones" ];
+    owl:sameAs <http://dx.doi.org/10.2139/ssrn.2236201> .
+
+<#kuhn2012corpora> a fabio:ResearchPaper;
+    dct:title "Coral: Corpus Access in Controlled Language";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Stefan Hรถfler" ],
+        <http://orcid.org/0000-0002-1267-0234>;
+    owl:sameAs <http://dx.doi.org/10.3366/cor.2012.0026> .
+
+<#kuhn2013eswc> a fabio:ResearchPaper;
+    dct:title "Broadening the Scope of Nanopublications";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Mate Levente Nagy" ],
+        [ a foaf:Person;
+            foaf:name "Michael Krauthammer" ],
+        [ a foaf:Person;
+            foaf:name "Paolo Emilio Barbano" ],
+        <http://orcid.org/0000-0002-1267-0234>;
+    owl:sameAs <http://dx.doi.org/10.1007/978-3-642-38288-8_33> .
+
+<#kuhn2014cl> a fabio:ResearchPaper;
+    dct:title "A Survey and Classification of Controlled Natural Languages";
+    pav:authoredBy <http://orcid.org/0000-0002-1267-0234>;
+    owl:sameAs <http://dx.doi.org/10.1162/COLI_a_00168> .
+
+<#kuhn2014eswc> a fabio:ResearchPaper;
+    dct:title "Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data";
+    pav:authoredBy <http://orcid.org/0000-0002-1267-0234>,
+        <http://orcid.org/0000-0003-4727-9435>;
+    owl:sameAs <http://dx.doi.org/10.1007/978-3-319-07443-6_27> .
+
+<#kuhn2014publishing> a fabio:ResearchPaper;
+    dct:title "Publishing without Publishers: a Decentralized Approach to Dissemination, Retrieval, and Archiving of Data";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Michael Krauthammer" ],
+        <http://orcid.org/0000-0001-6818-334X>,
+        <http://orcid.org/0000-0002-1267-0234>,
+        <http://orcid.org/0000-0003-4727-9435>;
+    owl:sameAs <http://arxiv.org/abs/1411.2749> .
+
+<#lebo2013prov> a fabio:ResearchPaper;
+    dct:title "PROV-O: The PROV Ontology";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Deborah McGuinness" ],
+        [ a foaf:Person;
+            foaf:name "Satya Sahoo" ],
+        [ a foaf:Person;
+            foaf:name "Timothy Lebo" ];
+    owl:sameAs <http://www.w3.org/TR/2013/REC-prov-o-20130430/> .
+
+<#mccusker2013dils> a fabio:ResearchPaper;
+    dct:title "Next Generation Cancer Data Discovery, Access, and Integration Using Prizms and Nanopublications";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Michael Krauthammer" ],
+        [ a foaf:Person;
+            foaf:name "James P. McCusker" ],
+        [ a foaf:Person;
+            foaf:name "Timothy Lebo" ],
+        [ a foaf:Person;
+            foaf:name "Deborah L. McGuinness" ];
+    owl:sameAs <http://dx.doi.org/10.1007/978-3-642-39437-9_9> .
+
+<#parsons2010eos> a fabio:ResearchPaper;
+    dct:title "Data Citation and Peer Review";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Ruth Duerr" ],
+        [ a foaf:Person;
+            foaf:name "Jean-Bernard Minster" ],
+        [ a foaf:Person;
+            foaf:name "Mark A. Parsons" ];
+    owl:sameAs <http://dx.doi.org/10.1029/2010EO340001> .
+
+<#piwowar2013peerj> a fabio:ResearchPaper;
+    dct:title "Data reuse and the open data citation advantage";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Heather A. Piwowar" ],
+        [ a foaf:Person;
+            foaf:name "Todd V. Vision" ];
+    owl:sameAs <http://dx.doi.org/10.7717/peerj.175> .
+
+<#steiner2014wwwc> a fabio:ResearchPaper;
+    dct:title "Bots vs. Wikipedians, Anons vs. Logged-Ins";
+    pav:authoredBy [ a foaf:Person;
+            foaf:name "Thomas Steiner" ];
+    owl:sameAs <http://dx.doi.org/10.1145/2567948.2576948> .
+
+<http://orcid.org/0000-0001-6818-334X> a foaf:Person;
+    foaf:name "Christine Chichester" .
+
+<http://orcid.org/0000-0003-4727-9435> a foaf:Person;
+    foaf:name "Michel Dumontier" .
+
+<http://orcid.org/0000-0002-1267-0234> a foaf:Person;
+    foaf:name "Tobias Kuhn" .
+
+

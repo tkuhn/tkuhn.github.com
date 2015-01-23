@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="rash-2014-12-14.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE html>
+<html prefix="
+    fabio: http://purl.org/spar/fabio/
+    cito: http://purl.org/spar/cito/
+    rash: http://cs.unibo.it/save-sd/rash/
+    dct: http://purl.org/dc/terms/
+    foaf: http://xmlns.com/foaf/0.1/
+    owl: http://www.w3.org/2002/07/owl#
+    pav: http://purl.org/pav/
+    orcid: http://orcid.org/"
+    resource="#paper" typeof="fabio:ResearchPaper">
+
+<head>
+
+<!-- Visualisation requirements (mandatory for optimal reading) -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="rash.css">
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="rash.js"></script>
+
+<title property="dct:title">Science Bots: A Model for the Future of Scientific Computation?</title>
+<meta name="author.tk.name" content="Tobias Kuhn">
+<meta name="author.tk.affiliation" content="Computational Social Science Group@ETH Zurich">
+<meta name="author.tk.email" content="tokuhn@ethz.ch">
+<meta name="keyword" content="bot">
+<meta name="keyword" content="autonomous agent">
+<meta name="keyword" content="semantic publishing">
+<meta name="keyword" content="scholarly communication">
+<meta name="keyword" content="nanopublication">
+
+</head>
+
+<body>
+
+<span property="pav:authoredBy" typeof="foaf:Person" resource="orcid:0000-0002-1267-0234"></span>
+
+<div id="SectionAbstract" class="abstract"><h1>Abstract</h1><p>
+As a response to the trends of the increasing importance of computational approaches and the accelerating pace in science, I propose in this position paper to establish the concept of "science bots", i.e. autonomous agents that perform some computational task of scientific relevance. Such bots are small independent pieces of software that look for a particular kind of input and apply a specific, programmed task on it (e.g. tagging images, text mining, logical inferences, fixing mistakes) without further interaction with their creators. Such bots already exist, for example, in Wikipedia and Twitter, but in my view they have not been given the attention they deserve to advance science.
+To deal with low-quality data, which is inevitable in an open and decentralized system, we can let bots participate in a reputation system together with human users, meaning that bots and humans get positive or negative feedback by other participants with respect to the quality of their contributions. Positive reputation given to these bots would also shine on their owners, motivating them to contribute to this system, while negative reputation will allow us to filter out low-quality data. Using building blocks provided by others and domain-specific intuitive interfaces, even non-technically oriented researchers could create their own bots. In this way, science bots could become an important tool to deal with the increasing pervasiveness and sophistication of data and algorithms in science.
+</p></div>
+
+<div class="section"><h1>Introduction</h1>
+
+<p>
+As datasets become increasingly important in all branches of science, many have advocated and proposed standards and tools to publish data <a class="ref" property="cito:citesAsRelated" href="#brase2009coinfo"></a><a class="ref" property="cito:citesAsRelated" href="#parsons2010eos"></a><a class="ref" property="cito:citesAsRelated" href="#bechhofer2010fwcs"></a><a class="ref" property="cito:citesAsRelated" href="#piwowar2013peerj"></a><a class="ref" property="cito:citesAsRelated" href="#mccusker2013dils"></a>, and conventions of how to link them to narrative scientific articles.
+Nanopublications <a class="ref" property="cito:citesAsAuthority" href="#groth2010isu"></a> are an approach to bundle atomic data snippets (in RDF) in small packages together with their provenance and metadata. Such nanopublications can be manually created by scientists and linked to their articles, but they can also be automatically extracted from existing datasets or be directly created by programs that implement scientific methods.
+</p>
+
+<p>
+In general, computer programs form a third kind of scientific contribution, besides narrative articles and datasets. Often, such programs are made openly available, for example by hosting them on <a href="https://github.com">GitHub</a>. What is currently missing, however, are conventions and standards of how to reliably link data to the software that produced it, including the version of the software and the input it received.
+Moreover, due to the focus of the scientific life cycle on the publication of articles, scientific software is typically applied only to the data available at the time of writing a paper. It is often not the case that new output data is made public when new input data becomes available.
+To tackle these problems, I argue that we can apply the "nano" idea of breaking things down into small pieces also to (certain types of) scientific programs. We can model them as small independent agents that take inputs of a given type and produce, for example, nanopublications, and they could do this in a real-time and automatic manner as new input data becomes available.
+</p>
+
+<p>
+I borrow the term "bot" from Wikipedia, where bots are applied, for example, to revert Wikipedia edits that are the results of obvious vandalism <a class="ref" property="cito:credits" href="#halfaker2012sc"></a><a class="ref" property="cito:credits" href="#steiner2014wwwc"></a>.
+In the approach proposed here, bots can be used for simple things like adding missing links between entities and converting data from existing databases. More interestingly, bots can be programmed by scientists to do more sophisticated tasks, for instance to apply complex machine learning algorithms or to follow complicated search procedures on available data. Specifically, bots could for example extract facts from scientific articles via natural language processing, infer new knowledge from existing data by following specified rules or heuristics, or tag images by applying machine learning techniques.
+Importantly, these bots could automatically publish the obtained data without double-checking or direct supervision by their creators, and these data could be made immediately accessible to everybody (including other bots).
+</p>
+
+<p>
+The novelty of this approach does not lie in the kinds of analyses and computations such bots can perform, but in the fact that we give these computer programs a separate identity and integrate them in a reputation system together with humans.
+Useful bots would increase their reputation in the same way as scientists, for example by receiving positive feedback by scientists on the usefulness and quality of their contributions. Positive reputation of a bot, in turn, would give credit and reputation to the scientist who created it, while at the same time not implying responsibility on the side of the scientist for the correctness of each and every result the bot publishes.
+</p>
+
+<p>
+There are interesting challenges with the sketched approach that have to be overcome:
+It has to be expected that the quality of the contributions of some bots will be very low, which threatens the reliability and trustworthiness of the whole system.
+Moreover, if we put a reputation system for bots and humans in place to solve this problem (as I suggest), some participants will try to game the system to their own benefit, i.e. to increase their reputation without actually contributing.
+I outline below how we can tackle these problems, while keeping the system open, decentralized, and real-time (i.e. without imposing a delay between submission and publication).
+</p>
+
+</div>
+
+<div class="section"><h1>Background</h1>
+
+<p>
+The concept of bots that publish contributions in their own name is not entirely new. It has been applied to some extent in systems like Wikipedia.
+The most prominent example is probably a bot that has created around 454 000 articles for the Swedish Wikipedia <a class="ref" property="cito:citesAsRelated" href="#guldbrandsson2013wikimedia"></a>.
+Autonomous agents have also been applied in contexts such as finance, where high-frequency trading <a class="ref" property="cito:citesAsRelated" href="#jones2013ssrn"></a><a class="ref" property="cito:citesAsRelated" href="#duhigg2009nyt"></a> is performed by autonomous computer programs. These "financial market bots" can be quite sophisticated up to the point of evolving agents that learn from their experiences <a class="ref" property="cito:citesAsRelated" href="#farmer2002icc"></a>.
+The fact that bots can be powerful also in a negative sense has become apparent with the rise of botnets <a class="ref" property="cito:citesAsRelated" href="#abu2006sigcomm"></a>, and with the increasing problem of "social bots" that pretend to be humans <a class="ref" property="cito:citesAsRelated" href="#ferrara2014rise"></a>.
+I argue here that the power of bots could also be harnessed in a positive way for scientific compuation, which has, to my knowledge, so far not been proposed or investigated.
+</p>
+
+<p>
+Though the general approach presented here does not depend on the technology of nanopublications, I use them within the scope of this position paper to explain the communication of bots.
+I briefly mentioned in previous work the potential use of bots to create nanopublications <a class="ref" property="cito:extends" href="#kuhn2013eswc"></a>, where we also showed how the concept of nanopublications can be extended to cover informal, underspecified, and meta-level statements, thereby constituting a versatile format for general communication.
+Moreover, we presented an approach to attach cryptographic hash values to nanopublication identifiers, called Trusty URIs, to make them verifiable and immutable <a class="ref" property="cito:extends" href="#kuhn2014eswc"></a>.
+Based on that work, we presented a protocol and a prototype of a nanopublication server network, with which nanopublications can be published, retrieved, and archived in a reliable, trustworthy, and decentralized manner <a class="ref" property="cito:extends" href="#kuhn2014publishing"></a>.
+This server network provides an interface that can serve as the basis for the communication for bots, by allowing them to retrieve input data and to publish their results in a decentralized and real-time manner.
+</p>
+
+</div>
+
+<div class="section"><h1>Approach</h1>
+
+<p>
+Before I introduce a simple model for the interaction of bots and scientists, let us have a closer look at the functioning of bots.
+Bots will have to specify their input and output interfaces, i.e. what input they expect and what kind of output they produce when given such input. The possible input sources can be very diverse, whereas the output formats should be more uniform and standardized. For the purpose of this paper, I assume that all bots produce nanopublications.
+<a class="ref" href="#figure-types"></a> shows some examples of different types of bots depending on their required kind of input. The top-left bot applies text mining to extract relations from the abstracts of the constantly growing <a href="http://www.ncbi.nlm.nih.gov/pubmed">PubMed</a> database. The bot at the bottom-left could be one that regularly measures the temperature at a given location and publishes the results. The resulting nanopublications can then be the input of other bots that infer new facts from them, such as the bot shown at the top-right.
+</p>
+
+<div id="figure-types" class="picture">
+<p class="img.block">
+<img src="types.svg" width="800" alt="Types of bots"></img>
+</p>
+<p class="caption">
+Bots can use different kinds of input data, including data from existing databases, sensor data, and nanopublications.
+</div>
+
+<p>
+Bots can be run locally on the scientists' computers and servers, or uploaded to dedicated servers for the given input requirements of the bot. For example, there could be a server hosting bots that work on the abstracts of PubMed articles. Such a server would feed these abstracts to the hosted bots as soon as new articles appear on PubMed. Even if a scientist stops working on the given topic or maybe even leaves academia, her bots would continue to produce new contributions by applying the same algorithms to new data.
+</p>
+
+<p>
+We have to expect that some bots (and humans for that matter) will produce low-quality contributions, and we have to make sure that this does not affect the reliability and trustworthiness of the system. I argue that we can achieve that without introducing a central authority, without making concessions with respect to the openness of the system, and without delaying the publishing of results. We simply need a sufficiently accurate automatic method to discern good contributions from bad ones, which can be achieved by a reputation system. To sketch such a reputation system, we first need to define some basic structure with the help of a very simple exemplary model.
+</p>
+
+<p>
+We can define two classes of entities: contributors and contributions. Obviously, contributors link to contributions by a relation of "is contributed by". We can rely on existing established ontologies for this relation, for example <a href="http://www.w3.org/TR/prov-o/#wasAttributedTo"><code>prov:wasAttributedTo</code></a> from the PROV Ontology <a class="ref" property="cito:citesAsAuthority" href="#lebo2013prov"></a>. Whoever contributes something is considered a contributor, and everything that is contributed by somebody (or something) is called a contribution, the key point being that these two classes overlap and that the overlapping region is occupied by bots. Bots are contributions, as they have been programmed and created by somebody, but they are also contributors, as they can create new digital entities on their own.
+We arrive at a simple graph with directed edges that mean "is contributed by" and nodes of the types "contributor" and "contributions", which can be inferred from the fact of whether the given node has incoming and/or outgoing edges.
+</p>
+
+<p>
+To arrive at a reputation system, we can define a second type of relation, which I call assessments. For the sake of simplicity, we model here only positive assessments and strip them of all granularity and detail. Such a primitive assessment is therefore similar to a Facebook "like" in the sense that it points in a positive manner to a given contribution and is attributed to a given user, but contains otherwise no details. In our context, we could call this relation "gives positive assessment for".
+</p>
+
+<div id="figure-graph1" class="picture">
+<p class="img.block">
+<img src="graph1.svg" width="800" alt="Graph of contributors and contributions"></img>
+</p>
+<p class="caption">
+A simple example of a graph of contributors and contributions with edges for creatorship and assessments. Calculating the Eigenvector centrality on this graph, treating all types of nodes and edges alike, gives us a simple yet robust measure of the importance of the nodes.
+</div>
+
+<p>
+<a class="ref" href="#figure-graph1"></a> shows a simple example of such a graph with two kinds of edges, assigning creatorship and assessments. To determine the reputation or importance of the nodes, we can in the simplest case treat the two types of edges identically and rank the nodes by applying a network measure such as Eigenvector centrality (which is closely related to Google's PageRank algorithm to rank websites). The result from applying Eigenvector centrality is shown by the red numbers.
+The person at the top-left has a high reputation because he is endorsed by the person in the middle. The second has a high reputation because her direct and indirect contributions were positively assessed by others (even though she has not received a direct assessment herself).
+The third person to the right, however, has not contributed anything that was positively assessed by others (only by his own bot), and therefore his reputation is low. Even though he and his contributions make up more than one fourth of the entire network, he cannot achieve a high reputation without receiving positive assessments from the core of the network.
+</p>
+
+<p>
+In general, as one cannot influence <i>incoming</i> links from the part of the network that is not under one's control, there is no way to efficiently game the system. Even the creation of fake identities and armies of bots only has a limited effect (as long as no malicious actor controls a majority of the resources).
+This simple example demonstrates how we can use reputation mechanisms and measures such as Eigenvector centrality for robust automated quality assessment and quality-based filtering of contributions.
+The scalability of such algorithms based on Eigenvector centrality in open and decentralized systems is demonstrated by their successful application by search engines to rank websites.
+</p>
+
+</div>
+
+<div class="section"><h1>Discussion</h1>
+
+<p>
+Naturally, there are many technical and social challenges on the road to implementing the sketched approach of science bots. Appropriate reputation and quality metrics and intuitive user interfaces are two crucial components.
+</p>
+
+<p>
+The reputation metric introduced above is obviously a very simplistic one that can be improved in many ways, including the addition of granularity and negativity for assessments. The sketched approach is furthermore conservative in the sense that a node can only get a good reputation if it or its contributed entities have received a positive assessment. The presented algorithm does <i>not</i> make the default assumption (in the absence of direct evidence) that an entity contributed by a reputable actor is likely of good quality. For example, the person at the top-left has a high reputation, but all his contributions have low values, because they have not been directly assessed.
+Depending on the problem at hand, this approach can certainly make sense, but in other circumstances one might want to be more optimistic and assume that contributions by reputable actors should be considered high-quality by default.
+A simple method to achieve this is to make the relations of type "is contributed by" bidirectional, i.e. adding edges that stand for "is the contributor of".
+<a class="ref" href="#figure-graph2"></a> shows the modified network with the new values for the Eigenvector centrality. We see that all contributions of the two reputable individuals now have (relatively) high values, whereas the third person and his contributions still receive low ratings.
+Further improvements are possible, of course, for example by giving the edge types different weights and by supporting negative assessments.
+</p>
+
+<div id="figure-graph2" class="picture">
+<p class="img.block">
+<img src="graph2.svg" width="800" alt="Graph with bidirectional contribution edges"></img>
+</p>
+<p class="caption">
+The same graph as above, but with contribution edges made bidirectional.
+</div>
+
+<p>
+Given software libraries and technical standards, programmers can easily encapsulate their scientific software in bots, but we can also make this technology accessible to scientists who are not proficient programmers by creating intuitive domain-specific interfaces and reusable bot components. Controlled natural languages <a class="ref" property="cito:citesAsPotentialSolution" href="#kuhn2014cl"></a> constitute a possible approach to allow users to write statements that look like natural English but have an unambiguous internal representation that can be automatically executed.
+<a class="ref" href="#figure-mockup"></a> represents a mock-up of a possible interface of that kind, showing the specification of an "inference bot", as introduced above, based on a formal rule to infer new relations based on existing data.
+No such interface actually exists at the moment, but this mock-up is modeled after the existing interface by the Coral system to query text corpora <a class="ref" property="cito:citesAsPotentialSolution" href="#kuhn2012corpora"></a>, which is fully functional and was shown to be user-friendly, demonstrating the general viability of such kinds of interfaces.
+Of course, there are many other possible approaches that could be explored, including diagram-based interfaces.
+</p>
+
+<div id="figure-mockup" class="picture">
+<p class="img.block">
+<img src="mockup.svg" width="600" alt="Graph with bidirectional contribution edges"></img>
+</p>
+<p class="caption">
+Mock-up of a user-friendly interface for the creation of bots based on controlled natural language.
+</div>
+
+<p>
+To conclude, I have advocated here the concept of science bots to address the trends of increasing pervasiveness and sophistication of data and algorithms in science. Such bots could free scientists from routine tasks and therefore allow them to focus on the interesting questions. Furthermore, this approach could increase the value and appreciation of datasets and software as research products, and give due credit to their creators.
+With appropriate reputation mechanisms, this can be achieved in a fully open and decentralized environment, and we can try to build intuitive user interfaces to make this technology accessible to researchers of all disciplines.
+I therefore think that this approach is worthy of consideration for advancing scientific communication and collaboration in the digital age.
+</p>
+
+</div>
+
+<div id="SectionReferences" class="bibliography"><h1>References</h1><ul>
+
+<li id="kuhn2014eswc" resource="#kuhn2014eswc" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person" resource="orcid:0000-0002-1267-0234"><span property="foaf:name">Tobias Kuhn</span></span> and
+<span property="pav:authoredBy" typeof="foaf:Person" resource="orcid:0000-0003-4727-9435"><span property="foaf:name">Michel Dumontier</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1007/978-3-319-07443-6_27"><span property="dct:title">Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data</span></a>.
+In <i>Proceedings of the 11th Extended Semantic Web Conference (ESWC)</i>. Springer, 2014.
+</p></li>
+
+<li id="halfaker2012sc" resource="#halfaker2012sc" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Aaron Halfaker</span></span> and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">John Riedl</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1109/MC.2012.82"><span property="dct:title">Bots and Cyborgs: Wikipedia's Immune System</span></a>.
+<i>Social Computing</i> 45:3. 2012.
+</p></li>
+
+<li id="steiner2014wwwc" resource="#steiner2014wwwc" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Thomas Steiner</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1145/2567948.2576948"><span property="dct:title">Bots vs. Wikipedians, Anons vs. Logged-Ins</span></a>.
+In <i>Proceedings of the companion publication of the 23rd International Conference on World Wide Web Companion</i>.
+International World Wide Web Conferences Steering Committee, 2014.
+</p></li>
+
+<li id="jones2013ssrn" resource="#jones2013ssrn" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Charles M. Jones</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.2139/ssrn.2236201"><span property="dct:title">What Do We Know About High-Frequency Trading?</span></a>
+Social Science Research Network, 2014.
+</p></li>
+
+<li id="duhigg2009nyt" resource="#duhigg2009nyt" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Charles Duhigg</span></span>.
+<a property="owl:sameAs" href="http://www.nytimes.com/2009/07/24/business/24trading.html"><span property="dct:title">Stock traders find speed pays, in milliseconds</span></a>.
+<i>The New York Times</i>, 23 July 2009.
+</p></li>
+
+<li id="farmer2002icc" resource="#farmer2002icc" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">J. Doyne Farmer</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1093/icc/11.5.895"><span property="dct:title">Market force, ecology and evolution</span></a>.
+<i>Industrial and Corporate Change</i> 11:5, 2002.
+</p></li>
+
+<li id="abu2006sigcomm" resource="#abu2006sigcomm" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Moheeb Abu Rajab</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Jay Zarfoss</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Fabian Monrose</span></span>, and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Andreas Terzis</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1145/1177080.1177086"><span property="dct:title">A multifaceted approach to understanding the botnet phenomenon</span></a>.
+In <i>Proceedings of the 6th ACM SIGCOMM conference on Internet measurement</i>.
+ACM, 2006.
+</p></li>
+
+<li id="ferrara2014rise" resource="#ferrara2014rise" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Emilio Ferrara</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Onur Varol</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Clayton Davis</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Filippo Menczer</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Alessandro Flammini</span></span>.
+<a property="owl:sameAs" href="http://arxiv.org/pdf/1407.5225"><span property="dct:title">The Rise of Social Bots</span></a>.
+arXiv preprint 1407.5225, 2014.
+</p></li>
+
+<li id="lebo2013prov" resource="#lebo2013prov" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Timothy Lebo</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Satya Sahoo</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Deborah McGuinness</span></span>.
+<a property="owl:sameAs" href="http://www.w3.org/TR/2013/REC-prov-o-20130430/"><span property="dct:title">PROV-O: The PROV Ontology</span></a>.
+W3C Recommendation, 30 April 2013.
+</p></li>
+
+<li id="groth2010isu" resource="#groth2010isu" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Paul Groth</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Andrew Gibson</span></span>, and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Jan Velterop</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.3233/ISU-2010-0613"><span property="dct:title">The anatomy of a nanopublication</span></a>.
+<i>Information Services and Use</i> 30:1, 2010.
+</p></li>
+
+<li id="kuhn2013eswc" resource="#kuhn2013eswc" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person" resource="orcid:0000-0002-1267-0234"><span property="foaf:name">Tobias Kuhn</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Paolo Emilio Barbano</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Mate Levente Nagy</span></span>, and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Michael Krauthammer</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1007/978-3-642-38288-8_33"><span property="dct:title">Broadening the Scope of Nanopublications</span></a>.
+In <i>Proceedings of the 10th Extended Semantic Web Conference (ESWC)</i>.
+Springer, 2013.
+</p></li>
+
+<li id="kuhn2014publishing" resource="#kuhn2014publishing" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person" resource="orcid:0000-0002-1267-0234"><span property="foaf:name">Tobias Kuhn</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person" resource="orcid:0000-0001-6818-334X"><span property="foaf:name">Christine Chichester</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person" resource="orcid:0000-0003-4727-9435"><span property="foaf:name">Michel Dumontier</span></span>, and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Michael Krauthammer</span></span>.
+<a property="owl:sameAs" href="http://arxiv.org/abs/1411.2749"><span property="dct:title">Publishing without Publishers: a Decentralized Approach to Dissemination, Retrieval, and Archiving of Data</span></a>.
+arXiv preprint 1411.2749, 2014.
+</p></li>
+
+<li id="mccusker2013dils" resource="#mccusker2013dils" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">James P. McCusker</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Timothy Lebo</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Michael Krauthammer</span></span>, and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Deborah L. McGuinness</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1007/978-3-642-39437-9_9"><span property="dct:title">Next Generation Cancer Data Discovery, Access, and Integration Using Prizms and Nanopublications</span></a>.
+In <i>Proceedings of the 9th International Conference on Data Integration in the Life Sciences (DILS)</i>.
+Springer, 2013.
+</p></li>
+
+<li id="parsons2010eos" resource="#parsons2010eos" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Mark A. Parsons</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Ruth Duerr</span></span>, and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Jean-Bernard Minster</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1029/2010EO340001"><span property="dct:title">Data Citation and Peer Review</span></a>.
+<i>Eos, Transactions American Geophysical Union</i> 91:34, 2010.
+</p></li>
+
+<li id="brase2009coinfo" resource="#brase2009coinfo" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Jan Brase</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1109/COINFO.2009.66"><span property="dct:title">DataCite - A global registration agency for research data</span></a>.
+In <i>Proceedings of the Fourth International Conference on Cooperation and Promotion of Information Resources in Science and Technology (COINFO)</i>.
+IEEE, 2009.
+</p></li>
+
+<li id="piwowar2013peerj" resource="#piwowar2013peerj" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Heather A. Piwowar</span></span> and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Todd V. Vision</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.7717/peerj.175"><span property="dct:title">Data reuse and the open data citation advantage</span></a>.
+<i>PeerJ</i> 1:e175, 2013.
+</p></li>
+
+<li id="bechhofer2010fwcs" resource="#bechhofer2010fwcs" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Sean Bechhofer</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">David De Roure</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Matthew Gamble</span></span>,
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Carole Goble</span></span>, and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Iain Buchan</span></span>.
+<a property="owl:sameAs" href="http://imageweb.zoo.ox.ac.uk/pub/2010/Proceedings/FWCS2010/05/Paper5.pdf"><span property="dct:title">Research objects: Towards exchange and reuse of digital knowledge</span></a>.
+In <i>Proceedings of The Future of the Web for Collaborative Science (FWCS)</i>.
+2010.
+</p></li>
+
+<li id="guldbrandsson2013wikimedia" resource="#guldbrandsson2013wikimedia" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Lennart Guldbrandsson</span></span>.
+<a property="owl:sameAs" href="http://blog.wikimedia.org/2013/06/17/swedish-wikipedia-1-million-articles/"><span property="dct:title">Swedish Wikipedia surpasses 1 million articles with aid of article creation bot</span></a>.
+<i>Wikimedia blog</i>, 17 June 2013.
+</p></li>
+
+<li id="kuhn2014cl" resource="#kuhn2014cl" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person" resource="orcid:0000-0002-1267-0234"><span property="foaf:name">Tobias Kuhn</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.1162/COLI_a_00168"><span property="dct:title">A Survey and Classification of Controlled Natural Languages</span></a>.
+Computational Linguistics, 40(1), 2014.
+</p></li>
+
+<li id="kuhn2012corpora" resource="#kuhn2012corpora" typeof="fabio:ResearchPaper"><p>
+<span property="pav:authoredBy" typeof="foaf:Person" resource="orcid:0000-0002-1267-0234"><span property="foaf:name">Tobias Kuhn</span></span> and
+<span property="pav:authoredBy" typeof="foaf:Person"><span property="foaf:name">Stefan Höfler</span></span>.
+<a property="owl:sameAs" href="http://dx.doi.org/10.3366/cor.2012.0026"><span property="dct:title">Coral: Corpus Access in Controlled Language</span></a>.
+Corpora, 7(2), 2012.
+</p></li>
+
+</ul></div>
+
+</body>
+</html>

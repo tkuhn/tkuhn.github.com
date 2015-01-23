@@ -47,6 +47,9 @@ Me on
 
 ###### Selected Preprints
 
+- Tobias Kuhn.
+  Science Bots: A Model for the Future of Scientific Computation? (position paper)
+  [[HTML]](pub/bots/bots.html)
 - Tobias Kuhn, Christine Chichester, Michel Dumontier, and Michael Krauthammer.
   Publishing without Publishers: a Decentralized Approach to Dissemination, Retrieval, and Archiving of Data.
   [[PDF]](http://arxiv.org/pdf/1411.2749)
@@ -54,6 +57,10 @@ Me on
 
 ###### Journal Articles
 
+- Núria Queral-Rosinach, Tobias Kuhn, Christine Chichester, Michel Dumontier, Ferran Sanz, and Laura I. Furlong.
+  Publishing DisGeNET as Nanopublications.
+  _Semantic Web_, to appear.
+  [[PDF]](http://semantic-web-journal.net/system/files/swj879.pdf)
 - Tobias Kuhn, Matjaz Perc, and Dirk Helbing.
   Inheritance patterns in citation networks reveal scientific memes.
   _Physical Review X_, 4, 041036, 21 November 2014.
