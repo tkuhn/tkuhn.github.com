@@ -47,9 +47,6 @@ Me on
 
 ###### Selected Preprints
 
-- Tobias Kuhn.
-  Science Bots: A Model for the Future of Scientific Computation? (position paper)
-  [[HTML]](pub/bots/bots.html)
 - Tobias Kuhn, Christine Chichester, Michel Dumontier, and Michael Krauthammer.
   Publishing without Publishers: a Decentralized Approach to Dissemination, Retrieval, and Archiving of Data.
   [[PDF]](http://arxiv.org/pdf/1411.2749)
@@ -57,6 +54,9 @@ Me on
 
 ###### Journal Articles
 
+- Tobias Kuhn and Michel Dumontier.
+  Making Digital Artifacts on the Web Verifiable and Reliable.
+  _IEEE Transactions on Knowledge and Data Engineering_, to appear.
 - Núria Queral-Rosinach, Tobias Kuhn, Christine Chichester, Michel Dumontier, Ferran Sanz, and Laura I. Furlong.
   Publishing DisGeNET as Nanopublications.
   _Semantic Web_, to appear.
@@ -110,6 +110,12 @@ Me on
 
 ###### Papers at International Conferences and Workshops
 
+- Tobias Kuhn.
+  Science Bots: A Model for the Future of Scientific Computation?
+  In _Proceedings of Semantics, Analytics, Visualisation: Enhancing Scholarly Data (SAVE-SD 2015), WWW 2015
+  Companion Proceedings_.
+  To appear.
+  [[HTML]](pub/bots/bots.html)
 - Kurt Winkler, Tobias Kuhn, and Martin Volk.
   Evaluating the fully automatic multi-language translation of the Swiss avalanche bulletin.
   In _Proceedings of the Fourth International Workshop on Controlled Natural Language (CNL 2014)_.
@@ -292,6 +298,10 @@ Me on
 
 ###### Reviewed Posters and Demos
 
+- Tobias Kuhn.
+  Publishing without Publishers: A Decentralized Server Network for Scientific Data.
+  In _Poster Session at FORCE 2015_.
+  [[Poster]](http://dx.doi.org/10.6084/m9.figshare.1287478)
 - Tobias Kuhn and Michael Krauthammer.
   Representing Biomedical Claims with Underspecified Statements in Nanopublications.
   In _Poster Session of the 11th International Conference on Computational Biology (ECCB'12)_.
@@ -322,7 +332,7 @@ Me on
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/iswc2008pd_kuhn.bib)
   [[Poster]](http://attempto.ifi.uzh.ch/site/pubs/papers/iswc2008acewikiposter.pdf)
 
-###### Theses
+###### Thesis
 
 - Tobias Kuhn.
   _Controlled English for Knowledge Representation_.
@@ -330,11 +340,6 @@ Me on
   University of Zurich, 2010.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/doctoral_thesis_kuhn.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/doctoral_thesis_kuhn.bib)
-- Tobias Kuhn.
-  _Expressing Knowledge about Protein Interactions in Attempto Controlled English_.
-  Diploma Thesis, Department of Informatics, University of Zurich, 2006.
-  [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/Kuhn_Tobias.pdf)
-  [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/Kuhn_Tobias.bib)
 
 
 ### Organized Events
