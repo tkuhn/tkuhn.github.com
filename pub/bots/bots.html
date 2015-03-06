@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-  prefix="
+<html prefix="
     schema: http://schema.org/
     prism: http://prismstandard.org/namespaces/basic/2.0/
     fabio: http://purl.org/spar/fabio/
@@ -40,9 +39,10 @@
 <meta property="prism:keyword" content="scholarly communication" />
 <meta property="prism:keyword" content="nanopublication" />
 
+<!-- The graph of Figure 1 as RDF: -->
 <script type="text/turtle">
-@prefix f: &lt;#figure-graph.&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix f: <#figure-graph.> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 f:h1 a f:Scientist .
 f:h2 a f:Scientist .
@@ -79,36 +79,36 @@ f:h2 f:gives_positive_assessment_for f:h1 .
 f:h3 f:gives_positive_assessment_for f:b3 .
 f:b4 f:gives_positive_assessment_for f:p6 .
 f:b4 f:gives_positive_assessment_for f:p7 .
-f:h1 f:hasEigenvectorCentrality1 &quot;0.7166660043826251&quot;^^xsd:double .
-f:h2 f:hasEigenvectorCentrality1 &quot;1.0&quot;^^xsd:double .
-f:h3 f:hasEigenvectorCentrality1 &quot;4.402779740144121E-5&quot;^^xsd:double .
-f:b1 f:hasEigenvectorCentrality1 &quot;0.0&quot;^^xsd:double .
-f:b2 f:hasEigenvectorCentrality1 &quot;0.8815492239924765&quot;^^xsd:double .
-f:b3 f:hasEigenvectorCentrality1 &quot;2.0605421872848823E-4&quot;^^xsd:double .
-f:b4 f:hasEigenvectorCentrality1 &quot;7.166640712755906E-7&quot;^^xsd:double .
-f:p1 f:hasEigenvectorCentrality1 &quot;0.0&quot;^^xsd:double .
-f:p2 f:hasEigenvectorCentrality1 &quot;0.0&quot;^^xsd:double .
-f:p3 f:hasEigenvectorCentrality1 &quot;0.5135826653947415&quot;^^xsd:double .
-f:p4 f:hasEigenvectorCentrality1 &quot;0.5135826653947415&quot;^^xsd:double .
-f:p5 f:hasEigenvectorCentrality1 &quot;0.0&quot;^^xsd:double .
-f:p6 f:hasEigenvectorCentrality1 &quot;7.950768076064854E-6&quot;^^xsd:double .
-f:p7 f:hasEigenvectorCentrality1 &quot;7.2341040047892564E-6&quot;^^xsd:double .
-f:p8 f:hasEigenvectorCentrality1 &quot;0.0&quot;^^xsd:double .
-f:h1 f:hasEigenvectorCentrality2 &quot;0.7764413179101131&quot;^^xsd:double .
-f:h2 f:hasEigenvectorCentrality2 &quot;0.9755531435645168&quot;^^xsd:double .
-f:h3 f:hasEigenvectorCentrality2 &quot;0.01478213369166307&quot;^^xsd:double .
-f:b1 f:hasEigenvectorCentrality2 &quot;0.3140149996344796&quot;^^xsd:double .
-f:b2 f:hasEigenvectorCentrality2 &quot;1.0&quot;^^xsd:double .
-f:b3 f:hasEigenvectorCentrality2 &quot;0.692221241940225&quot;^^xsd:double .
-f:b4 f:hasEigenvectorCentrality2 &quot;0.01185513160704797&quot;^^xsd:double .
-f:p1 f:hasEigenvectorCentrality2 &quot;0.3140149996344796&quot;^^xsd:double .
-f:p2 f:hasEigenvectorCentrality2 &quot;0.3140149996344796&quot;^^xsd:double .
-f:p3 f:hasEigenvectorCentrality2 &quot;0.7100122119572287&quot;^^xsd:double .
-f:p4 f:hasEigenvectorCentrality2 &quot;0.7183004880836049&quot;^^xsd:double .
-f:p5 f:hasEigenvectorCentrality2 &quot;0.28382680515752956&quot;^^xsd:double .
-f:p6 f:hasEigenvectorCentrality2 &quot;0.41722114888842676&quot;^^xsd:double .
-f:p7 f:hasEigenvectorCentrality2 &quot;0.01478213369166307&quot;^^xsd:double .
-f:p8 f:hasEigenvectorCentrality2 &quot;0.006579641868457231&quot;^^xsd:double .
+f:h1 f:hasEigenvectorCentrality1 "0.7166660043826251"^^xsd:double .
+f:h2 f:hasEigenvectorCentrality1 "1.0"^^xsd:double .
+f:h3 f:hasEigenvectorCentrality1 "4.402779740144121E-5"^^xsd:double .
+f:b1 f:hasEigenvectorCentrality1 "0.0"^^xsd:double .
+f:b2 f:hasEigenvectorCentrality1 "0.8815492239924765"^^xsd:double .
+f:b3 f:hasEigenvectorCentrality1 "2.0605421872848823E-4"^^xsd:double .
+f:b4 f:hasEigenvectorCentrality1 "7.166640712755906E-7"^^xsd:double .
+f:p1 f:hasEigenvectorCentrality1 "0.0"^^xsd:double .
+f:p2 f:hasEigenvectorCentrality1 "0.0"^^xsd:double .
+f:p3 f:hasEigenvectorCentrality1 "0.5135826653947415"^^xsd:double .
+f:p4 f:hasEigenvectorCentrality1 "0.5135826653947415"^^xsd:double .
+f:p5 f:hasEigenvectorCentrality1 "0.0"^^xsd:double .
+f:p6 f:hasEigenvectorCentrality1 "7.950768076064854E-6"^^xsd:double .
+f:p7 f:hasEigenvectorCentrality1 "7.2341040047892564E-6"^^xsd:double .
+f:p8 f:hasEigenvectorCentrality1 "0.0"^^xsd:double .
+f:h1 f:hasEigenvectorCentrality2 "0.7764413179101131"^^xsd:double .
+f:h2 f:hasEigenvectorCentrality2 "0.9755531435645168"^^xsd:double .
+f:h3 f:hasEigenvectorCentrality2 "0.01478213369166307"^^xsd:double .
+f:b1 f:hasEigenvectorCentrality2 "0.3140149996344796"^^xsd:double .
+f:b2 f:hasEigenvectorCentrality2 "1.0"^^xsd:double .
+f:b3 f:hasEigenvectorCentrality2 "0.692221241940225"^^xsd:double .
+f:b4 f:hasEigenvectorCentrality2 "0.01185513160704797"^^xsd:double .
+f:p1 f:hasEigenvectorCentrality2 "0.3140149996344796"^^xsd:double .
+f:p2 f:hasEigenvectorCentrality2 "0.3140149996344796"^^xsd:double .
+f:p3 f:hasEigenvectorCentrality2 "0.7100122119572287"^^xsd:double .
+f:p4 f:hasEigenvectorCentrality2 "0.7183004880836049"^^xsd:double .
+f:p5 f:hasEigenvectorCentrality2 "0.28382680515752956"^^xsd:double .
+f:p6 f:hasEigenvectorCentrality2 "0.41722114888842676"^^xsd:double .
+f:p7 f:hasEigenvectorCentrality2 "0.01478213369166307"^^xsd:double .
+f:p8 f:hasEigenvectorCentrality2 "0.006579641868457231"^^xsd:double .
 </script>
 
 </head>
