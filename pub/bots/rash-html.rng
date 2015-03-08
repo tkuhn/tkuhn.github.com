@@ -13,8 +13,10 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 
 Under the following terms:
 * Attribution - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+2015-03-07: Fix by Michael Smith (https://gist.github.com/sideshowbarker/968492b14ba79fa5f11b)
 -->
-<grammar 
+<grammar ns="http://www.w3.org/1999/xhtml"
   xmlns="http://relaxng.org/ns/structure/1.0"
   xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
@@ -27,8 +29,8 @@ Under the following terms:
         <element name="html">
             <attribute name="prefix">
                 <data type="string">
-                    <param name="pattern">.*schema:\s+http://schema.org/.*</param>
-                    <param name="pattern">.*prism:\s+http://prismstandard.org/namespaces/basic/2.0/.*</param>
+                    <param name="pattern">[\s\S]*schema:\s+http://schema.org/[\s\S]*</param>
+                    <param name="pattern">[\s\S]*prism:\s+http://prismstandard.org/namespaces/basic/2.0/[\s\S]*</param>
                 </data>
             </attribute>
             <ref name="attributes_html_generic" />
