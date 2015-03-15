@@ -7,6 +7,7 @@ See my [CV](cv.pdf) (or its short version at the bottom of this page).
 Me on
 [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ),
 [Scopus](http://www.scopus.com/authid/detail.url?authorId=14056161100),
+[arXiv](http://arxiv.org/a/kuhn_t_2),
 [ImpactStory](http://impactstory.org/tkuhn),
 [Orcid](http://orcid.org/0000-0002-1267-0234),
 [LinkedIn](http://www.linkedin.com/profile/view?id=18606482),
