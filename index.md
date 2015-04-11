@@ -1,10 +1,9 @@
-### About Me
+Welcome to my website. I am a postdoc working on the semantic web, social
+systems, controlled natural languages, artificial intelligence, computational
+linguistics, and bioinformatics. See my [CV](cv.pdf) (or its short version at
+the bottom of this page).
 
-I am a postdoc working on the semantic web, social systems, controlled natural
-languages, artificial intelligence, computational linguistics, and bioinformatics.
-See my [CV](cv.pdf) (or its short version at the bottom of this page).
-
-Me on
+More on
 [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ),
 [Scopus](http://www.scopus.com/authid/detail.url?authorId=14056161100),
 [arXiv](http://arxiv.org/a/kuhn_t_2),
@@ -253,7 +252,7 @@ Me on
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/dils2006_kuhn.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/dils2006_kuhn.bib)
 
-###### Edited Books
+###### Edited Proceedings
 
 - Brian Davis, Kaarel Kaljurand, and Tobias Kuhn (editors).
   _Proceedings of the Fourth International Workshop on Controlled Natural Language (CNL 2014)_,
@@ -389,23 +388,21 @@ Me on
 
 - **2013-present:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling
   and Simulation
+- **2015:** Visiting researcher at Stanford University in the Dumontier Lab at
+the Center for Biomedical Informatics Research
 - **2014:** Researcher at the Swiss Institute of Bioinformatics (SIB) at the University of Geneva
 - **2012:** Postdoctoral associate at Yale University in the bioinformatics group of Prof.
   Krauthammer
-- **2011:** Researcher for the University of Helsinki within the MOLTO project
 - **2011:** Lecturer and researcher at the University of Malta in the Department of Intelligent
   Computer Systems
-- **2010:** Postdoc at the Institute of Computational Linguistics of the University of Zurich
-- **2010:** Visiting scientist at the Computer Science Department of the University of Chile in the
+- **2010:** Visiting researcher at the Computer Science Department of the University of Chile in the
   PLEIAD group (Programming Languages and Environments for Intelligent, Adaptable and Distributed
   systems)
-- **2006-2010:** Doctoral student at the Department of Informatics and the Institute of
+- **2006-2010:** Doctoral student (and postdoc) at the Department of Informatics and the Institute of
   Computational Linguistics of the University of Zurich; graduation as a Doctor in Informatics (Dr.
   Inform.)
-- **2006:** Visiting scientist at the Biotechnology Center of the Technical University Dresden in the
+- **2005-2006:** Visiting researcher at the Biotechnology Center of the Technical University Dresden in the
   Bioinformatics group
-- **2004-2005:** Intern and undergraduate research assistant at the Department for Computer
-  Science of the ETH Zurich in the Global Information Systems group
 - **2001-2006:** Studies in Computer Science and Economics ("Wirtschaftsinformatik") at the
   University of Zurich; graduation as a "Diplom-Informatiker" (Dipl. Inform.), equivalent to a
   Master of Science in Computer Science
