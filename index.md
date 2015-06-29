@@ -45,13 +45,6 @@ More on
 ### Publications
 
 
-###### Selected Preprints
-
-- Tobias Kuhn, Christine Chichester, Michel Dumontier, and Michael Krauthammer.
-  Publishing without Publishers: a Decentralized Approach to Dissemination, Retrieval, and Archiving of Data.
-  [[PDF]](http://arxiv.org/pdf/1411.2749)
-
-
 ###### Journal Articles
 
 - Tobias Kuhn and Michel Dumontier.
@@ -110,12 +103,21 @@ More on
 
 ###### Papers at International Conferences and Workshops
 
+- Tobias Kuhn, Christine Chichester, Michel Dumontier, and Michael Krauthammer.
+  Publishing without Publishers: a Decentralized Approach to Dissemination, Retrieval, and Archiving of Data.
+  In _Proceedings of the 14th International Semantic Web Conference (ISWC)_.
+  (Acceptance rate: 22%)
+  To appear.
+  [[PDF]](http://arxiv.org/pdf/1411.2749)
 - Tobias Kuhn.
   Science Bots: A Model for the Future of Scientific Computation?
   In _Proceedings of Semantics, Analytics, Visualisation: Enhancing Scholarly Data (SAVE-SD 2015), WWW 2015
   Companion Proceedings_.
-  To appear.
+  **Best RASH paper award.**
+  ACM, 2015.
   [[HTML]](pub/bots/bots.html)
+  [[PDF]](http://www.www2015.it/documents/proceedings/companion/p1061.pdf)
+  [[BibTeX]](pub/kuhn2015savesd.bib)
 - Kurt Winkler, Tobias Kuhn, and Martin Volk.
   Evaluating the fully automatic multi-language translation of the Swiss avalanche bulletin.
   In _Proceedings of the Fourth International Workshop on Controlled Natural Language (CNL 2014)_.
@@ -124,7 +126,7 @@ More on
 - Tobias Kuhn and Michel Dumontier.
   Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data.
   In _Proceedings of the 11th Extended Semantic Web Conference (ESWC)_.
-  **(Acceptance rate: 23%)**
+  (Acceptance rate: 23%)
   **Best research paper award.**
   Springer, 2014.
   [[PDF]](http://arxiv.org/pdf/1401.5775)
@@ -135,7 +137,7 @@ More on
 - Tobias Kuhn, Paolo Emilio Barbano, Mate Levente Nagy, and Michael Krauthammer.
   Broadening the Scope of Nanopublications.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
-  **(Acceptance rate: 26%)**
+  (Acceptance rate: 26%)
   Springer, 2013.
   [[PDF]](pub/kuhn2013eswc.pdf)
   [[BibTeX]](pub/kuhn2013eswc.bib)
@@ -145,7 +147,7 @@ More on
 - Kaarel Kaljurand and Tobias Kuhn.
   A Multilingual Semantic Wiki Based on Attempto Controlled English and Grammatical Framework.
   In _Proceedings of the 10th Extended Semantic Web Conference (ESWC)_.
-  **(Acceptance rate: 26%)**
+  (Acceptance rate: 26%)
   Springer, 2013.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/eswc2013_kaljurand.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/eswc2013_kaljurand.bib)
