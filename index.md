@@ -50,6 +50,7 @@ More on
 - Tobias Kuhn and Michel Dumontier.
   Making Digital Artifacts on the Web Verifiable and Reliable.
   _IEEE Transactions on Knowledge and Data Engineering_, to appear.
+  [[PDF]](arxiv.org/pdf/1507.01697)
 - Núria Queral-Rosinach, Tobias Kuhn, Christine Chichester, Michel Dumontier, Ferran Sanz, and Laura I. Furlong.
   Publishing DisGeNET as Nanopublications.
   _Semantic Web_, to appear.
