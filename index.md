@@ -368,6 +368,9 @@ More on
 
 ### Selected Invited Talks
 
+- _A Decentralized Network for Publishing Linked Data_.
+  Invited talk at the CERN Workshop on Innovations in Scholarly Communication (OAI9), Geneva, 17 June 2015.
+  [[Slides]](http://www.slideshare.net/TobiasKuhn/trustypublishing)
 - _Citation Graph Analysis to Identify Memes in Scientific Literature_.
   Invited talk at Quic Inc., San Francisco, 11 June 2014.
   [[Slides]](http://www.slideshare.net/TobiasKuhn/memes-35769027)
