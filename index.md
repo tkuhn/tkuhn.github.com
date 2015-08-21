@@ -19,21 +19,22 @@ More on
 
 ### Products and Projects
 
+- [The Nanopublication Network](http://npmonitor.inn.ac/) is a decentralized server network
+  to release and retrieve Linked Data as nanopublications in a reliable and trustworthy manner
 - [Trusty URIs](http://trustyuri.net) use cryptographic hash values to make URI references
   verifiable
 - [nanopub-java](https://github.com/Nanopublication/nanopub-java) is the official Java library for
   nanopublications
 - [Nanopub Validator](http://nanopub.inn.ac) is a validator interface for nanopublications
 - [Nanobrowser](http://nanobrowser.inn.ac/) is a browser and interface for nanopublications
-- [Yale Image Finder](http://krauthammerlab.med.yale.edu/imagefinder/) is a search engine for
-  images in biomedical publications
 - [AceWiki](http://attempto.ifi.uzh.ch/acewiki) is a semantic wiki based on controlled natural
   language
 - [ACE](http://attempto.ifi.uzh.ch/site/docs/ace_nutshell.html) is a controlled English that can be
   automatically translated into formal logic
-- [Ontograph](http://attempto.ifi.uzh.ch/site/docs/ontograph/) is a framework for testing the
-  understandability of logic languages
-- More: [Coral](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf),
+- More:
+  [Yale Image Finder](http://krauthammerlab.med.yale.edu/imagefinder/),
+  [Ontograph](http://attempto.ifi.uzh.ch/site/docs/ontograph/),
+  [Coral](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf),
   [AceRules](http://attempto.ifi.uzh.ch/acerules),
   [ACE Editor](http://attempto.ifi.uzh.ch/aceeditor),
   [Codeco](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2010_kuhn.pdf),
@@ -49,8 +50,9 @@ More on
 
 - Tobias Kuhn and Michel Dumontier.
   Making Digital Artifacts on the Web Verifiable and Reliable.
-  _IEEE Transactions on Knowledge and Data Engineering_, to appear.
+  _IEEE Transactions on Knowledge and Data Engineering_, 27(9), 2015.
   [[PDF]](http://arxiv.org/pdf/1507.01697)
+  [[BibTeX]](pub/kuhn2015tkde.bib)
 - Núria Queral-Rosinach, Tobias Kuhn, Christine Chichester, Michel Dumontier, Ferran Sanz, and Laura I. Furlong.
   Publishing DisGeNET as Nanopublications.
   _Semantic Web_, to appear.
@@ -104,11 +106,22 @@ More on
 
 ###### Papers at International Conferences and Workshops
 
+- Tobias Kuhn.
+  nanopub-java: A Java Library for Nanopublications.
+  In _Proceedings of the 5th Workshop on Linked Science (LISC 2015)_.
+  2015.
+  [[PDF]](http://arxiv.org/pdf/1508.04977)
+- Juan M. Banda, Tobias Kuhn, Nigam H. Shah, Michel Dumontier.
+  Provenance-Centered Dataset of Drug-Drug Interactions
+  In _Proceedings of the 14th International Semantic Web Conference (ISWC)_ (Data Sets and Ontologies track).
+  (Acceptance rate: 23%)
+  Springer, 2015.
+  [[PDF]](http://arxiv.org/pdf/1507.05408)
 - Tobias Kuhn, Christine Chichester, Michel Dumontier, and Michael Krauthammer.
   Publishing without Publishers: a Decentralized Approach to Dissemination, Retrieval, and Archiving of Data.
   In _Proceedings of the 14th International Semantic Web Conference (ISWC)_.
   (Acceptance rate: 22%)
-  To appear.
+  Springer, 2015.
   [[PDF]](http://arxiv.org/pdf/1411.2749)
 - Tobias Kuhn.
   Science Bots: A Model for the Future of Scientific Computation?
@@ -377,6 +390,9 @@ More on
 
 ### Awards
 
+- **Best RASH Paper Award** at the Workshop on Semantics, Analytics, Visualisation: Enhancing Scholarly
+  Data (SAVE-SD 2015) at WWW 2015 for the paper _Science Bots: A Model for the Future of Scientific
+  Computation?_
 - **Best Research Paper Award** at the 11th Extended Semantic Web Conference (ESWC 2014) for the
   paper _Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data_
 - **1k Challenge Winner** at the Beyond the PDF 2 conference in 2013 for the proposal of an
