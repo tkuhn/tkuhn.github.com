@@ -1,7 +1,7 @@
-Welcome to my website. I am a postdoc working on the semantic web, social
-systems, controlled natural languages, artificial intelligence, computational
-linguistics, and bioinformatics. See my [CV](cv.pdf) (or its short version at
-the bottom of this page).
+Welcome to my website. I am an assistant professor at VU University Amsterdam
+working on the semantic web, social systems, controlled natural languages,
+artificial intelligence, computational linguistics, and bioinformatics.
+See my [CV](cv.pdf) (or its short version at the bottom of this page).
 
 More on
 [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ),
@@ -408,7 +408,9 @@ More on
 
 ### Short CV
 
-- **2013-present:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling
+- **since 2015:** Assistant professor at the Computer Science Department of the VU University Amsterdam
+  in the Web and Media group
+- **2013-2015:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling
   and Simulation
 - **2015:** Visiting researcher at Stanford University in the Dumontier Lab at
 the Center for Biomedical Informatics Research
