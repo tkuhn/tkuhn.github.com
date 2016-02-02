@@ -116,7 +116,7 @@ More on
   2015.
   [[PDF]](http://arxiv.org/pdf/1508.04977)
 - Juan M. Banda, Tobias Kuhn, Nigam H. Shah, Michel Dumontier.
-  Provenance-Centered Dataset of Drug-Drug Interactions
+  Provenance-Centered Dataset of Drug-Drug Interactions.
   In _Proceedings of the 14th International Semantic Web Conference (ISWC)_ (Data Sets and Ontologies track).
   (Acceptance rate: 23%)
   Springer, 2015.
