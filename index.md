@@ -48,6 +48,10 @@ More on
 
 ###### Journal Articles
 
+- Kurt Winkler and Tobias Kuhn.
+  Fully automatic multi-language translation with a catalogue of phrases - successful employment for the Swiss avalanche bulletin.
+  _Language Resources and Evaluation_, to appear.
+  [[PDF]](http://arxiv.org/pdf/1509.06937)
 - Tobias Kuhn and Michel Dumontier.
   Making Digital Artifacts on the Web Verifiable and Reliable.
   _IEEE Transactions on Knowledge and Data Engineering_, 27(9), 2015.
@@ -410,8 +414,7 @@ More on
 
 - **since 2015:** Assistant professor at the Computer Science Department of the VU University Amsterdam
   in the Web and Media group
-- **2013-2015:** Postdoc at the ETH Zurich at the Chair of Sociology, in particular of Modeling
-  and Simulation
+- **2013-2015:** Postdoc at the ETH Zurich in the Computational Social Science group
 - **2015:** Visiting researcher at Stanford University in the Dumontier Lab at
 the Center for Biomedical Informatics Research
 - **2014:** Researcher at the Swiss Institute of Bioinformatics (SIB) at the University of Geneva
