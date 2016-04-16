@@ -1,0 +1,77 @@
+@prefix : <http://www.tkuhn.org/pub/sempub/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix ex: <http://example.org/> .
+@prefix orcid: <http://orcid.org/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix schema: <http://schema.org/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+# META DATA
+
+orcid:0000-0002-1267-0234 schema:affiliation :vu-cs ;
+	schema:email "tokuhn@ethz.ch" ;
+	schema:name "Tobias Kuhn" ;
+	a foaf:Person .
+
+orcid:0000-0003-4727-9435 schema:affiliation :stanford-bmir ;
+	schema:email "michel.dumontier@stanford.edu" ;
+	schema:name "Michel Dumontier" ;
+	a foaf:Person .
+
+<http://www.tkuhn.org/pub/sempub/>
+	prism:keyword "scholarly communication" , "semantic publishing" ;
+	dct:title "Genuine Semantic Publishing" ;
+	pav:authoredBy orcid:0000-0002-1267-0234 , orcid:0000-0003-4727-9435 ;
+	a fabio:ResearchPaper .
+
+:stanford-bmir schema:name "Stanford Center for Biomedical Informatics Research, Stanford University, CA, USA" .
+
+:vu-cs schema:name "Department of Computer Science, VU University Amsterdam, Netherlands" .
+
+
+# CONTENT
+
+<http://www.tkuhn.org/pub/sempub/>
+	cito:describes :GenuineSemanticPublishing ;
+	cito:supports :GenuineSemanticPublishing ;
+	cito:critiques dbpedia:Semantic_publishing .
+
+:GenuineSemanticPublishing
+	schema:name "genuine semantic publishing" ;
+	skos:related dbpedia:Semantic_publishing ;
+	skos:definition p:GenuineSemanticPublishingCriteria .
+
+:GenuineSemanticPublishingCriteria dct:hasPart
+	:GenuineSemanticPublishingCriterion1 ,
+	:GenuineSemanticPublishingCriterion2 ,
+	:GenuineSemanticPublishingCriterion3 ,
+	:GenuineSemanticPublishingCriterion4 ,
+	:GenuineSemanticPublishingCriterion5 .
+
+:GenuineSemanticPublishingCriterion1
+	dct:title "First criterion genuine semantic publishing: machine interpretability" ;
+	dct:description "With genuine semantic publishing, a scientific work needs to come with formal representations that are semantic, in the sense that they are not just machine processable but machine interpretable, and that are linked so they add to the existing formal body of knowledge and can be used to answer questions or aggregate results." .
+
+:GenuineSemanticPublishingCriterion2
+	dct:title "Second criterion genuine semantic publishing: completeness in essence" ;
+	dct:description "With genuine semantic publishing, the semantic representations need to be complete in essence (though possibly underspecified) in the sense that both domain data and meta data are included, as well as links between the two, and that they cover (at least) the core of the main results of the given work." .
+
+:GenuineSemanticPublishingCriterion3
+	dct:title "Third criterion genuine semantic publishing: authenticity" ;
+	dct:description "With genuine semantic publishing, the semantic representations need to be authentic in the sense that the respective authoritative persons create or approve the semantic representations. Domain data can only come directly from the researchers, and meta data has to come from the people responsible for the form of the published work (i.e. the researchers and/or the editors)." .
+
+:GenuineSemanticPublishingCriterion4
+	dct:title "Fourth criterion genuine semantic publishing: primary component" ;
+	dct:description "With genuine semantic publishing, the semantic representations need to be a primary component of the published work, made available together with everything else at the time of publication. They must furthermore have an independent existence in their own right and not merely be appended or attached to the main entity as an appendix or as annotations." .
+
+:GenuineSemanticPublishingCriterion5
+	dct:title "Fifth criterion genuine semantic publishing: fine-grainedness" ;
+	dct:description "With genuine semantic publishing, the semantic representations and their containers need to be fine-grained and light-weight. Even though such semantic representations might often be published in large chunks, the publication of minimal additions and corrections need to be possible without a large overhead." .
+

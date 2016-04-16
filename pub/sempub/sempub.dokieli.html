@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Genuine Semantic Publishing [Incomplete Draft, 16 April 2016]</title>
+<!--
+<link rel="stylesheet" href="aux/dokieli/media/css/lncs.css" media="all" title="LNCS" />
+<link rel="stylesheet alternate" href="aux/dokieli/media/css/acm.css" media="all" title="ACM" />
+<link rel="stylesheet alternate" href="https://www.w3.org/StyleSheets/TR/W3C-REC.css" media="all" title="W3C-REC"/>
+<link rel="stylesheet" href="aux/dokieli/media/css/do.css" media="all" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="all" />
+<link rel="stylesheet" href="aux/dokieli/media/css/editor.css" media="all" />
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="aux/dokieli/scripts/RDFaProcessor.min.1.4.0.js"></script>
+<script src="aux/dokieli/scripts/simplerdf.js"></script>
+<script src="aux/dokieli/scripts/html.sortable.min.js"></script>
+<script src="aux/dokieli/scripts/medium-editor.min.js"></script>
+<script src="aux/dokieli/scripts/medium-editor-tables.min.js"></script>
+<script src="aux/dokieli/scripts/do.js"></script>
+-->
+<link rel="stylesheet" href="https://dokie.li/media/css/lncs.css" media="all" title="LNCS" />
+<link rel="stylesheet alternate" href="https://dokie.li/media/css/acm.css" media="all" title="ACM" />
+<link rel="stylesheet alternate" href="https://www.w3.org/StyleSheets/TR/W3C-REC.css" media="all" title="W3C-REC"/>
+<link rel="stylesheet" href="https://dokie.li/media/css/do.css" media="all" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="all" />
+<link rel="stylesheet" href="https://dokie.li/media/css/editor.css" media="all" />
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://dokie.li/scripts/RDFaProcessor.min.1.4.0.js"></script>
+<script src="https://dokie.li/scripts/simplerdf.js"></script>
+<script src="https://dokie.li/scripts/html.sortable.min.js"></script>
+<script src="https://dokie.li/scripts/medium-editor.min.js"></script>
+<script src="https://dokie.li/scripts/medium-editor-tables.min.js"></script>
+<script src="https://dokie.li/scripts/do.js"></script>
+</head>
+
+<body about="" typeof="schema:CreativeWork sioc:Post prov:Entity" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# schema: http://schema.org/ sioc: http://rdfs.org/sioc/ns# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa#">
+<main>
+<article about="" typeof="schema:ScholarlyArticle">
+<h1 property="schema:name">Genuine Semantic Publishing [Incomplete Draft, 16 April 2016]</h1>
+
+<div id="authors">
+<dl id="author-name">
+<dt>Authors</dt>
+<dd id="author-1"><span about="" rel="schema:creator schema:publisher schema:contributor schema:author"><a about="#Tobias-Kuhn" typeof="schema:Person" rel="schema:url" property="schema:name" href="">Tobias Kuhn</a></span><span about="#Tobias-Kuhn" rel="schema:memberOf" resource="#VU-University-Amsterdam"></span><sup><a href="#author-org-1">1</a></sup><sup><a href="#author-email-1">‡</a></sup></dd>
+<dd id="author-2"><span about="" rel="schema:contributor"><a about="#Michel-Dumontier" typeof="schema:Person" rel="schema:url" property="schema:name" href="">Michel Dumontier</a></span><span about="#Michel-Dumontier" rel="schema:memberOf" resource="#Stanford-University"></span><sup><a href="#author-org-2">2</a></sup><sup><a href="#author-email-2">§</a></sup></dd>
+</dl>
+
+<ul id="author-org">
+<li id="author-org-1"><sup>1</sup><a about="#VU-University-Amsterdam" typeof="schema:Organization" property="schema:name" rel="schema:url" href="http://www.vu.nl/">VU University Amsterdam</a>, <span class="adr"><span class="street-address">De Boelelaan 1081</span>, <span class="region">Amsterdam</span>, <span class="country-name">Netherlands</span></span></li>
+<li id="author-org-2"><sup>2</sup><a about="#Stanford-University" typeof="schema:Organization" property="schema:name" rel="schema:url" href="http://www.stanford.edu/">Stanford University</a>, <span class="adr"><span class="street-address">1265 Welch Rd</span>, <span class="locality">Stanford</span>, <span class="region">CA</span></span></li>
+</ul>
+
+<ul id="author-email">
+<li id="author-email-1"><sup>‡</sup><a about="#Tobias-Kuhn" rel="schema:email" href="mailto:t.kuhn@vu.nl">t.kuhn@vu.nl</a></li>
+<li id="author-email-2"><sup>§</sup><a about="#Michel-Dumontier" rel="schema:email" href="mailto:michel.dumontier@stanford.edu">michel.dumontier@stanford.edu</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+<section id="abstract">
+<h2>Abstract</h2>
+<div property="schema:abstract" datatype="rdf:HTML">
+<p>
+In the last years, many approaches and systems have been presented for what has been called <em>semantic publishing</em>. Closer inspection, however, reveals that these approaches are mostly not about publishing semantic representations, as the name seems to suggest. Rather, most approaches take the processes and outcomes of the current narrative-based publishing system for granted and only work with the already published papers. This includes semantic annotations, semantic interlinking, semantic integration, and semantic discovery, but with the semantics coming into play only after the publication of the original article. While these are interesting approaches, they fall short of providing a vision to transcend the current publishing paradigm. We argue for taking the term <em>semantic publishing</em> seriously and work towards a vision of <em>genuine</em> semantic publishing, where computational tools and algorithms can help us with dealing with the wealth of human knowledge by letting researchers capture their research results with formal semantics from the start.
+We argue that genuine semantic publications should come with formal semantics as an integral and primary component at the time of publication, that these representations should be complete in essence, in the sense that they cover the main results, that they should be authentic in the sense that they originate from the authors, and that they should be fine-grained and light-weight for optimized re-usability and minimized publication overhead.
+This paper is in fact not just advocating our concept, but <em>is itself a genuine semantic publication</em>, thereby demonstrating and illustrating our points.
+</p>
+</div>
+</section>
+
+<section id="keywords">
+<h2>Keywords</h2>
+<div>
+<ul rel="schema:about">
+<li>semantic publishing</li>
+<li>scholarly communication</li>
+<li>nanopublications</li>
+</ul>
+</div>
+</section>
+
+<section id="introduction" rel="schema:hasPart" resource="#introduction">
+<h2 property="schema:name">Introduction</h2>
+<div property="schema:description" resource="#introduction" typeof="deo:Introduction" datatype="rdf:HTML">
+<p>
+[main text missing]
+</p>
+</div>
+</section>
+
+</div>
+
+</article>
+</main>
+</body>
+</html>
