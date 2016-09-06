@@ -48,19 +48,23 @@ More on
 
 ###### Journal Articles
 
+- Tobias Kuhn​, Christine Chichester, Michael Krauthammer, Núria Queralt-Rosinach, Ruben Verborgh, George Giannakopoulos, Axel-Cyrille Ngonga Ngomo, Raffaele Viglianti, Michel Dumontier.
+  Decentralized provenance-aware publishing with nanopublications.
+  _PeerJ Computer Science_, 2:e78, 2016.
+  [[PDF]](https://peerj.com/articles/cs-78/)
 - Kurt Winkler and Tobias Kuhn.
   Fully automatic multi-language translation with a catalogue of phrases - successful employment for the Swiss avalanche bulletin.
-  _Language Resources and Evaluation_, to appear.
+  _Language Resources and Evaluation_, 2016.
   [[PDF]](http://arxiv.org/pdf/1509.06937)
+- Núria Queral-Rosinach, Tobias Kuhn, Christine Chichester, Michel Dumontier, Ferran Sanz, and Laura I. Furlong.
+  Publishing DisGeNET as Nanopublications.
+  _Semantic Web_, 7(5), 2016.
+  [[PDF]](http://semantic-web-journal.net/system/files/swj879.pdf)
 - Tobias Kuhn and Michel Dumontier.
   Making Digital Artifacts on the Web Verifiable and Reliable.
   _IEEE Transactions on Knowledge and Data Engineering_, 27(9), 2015.
   [[PDF]](http://arxiv.org/pdf/1507.01697)
   [[BibTeX]](pub/kuhn2015tkde.bib)
-- Núria Queral-Rosinach, Tobias Kuhn, Christine Chichester, Michel Dumontier, Ferran Sanz, and Laura I. Furlong.
-  Publishing DisGeNET as Nanopublications.
-  _Semantic Web_, to appear.
-  [[PDF]](http://semantic-web-journal.net/system/files/swj879.pdf)
 - Tobias Kuhn, Matjaz Perc, and Dirk Helbing.
   Inheritance patterns in citation networks reveal scientific memes.
   _Physical Review X_, 4, 041036, 21 November 2014.
