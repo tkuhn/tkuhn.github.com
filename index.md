@@ -51,7 +51,8 @@ More on
 - Tobias Kuhn​, Christine Chichester, Michael Krauthammer, Núria Queralt-Rosinach, Ruben Verborgh, George Giannakopoulos, Axel-Cyrille Ngonga Ngomo, Raffaele Viglianti, Michel Dumontier.
   Decentralized provenance-aware publishing with nanopublications.
   _PeerJ Computer Science_, 2:e78, 2016.
-  [[PDF]](https://peerj.com/articles/cs-78/)
+  [[Link]](https://peerj.com/articles/cs-78/)
+  [[PDF]](https://peerj.com/articles/cs-78.pdf)
 - Kurt Winkler and Tobias Kuhn.
   Fully automatic multi-language translation with a catalogue of phrases - successful employment for the Swiss avalanche bulletin.
   _Language Resources and Evaluation_, 2016.
