@@ -53,6 +53,10 @@ More on
   _PeerJ Computer Science_, 2:e78, 2016.
   [[Link]](https://peerj.com/articles/cs-78/)
   [[PDF]](https://peerj.com/articles/cs-78.pdf)
+- Mark D Wilkinson, Michel Dumontier, et al.
+  The FAIR Guiding Principles for scientific data management and stewardship.
+  _Scientific Data_, 3:16001, 2016.
+  [[Link]](http://www.nature.com/articles/sdata201618)
 - Kurt Winkler and Tobias Kuhn.
   Fully automatic multi-language translation with a catalogue of phrases - successful employment for the Swiss avalanche bulletin.
   _Language Resources and Evaluation_, 2016.
@@ -115,6 +119,11 @@ More on
 
 ###### Papers at International Conferences and Workshops
 
+- Tobias Kuhn.
+  The Controlled Natural Language of Randall Munroe's Thing Explainer.
+  In _Proceedings of the Fifth Workshop on Controlled Natural Language (CNL 2016)_.
+  Springer, 2016.
+  [[PDF]](http://arxiv.org/pdf/1605.02457)
 - Tobias Kuhn.
   nanopub-java: A Java Library for Nanopublications.
   In _Proceedings of the 5th Workshop on Linked Science (LISC 2015)_.
