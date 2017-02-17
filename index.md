@@ -119,6 +119,12 @@ More on
 
 ###### Papers at International Conferences and Workshops
 
+- Niels Ockeloen, Victor de Boer, Tobias Kuhn, and Guus Schreiber.
+  Data 2 Documents: Modular and Distributive Content Management in RDF.
+  In _Proceedings of the 20th International Conference on Knowledge Engineering and Knowledge Management (EKAW 2016)_.
+  **Best paper award.**
+  Springer, 2016.
+  [[Link]](http://link.springer.com/chapter/10.1007/978-3-319-49004-5_29)
 - Tobias Kuhn.
   The Controlled Natural Language of Randall Munroe's Thing Explainer.
   In _Proceedings of the Fifth Workshop on Controlled Natural Language (CNL 2016)_.
