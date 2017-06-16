@@ -10,9 +10,7 @@
 <link rel="stylesheet alternate" href="aux/dokieli/media/css/W3C-REC.css" media="all" title="W3C-REC"/>
 <link rel="stylesheet" href="aux/dokieli/media/css/do.css" media="all" />
 <link rel="stylesheet" href="aux/dokieli/media/css/font-awesome.min.css" media="all" />
-<script src="aux/dokieli/scripts/jquery-2.2.0.min.js"></script>
 <script src="aux/dokieli/scripts/simplerdf.js"></script>
-<script src="aux/dokieli/scripts/html.sortable.min.js"></script>
 <script src="aux/dokieli/scripts/medium-editor.min.js"></script>
 <script src="aux/dokieli/scripts/medium-editor-tables.min.js"></script>
 <script src="aux/dokieli/scripts/do.js"></script>
@@ -24,17 +22,14 @@
 <link rel="stylesheet" href="https://dokie.li/media/css/do.css" media="all" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="all" />
 <link rel="stylesheet" href="https://dokie.li/media/css/editor.css" media="all" />
-<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="https://dokie.li/scripts/RDFaProcessor.min.1.4.0.js"></script>
 <script src="https://dokie.li/scripts/simplerdf.js"></script>
-<script src="https://dokie.li/scripts/html.sortable.min.js"></script>
 <script src="https://dokie.li/scripts/medium-editor.min.js"></script>
 <script src="https://dokie.li/scripts/medium-editor-tables.min.js"></script>
 <script src="https://dokie.li/scripts/do.js"></script>
 -->
 
-<script type="text/turtle">
-
+<script id="meta-turtle" type="text/turtle" title="Turtle"># //<![CDATA[
 @prefix paper: <http://www.tkuhn.org/pub/sempub/> .
 @prefix : <http://www.tkuhn.org/pub/sempub/#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -79,8 +74,7 @@ paper:
 :GenuineSemanticPublishingCriterion5
 	dct:title "Fifth criterion of genuine semantic publishing: fine-grainedness" ;
 	dct:description "With genuine semantic publishing, the semantic representations and their containers need to be fine-grained and light-weight. Even though such semantic representations might often be published in larger collections, the publication of minimal additions and corrections needs to be possible without a large overhead." .
-
-</script>
+# //]]></script>
 
 </head>
 
@@ -250,120 +244,140 @@ In our own previous work, we have proposed a preliminary general approach of rep
 </p>
 
 <table id="relatedwork_table">
-<caption>Properties of existing approaches on the publication of scientific artifacts containing semantic representations (RO = Research Objects; EP = executable papers; SH = scholarly HTML; SDA = Structured Digital Abstracts; MP = micropublications; NP = nanopublications)</caption>
+<caption>Properties of existing approaches on the publication of scientific artifacts containing semantic representations</caption>
 <thead>
 <tr>
-<th rowspan="1" colspan="1"></th>
-<th rowspan="1" colspan="1"></th>
-<th rowspan="1" colspan="1">RO</th>
-<th rowspan="1" colspan="1">EP</th>
-<th rowspan="1" colspan="1">SH</th>
-<th rowspan="1" colspan="1">SDA</th>
-<th rowspan="1" colspan="1">MP</th>
-<th rowspan="1" colspan="1">NP</th>
+<th></th>
+<th></th>
+<th>RO</th>
+<th>EP</th>
+<th>SH</th>
+<th>SDA</th>
+<th>MP</th>
+<th>NP</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="5" colspan="1"><p>types of formal semantic representations</p></td>
-<td rowspan="1" colspan="1"><p>meta data</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<th rowspan="5" colspan="1">types of formal semantic representations</th>
+<td>meta data</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
-<td rowspan="1" colspan="1"><p>domain (input/output) data</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td>domain (input/output) data</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✓</td>
 </tr>
 <tr>
-<td rowspan="1" colspan="1"><p>program code</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
+<td>program code</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td rowspan="1" colspan="1"><p>arguments / discourse</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
+<td>arguments / discourse</td>
+<td></td>
+<td></td>
+<td>(✓)</td>
+<td></td>
+<td>✓</td>
+<td>(✓)</td>
 </tr>
 <tr>
-<td rowspan="1" colspan="1"><p>high-level claims</p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-</tr>
-<tr>
-<td colspan="8"><hr/></td>
-</tr>
-<tr>
-<td rowspan="3" colspan="1"><p>publishing unit</p></td>
-<td rowspan="1" colspan="1"><p>project level</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-</tr>
-<tr>
-<td rowspan="1" colspan="1"><p>paper level</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-</tr>
-<tr>
-<td rowspan="1" colspan="1"><p>statement level</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td>high-level claims</td>
+<td>(✓)</td>
+<td></td>
+<td>(✓)</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
 </tr>
 <tr>
 <td colspan="8"><hr/></td>
 </tr>
 <tr>
-<td rowspan="2" colspan="1"><p>necessary components</p></td>
-<td rowspan="1" colspan="1"><p>formal semantic data</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<th rowspan="3" colspan="1">publishing unit</th>
+<td>project level</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td rowspan="1" colspan="1"><p>narrative text</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p></p></td>
+<td>paper level</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+<tr>
+<td>statement level</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✓</td>
+</tr>
+<tr>
+<td colspan="8"><hr/></td>
+</tr>
+<tr>
+<th rowspan="2" colspan="1">necessary components</th>
+<td>formal semantic data</td>
+<td>✓</td>
+<td>✓</td>
+<td>(✓)</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>narrative text</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
 </tr>
 </tbody>
+<tfoot>
+<tr>
+<td colspan="8">
+<dl class="abbr">
+<dt>RO</dt>
+<dd>Research Objects</dd>
+<dt>EP</dt>
+<dd>executable papers</dd>
+<dt>SH</dt>
+<dd>scholarly HTML</dd>
+<dt>SDA</dt>
+<dd>Structured Digital Abstracts</dd>
+<dt>MP</dt>
+<dd>micropublications</dd>
+<dt>NP</dt>
+<dd>nanopublications</dd>
+</dl>
+</td>
+</tr>
+</tfoot>
 </table>
 
 <p>
