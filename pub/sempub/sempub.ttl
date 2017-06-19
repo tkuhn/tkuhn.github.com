@@ -46,7 +46,7 @@ paper:
 :GenuineSemanticPublishing
 	schema:name "genuine semantic publishing" ;
 	skos:related dbpedia:Semantic_publishing ;
-	skos:definition p:GenuineSemanticPublishingCriteria .
+	skos:definition :GenuineSemanticPublishingCriteria .
 
 :GenuineSemanticPublishingCriteria dct:hasPart
 	:GenuineSemanticPublishingCriterion1 ,
