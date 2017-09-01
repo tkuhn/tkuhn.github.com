@@ -11,44 +11,9 @@
 <script src="https://dokie.li/scripts/simplerdf.js"></script>
 <script src="https://dokie.li/scripts/medium-editor.min.js"></script>
 <script src="https://dokie.li/scripts/medium-editor-tables.min.js"></script>
+<script src="https://d3js.org//d3.v4.min.js"></script>
 <script src="https://dokie.li/scripts/do.js"></script>
 <style>
-@media print {
-.h1 { font-size:14pt; }
-.h2 { font-size:12pt; }
-.h3 { font-size:10pt; }
-.h4 { font-size:10pt; }
-.h5 { font-size:10pt; }
-.h6 { font-size:9pt; }
-}
-
-.h1 {
-font-family: "CMU Serif Bold", serif;
-font-size:1.4615em;
-}
-.h2 {
-font-family: "CMU Serif Bold", serif;
-font-size:1.231em;
-}
-.h3 {
-font-family: "CMU Serif Bold", serif;
-font-size:1em;
-}
-.h4 {
-font-family: "CMU Serif Bold", serif;
-font-size:1em;
-}
-.h5 {
-font-family: "CMU Serif Italic", serif;
-font-size:1em;
-font-weight:normal;
-}
-.h6 {
-font-family: "CMU Serif Italic", serif;
-font-size:0.923em;
-font-weight:normal;
-}
-
 tbody {
 font-size: smaller;
 }
@@ -105,7 +70,9 @@ border-bottom: 1px solid #000;
 <section id="abstract">
 <h2>Abstract</h2>
 
+<div datatype="rdf:HTML" property="schema:abstract"><p>
 The emergence of Linked Open Data (LOD) enables data on the Web to have a well defined structure and thereby to represent and interlink information from different sources and application areas. This web of data is a complex socially created network, where concepts and relations are connected in intricate ways, collectively forming a network of knowledge. These data are published in a decentralized fashion and they stem from different sources, have different types of relationships, and use different terminologies, ontologies and meta models. While this so-called LOD cloud has become a very valuable resource, we know only very little about the general structural properties of the contained data, which impedes our ability to use and organize this resource in an efficient and accurate manner. The objective of this paper is to provide a basic understanding of LOD from the point of view of network structures. We analyze LOD networks with respect to fundamental network properties such as degree distribution and clustering. Using these metrics, we compare our results to non-LOD networks, such as email, Web, and protein networks, that have been reported in the literature. Our results show that the LOD cloud exhibits a broad variety of different network structures, consistent with the diversity found in other types of networks.
+</p></div>
 
 </section>
 
@@ -666,7 +633,7 @@ Unfortunately, there is no data available for the non-LOD networks with respect 
 
 <li id="ref-ding2006" property="schema:citation">Ding, L. &amp; Finin, T. (2006). Characterizing the Semantic Web on the Web. The Semantic Web -- ISWC, Springer, 242-257.</li>
 
-<li id="ref-gueret2012" property="schema:citation">Guéret, C., Groth, P., Stadler, C., & Lehmann, J. (2012). Assessing Linked Data Mappings Using Network Measures. The Semantic Web: Research and Applications, 87–102.</li>
+<li id="ref-gueret2012" property="schema:citation">Guéret, C., Groth, P., Stadler, C., &amp; Lehmann, J. (2012). Assessing Linked Data Mappings Using Network Measures. The Semantic Web: Research and Applications, 87–102.</li>
 
 <li id="ref-jain2010" property="schema:citation">Jain, P., Hitzler, P., Sheth, A. P., Verma, K., &amp; Yeh, P. Z. (2010). Ontology alignment for linked open data. In The Semantic Web–ISWC 2010 (pp. 402-417). Springer Berlin Heidelberg.</li>
 
@@ -676,7 +643,7 @@ Unfortunately, there is no data available for the non-LOD networks with respect 
 
 <li id="ref-kuhn2014" property="schema:citation">Kuhn, T., Perc, M., &amp; Helbing, D. (2014). Inheritance Patterns in Citation Networks Reveal Scientific Memes. Physical Review X, 4(4). doi:10.1103/physrevx.4.041036</li>
 
-<li id="ref-lee2016" property="schema:citation">Lee, S., Sukumar, S. R., Hong, S., & Lim, S.-H. (2016). Enabling graph mining in RDF triplestores using SPARQL for holistic in-situ graph analysis. Expert Systems with Applications, 48, 9–25. doi:10.1016/j.eswa.2015.11.010</li>
+<li id="ref-lee2016" property="schema:citation">Lee, S., Sukumar, S. R., Hong, S., &amp; Lim, S.-H. (2016). Enabling graph mining in RDF triplestores using SPARQL for holistic in-situ graph analysis. Expert Systems with Applications, 48, 9–25. doi:10.1016/j.eswa.2015.11.010</li>
 
 <li id="ref-lehmann2014" property="schema:citation">Lehmann, J., Isele, R., Jakob, M., Jentzsch, A., Kontokostas, D., Mendes, P. N., ... &amp; Bizer, C. (2014). DBpedia-a large-scale, multilingual knowledge base extracted from Wikipedia. Semantic Web Journal, 5, 1-29.</li>
 
