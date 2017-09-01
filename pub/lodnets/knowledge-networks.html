@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Understanding Knowledge Networks</title>
+<link rel="stylesheet" href="https://dokie.li/media/css/lncs.css" media="all" title="LNCS" />
+<link rel="stylesheet alternate" href="https://dokie.li/media/css/acm.css" media="all" title="ACM" />
+<link href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED" rel="stylesheet alternate" media="all" title="W3C-ED"/>
+<link rel="stylesheet" href="https://dokie.li/media/css/do.css" media="all" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="all" />
+<script src="https://dokie.li/scripts/simplerdf.js"></script>
+<script src="https://dokie.li/scripts/medium-editor.min.js"></script>
+<script src="https://dokie.li/scripts/medium-editor-tables.min.js"></script>
+<script src="https://dokie.li/scripts/do.js"></script>
+<style>
+@media print {
+.h1 { font-size:14pt; }
+.h2 { font-size:12pt; }
+.h3 { font-size:10pt; }
+.h4 { font-size:10pt; }
+.h5 { font-size:10pt; }
+.h6 { font-size:9pt; }
+}
+
+.h1 {
+font-family: "CMU Serif Bold", serif;
+font-size:1.4615em;
+}
+.h2 {
+font-family: "CMU Serif Bold", serif;
+font-size:1.231em;
+}
+.h3 {
+font-family: "CMU Serif Bold", serif;
+font-size:1em;
+}
+.h4 {
+font-family: "CMU Serif Bold", serif;
+font-size:1em;
+}
+.h5 {
+font-family: "CMU Serif Italic", serif;
+font-size:1em;
+font-weight:normal;
+}
+.h6 {
+font-family: "CMU Serif Italic", serif;
+font-size:0.923em;
+font-weight:normal;
+}
+
+tbody {
+font-size: smaller;
+}
+td.red {
+background-color:#FF0000;
+}
+td.amber {
+background-color:#FFC000;
+}
+td.green {
+background-color:#00B050;
+}
+.alignright {
+text-align: right;
+}
+.aligncenter {
+text-align: center;
+}
+th.narrow {
+width: 25%;
+}
+th.bottomline {
+border-bottom: 1px solid #000;
+}
+</style>
+</head>
+
+<body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio#" typeof="schema:CreativeWork sioc:Post prov:Entity">
+<main>
+<article about="" typeof="schema:ScholarlyArticle">
+<h1 property="schema:name">Understanding Knowledge Networks</h1>
+
+<div id="authors">
+<dl id="author-name">
+<dt>Authors</dt>
+<dd id="author-1"><span about="" rel="schema:creator schema:publisher schema:contributor schema:author"><a about="#Krishna-Mangaladevi" href="http://vu.nl" property="schema:name" rel="schema:url" typeof="schema:Person">Krishna Mangaladevi</a></span><span about="#Krishna-Mangaladevi" rel="schema:memberOf" resource="#VU"></span><sup><a href="#author-org-1">1</a></sup><sup><a href="#author-email-a">a</a></sup></dd>
+<dd id="author-2"><span about="" rel="schema:contributor"><a about="#Wouter-Beek" href="http://vu.nl" property="schema:name" rel="schema:url" typeof="schema:Person">Wouter Beek</a></span><span about="#Wouter-Beek" rel="schema:memberOf" resource="#VU"></span><sup><a href="#author-org-1">1</a></sup><sup><a href="#author-email-b">b</a></sup></dd>
+<dd id="author-3"><span about="" rel="schema:contributor"><a about="#Tobias-Kuhn" href="http://vu.nl" property="schema:name" rel="schema:url" typeof="schema:Person">Tobias Kuhn</a></span><span about="#Tobias-Kuhn" rel="schema:memberOf" resource="#VU"></span><sup><a href="#author-org-1">1</a></sup><sup><a href="#author-email-c">c</a></sup></dd>
+</dl>
+
+<ul id="author-org">
+<li id="author-org-1"><sup>1</sup><a about="#VU" href="http://cs.vu.nl" property="schema:name" rel="schema:url" typeof="schema:Organization">Departement of Computer Science, Vrije Universiteit Amsterdam</a>, <span class="adr"><span class="region">Amsterdam</span>, <span class="country-name">Netherlands</span></span></li>
+</ul>
+
+<ul id="author-email">
+<li id="author-email-a"><sup>a</sup><a about="#Krishna-Mangaladevi" href="mailto:kkrshna.prasad@gmail.com" rel="schema:email">kkrshna.prasad@gmail.com</a></li>
+<li id="author-email-b"><sup>b</sup><a about="#Wouter-Beek" href="mailto:w.g.j.beek@vu.nl" rel="schema:email">w.g.j.beek@vu.nl</a></li>
+<li id="author-email-c"><sup>c</sup><a about="#Tobias-Kuhn" href="mailto:t.kuhn@vu.nl" rel="schema:email">t.kuhn@vu.nl</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+<section id="abstract">
+<h2>Abstract</h2>
+
+The emergence of Linked Open Data (LOD) enables data on the Web to have a well defined structure and thereby to represent and interlink information from different sources and application areas. This web of data is a complex socially created network, where concepts and relations are connected in intricate ways, collectively forming a network of knowledge. These data are published in a decentralized fashion and they stem from different sources, have different types of relationships, and use different terminologies, ontologies and meta models. While this so-called LOD cloud has become a very valuable resource, we know only very little about the general structural properties of the contained data, which impedes our ability to use and organize this resource in an efficient and accurate manner. The objective of this paper is to provide a basic understanding of LOD from the point of view of network structures. We analyze LOD networks with respect to fundamental network properties such as degree distribution and clustering. Using these metrics, we compare our results to non-LOD networks, such as email, Web, and protein networks, that have been reported in the literature. Our results show that the LOD cloud exhibits a broad variety of different network structures, consistent with the diversity found in other types of networks.
+
+</section>
+
+<section id="keywords">
+<h2>Keywords</h2>
+<div>
+<ul>
+<li>Linked Data</li>
+<li>Network structure</li>
+<li>Knowledge network</li>
+</ul>
+</div>
+</section>
+
+<section id="introduction" rel="schema:hasPart" resource="#introduction">
+<h2 property="schema:name">Introduction</h2>
+<div datatype="rdf:HTML" property="schema:description">
+
+<p>The Linked Open Data (LOD) cloud has grown to huge dimensions in the recent past, currently consisting of tens of billion triples [<a class="ref" href="#ref-beek2016">3</a>]. The LOD cloud can be seen as a huge, decentralized network of knowledge consisting of statements in many different domains. While this resource of open Linked Data has proved to be very valuable in a wide variety of problems [<a class="ref" href="#ref-bizer2009">4</a>], we have largely remained ignorant about the structural properties of this data.</p>
+
+<p>In graph theory terms, it is a directed network of nodes (represented by URIs and typed string literals), interconnected by labeled, directed edges (where these labels are URIs too). In a certain sense, each label (i.e. RDF property) can be seen to represent its own network. The LOD cloud includes networks about, for example, friend relationships, geographical inclusion, and relatedness of concepts. The structural properties of these networks are important in many different respects. Scale-free networks, for example, have shown to be tolerant to random errors, but vulnerable to targeted attacks [<a class="ref" href="#ref-albert2000">1</a>], and the network structure of Linked Data is known to impact distributed reasoning [<a class="ref" href="#ref-oren2009">18</a>]. Our current technologies and insights will therefore benefit from a better understanding of the fundamental properties of such knowledge networks, of their common properties and their variety, and of their difference to other network types that have been studied in the past.</p>
+
+<p>In the study presented here, we want to discover the quantitative properties of the networks found in the Linked Open Data cloud. We are particularly interested in how uniform or different they are, whether they all exhibit similar network structures or whether there is a great variety. Finally, we want to compare these network properties to "real-world" networks, as they have been reported in the literature. Do knowledge networks, as we call them, found in the Linked Open Data cloud have a different structure than other types of networks that have been investigated so far?</p>
+
+</div>
+</section>
+
+<section id="background" rel="schema:hasPart" resource="#background">
+<h2 property="schema :name">Background</h2>
+<div datatype="rdf:HTML" property="schema:description">
+
+<p>Linked Open Data is one of the largest data sources on the Web, including big datasets such as DBpedia [<a class="ref" href="#ref-lehmann2014">14</a>], and it is growing at a fast pace [<a class="ref" href="#ref-rietveld2014">21</a>,<a class="ref" href="#ref-rietveld2015">19</a>]. This data source is by definition distributed and therefore difficult to access and handle in its entirety. However, the recent development of the LOD Laundromat platform [<a class="ref" href="#ref-beek2014">2</a>] provides a centralized and uniform access to a cleansed and harmonized version of a comprehensive collection of Linked Data. It also comes with a simple yet powerful command-line interface, called <em>Frank</em>, which facilitates new ways of conducting research and experiments on Linked Open Data [<a class="ref" href="#ref-rietveld2015">19</a>,<a class="ref" href="#ref-rietveld2016">20</a>].</p>
+<p>Various studies have been conducted on how the Linked Open Data cloud can be better explored and interlinked [<a class="ref" href="#ref-jain2010">9</a>,<a class="ref" href="#ref-khatchadourian2010">10</a>]. Other studies investigate how holistic graph analysis can be performed on RDF triple stores, including network properties such as degree distribution, clustering coefficient, connected component analysis, and node eccentricity [<a class="ref" href="#ref-lee2016">13</a>], and how such network metrics can be used to assess the quality of links [<a class="ref" href="#ref-gueret2012">8</a>].</p>
+<p>Outside of the Linked Open Data domain, many real-world networks have been analyzed in the past, including router networks, the Web, protein interaction networks, metabolic networks, and emails [<a class="ref" href="#ref-boccaletti2006">5</a>]. Further existing research includes, for example, the study of the degree distributions of growing networks [<a class="ref" href="#ref-krapivsky2001">11</a>], of theoretical graph properties of brain networks [<a class="ref" href="#ref-bullmore2009">6</a>], of the clustering in social networks [<a class="ref" href="#ref-opsahl2013">16</a>], and of the spread of  ideas through the scientific citation graph [<a class="ref" href="#ref-kuhn2014">12</a>].</p><p>Little is known about the information-theoretic properties of real-world RDF data.  Several structural properties of RDF data are known to follow a power-law distribution.  This includes the size of RDF documents, the frequency with which terms occur and the frequency with which schema resources (properties and classes) occur in the data  [<a class="ref" href="#ref-ding2006">7</a>,<a class="ref" href="#ref-oren2008">17</a>,<a class="ref" href="#ref-theoharis2008">22</a>]. Even though these observations have been relatively limited, they are already used as heuristics in the implementation of triple stores and data compressors.</p>
+
+</div>
+</section>
+
+<section id="approach" rel="schema:hasPart" resource="#approach">
+<h2 property="schema:name">Approach and Methods</h2>
+<div datatype="rdf:HTML" property="schema:description">
+
+<p>To analyze the structure and variety of knowledge networks, we focus our study on the following eight network properties, which cover all important and generally established basic network metrics:
+the average degree of nodes (i.e. average number of incoming and outgoing edges),
+the average local clustering coefficient (i.e. average chance of two neighbors of a given node being connected too),
+the global clustering coefficient (i.e. ratio of three connected nodes being fully connected),
+the number of connected components (i.e. subsets of a network where each node is directly or indirectly linked to every other node in the subset),
+the α exponent of a power-law fit as an indication of a scale-free network,
+whether the network is bi-partite or not (i.e. whether the nodes can be divided into two disjoint classes A and B, such that all edges point from A to B and never the other way round),
+the Gini coefficient of the degree distribution (i.e. the inequality of the degree distribution), and
+the Gini coefficient of the component size distribution (i.e. the inequality of the component sizes).</p>
+
+<table id="rdfproperties">
+<caption>Selected RDF properties and their official descriptions</caption>
+<tbody>
+<tr><th class="narrow"><strong>RDF property</strong></th><th><strong>Description</strong></th></tr>
+<tr><td><em>foaf:knows</em></td><td>"A person known by this person (indicating some level of reciprocated interaction between the parties)."</td></tr>
+<tr><td><em>geop:hasBorderWith</em></td><td>Borders among countries according to the United Nations</td></tr>
+<tr><td><em>osspr:contains</em></td><td>"The interior of one object completely contains the interior of the other. Their boundaries may or may not intersect." (inverse of <i>osspr:within</i>)</td></tr>
+<tr><td><em>osspr:within</em></td><td>"The interior of one object is completely within the interior of the other object. Their boundaries may or may not intersect." (inverse of <i>osspr:contains</i>)</td></tr>
+<tr><td><em>swrc:affiliation</em></td><td>Mapping of organizations to affiliated entities (e.g. employees)</td></tr>
+<tr><td><em>lexinfo:partofspeech</em></td><td>"Term used to describe how a particular word is used in a sentence."</td></tr>
+<tr><td><em>gn:parentCountry</em></td><td>"parent country"</td></tr>
+<tr><td><em>tag:associatedTag</em></td><td>"The object is a Tag which plays a role in the subject Tagging."</td></tr>
+</tbody>
+</table>
+
+<p>To calculate these metrics, we picked a number of widely used RDF properties from various vocabularies and domains, attempting to capture the variety of Linked Data (but at this point without claiming representativeness of the sample). We chose <em>foaf:knows</em> as a representative of a property on social relations, <i>geop:hasBorderWith</i> as a property of geographical proximity, <i>osspr:contains</i>/<i>osspr:within</i> as an example of relations about hierarchical inclusions, and <i>swrc:affiliation</i> as a social/organizational network. For comparison and exploration, we also included three properties for which we did not expect to find interesting network structures, because their semantics do not seem to describe a relation that would form a complex network: <i>lexinfo:partOfSpeech</i>, which maps words to their roles in a sentence, <i>gn:parentCountry</i>, which links geographical entities to the containing countries, and <i>tag:associatedTag</i>, which maps concepts to tag strings. Table <a href="#rdfproperties">1</a> shows an overview of these selected properties with their official descriptions.</p>
+
+<p>In addition, we look at a number of properties from the well-known and popular SKOS (Simple Knowledge Organization System) ontology [<a class="ref" href="#ref-miles2009">15</a>]. Specifically, <em>skos:narrower</em> specifies a given concept to be in some sense less general than a given more general concept, whereas <em>skos:related</em> states that two concepts are related without marking one or the other as more general.
+Similarly, <em>skos:closeMatch</em>, <em>skos:exactMatch</em>, <em>skos:broadMatch</em>, <em>skos:narrowMatch</em>, and <em>skos:relatedMatch</em> establish links between concepts, but these so called mapping relations establish links <em>across different</em> concept schemes. For comparison, we also add <em>skos:hasTopConcept</em>, which maps concept schemes to their top concepts, and for which we do not expect to find complex network structures.</p>
+
+<p>On the technical side, we retrieve the instances of these RDF properties from the Linked Open Data cloud by the use of the LOD Laundromat via the Frank tool [<a class="ref" href="#ref-rietveld2015">19</a>]. We download the triples in N-Quads format, which we transform then in a straight-forward way using a SWI Prolog program into the Graph Modeling Language (GML) for further processing. We then use the <em>igraph</em> package of R Studio to calculate the different network metrics. Gephi is used with its OpenOrd plugin to visualize the networks.</p><p>Standard R commands are used to calculate the metrics, specifically ecount, <i>vcount</i>, <i>degree</i>, <i>transitivity</i> (for clustering coefficients), <i>components</i> (to calculate weak components), and <i>bipartite_mapping</i>, and <i>ineq</i> (for inequality analysis using the Gini coefficient). A power law fit is performed on the degree distribution (Kolmogorov-Smirnov test) with the command <i>fit_power_law</i>. A power law exponent α between 2 and 3 is typical for scale-free networks (even though not sufficient to determine their scale-free nature).</p>
+
+</div>
+</section>
+
+<section id="results" rel="schema:hasPart" resource="#results">
+<h2 property="schema:name">Results</h2>
+<div datatype="rdf:HTML" property="schema:description">
+
+<p>Below we present the results of our analyses. We explain the sizes of the analyzed networks, show visualizations of them, describe them in terms of the introduced metrics, and finally compare these numbers to results that have been reported in the existing literature.</p>
+
+</div>
+
+<section id="Sizes" rel="schema:hasPart" resource="#Sizes"><h3 property="schema:name">Network Sizes</h3><div property="schema:description">
+
+<p>Table <a href="#networksize_table">2</a> shows the sizes of the analyzed networks in terms of numbers of documents, nodes, and edges. The number of documents denotes from how many data documents the respective triples were retrieved, i.e. it measures the distributedness of the network. This number varies from just 10 to more than 6000. In terms of classical network terms of nodes and edges, these networks range from just 132 nodes and 229 edges in the case of <i>geop:hasBorderWith</i> to more than 1.7 million nodes and more than 2.3 million edges in the case of <i>foaf:knows</i>. In the latter case, even the subset of triples that originated from the Last.fm platform is still larger than most other analyzed datasets with more than 300'000 nodes and more than 400'000 edges.</p>
+
+<table id="networksize_table">
+<caption>Sizes of analyzed networks</caption>
+<tbody>
+<tr>
+<th>Network</th>
+<th class="alignright">Documents</th>
+<th class="alignright">Nodes</th>
+<th class="alignright">Edges</th>
+<th>Size Class</th>
+</tr>
+<tr>
+<td><em>foaf:knows</em></td>
+<td class="alignright">421</td>
+<td class="alignright">1776554</td>
+<td class="alignright">2374275</td>
+<td class="red">Large</td>
+</tr>
+<tr>
+<td><em>foaf:knows</em> (Last.fm)</td>
+<td class="alignright">310</td>
+<td class="alignright">315765</td>
+<td class="alignright">469361</td>
+<td class="red">Large</td>
+</tr>
+<tr>
+<td><em>geop:hasBorderWith</em></td>
+<td class="alignright">13</td>
+<td class="alignright">132</td>
+<td class="alignright">229</td>
+<td class="green">Small</td>
+</tr>
+<tr>
+<td><em>osspr:contains</em></td>
+<td class="alignright">94</td>
+<td class="alignright">7736</td>
+<td class="alignright">10098</td>
+<td class="amber">Medium</td>
+</tr>
+<tr>
+<td><em>osspr:within</em></td>
+<td class="alignright">26</td>
+<td class="alignright">16623</td>
+<td class="alignright">28544</td>
+<td class="amber">Medium</td>
+</tr>
+<tr>
+<td><em>swrc:affiliation</em></td>
+<td class="alignright">508</td>
+<td class="alignright">12860</td>
+<td class="alignright">12366</td>
+<td class="amber">Medium</td>
+</tr>
+<tr>
+<td><em>lexinfo:partOfSpeech</em></td>
+<td class="alignright">10</td>
+<td class="alignright">60700</td>
+<td class="alignright">60678</td>
+<td class="amber">Medium</td>
+</tr>
+<tr>
+<td><em>gn:parentCountry</em></td>
+<td class="alignright">14</td>
+<td class="alignright">197117</td>
+<td class="alignright">197115</td>
+<td class="red">Large</td>
+</tr>
+<tr>
+<td><em>tag:associatedTag</em></td>
+<td class="alignright">328</td>
+<td class="alignright">27469</td>
+<td class="alignright">25670</td>
+<td class="amber">Medium</td>
+</tr>
+<tr>
+<td><em>skos:related</em></td>
+<td class="alignright">818</td>
+<td class="alignright">208076</td>
+<td class="alignright">300250</td>
+<td class="red">Large</td>
+</tr>
+<tr>
+<td><em>skos:narrower</em></td>
+<td class="alignright">5848</td>
+<td class="alignright">181261</td>
+<td class="alignright">169489</td>
+<td class="red">Large</td>
+</tr>
+<tr>
+<td><em>skos:relatedMatch</em></td>
+<td class="alignright">395</td>
+<td class="alignright">33862</td>
+<td class="alignright">34546</td>
+<td class="amber">Medium</td>
+</tr>
+<tr>
+<td><em>skos:broadMatch</em></td>
+<td class="alignright">45</td>
+<td class="alignright">9304</td>
+<td class="alignright">7207</td>
+<td class="green">Small</td>
+</tr>
+<tr>
+<td><em>skos:narrowMatch</em></td>
+<td class="alignright">42</td>
+<td class="alignright">1807</td>
+<td class="alignright">1338</td>
+<td class="green">Small</td>
+</tr>
+<tr>
+<td><em>skos:closeMatch</em></td>
+<td class="alignright">419</td>
+<td class="alignright">328877</td>
+<td class="alignright">254703</td>
+<td class="red">Large</td>
+</tr>
+<tr>
+<td><em>skos:exactMatch</em></td>
+<td class="alignright">5901</td>
+<td class="alignright">263291</td>
+<td class="alignright">213306</td>
+<td class="red">Large</td>
+</tr>
+<tr>
+<td><em>skos:hasTopConcept</em></td>
+<td class="alignright">5854</td>
+<td class="alignright">26180</td>
+<td class="alignright">25304</td>
+<td class="amber">Medium</td>
+</tr>
+</tbody></table>
+
+</div>
+</section>
+
+<section id="Visualizations" rel="schema:hasPart" resource="#Visualizations"><h3 property="schema:name">Visualizations</h3>
+<div property="schema:description">
+
+<p>Network visualizations can be very helpful to get a feeling of the network structures and as an exploratory aid. Figure <a href="#visualization_figure">1</a> shows the visualizations of the first part of the analyzed networks. The full <i>foaf:knows</i> network was too large to visualize, which is why we can only show here a visualization of its Last.fm subset.</p>
+
+<figure id="visualization_figure"><table><tbody>
+<tr>
+<td><em>foaf:knows</em> (Last.fm subset)<img src="img/v1.png" alt=""/></td>
+<td><em>geop:hasBorderWith</em><img src="img/v3.png" alt=""/></td>
+<td><em>osspr:contains</em><img src="img/v15.png" alt=""/></td>
+</tr>
+<tr>
+<td><em>osspr:within</em><img src="img/v16.png" alt=""/></td>
+<td><em>swrc:affiliation</em><img src="img/v12.png" alt=""/></td>
+<td><em>lexinfo:partOfSpeech</em><img src="img/v14.png" alt=""/></td>
+</tr>
+<tr>
+<td><em>gn:parentCountry</em><img src="img/v2.png" alt=""/></td>
+<td><em>tag:associatedTag</em><img src="img/v17.png" alt=""/></td>
+<td></td>
+</tr>
+</tbody></table>
+<figcaption>Network visualizations of different predicates</figcaption>
+</figure>
+
+<p>The variety of appearance of the networks through these visualizations is striking. Social, geographical, and containment relations each exhibit a very particular and clearly distinguishable form. The two relations <em>osspr:contains</em> and its inverse <em>osspr:within</em>, which are semantically identical apart from their direction (which was not taken into account by the visualization algorithm), show similar visual features but are nevertheless clearly different in their structure.
+<em>lexinfo:partOfSpeech</em> and <em>gn:parentCountry</em>, as expected, do not exhibit proper network structures, but instead show large and small groups around central objects. These central objects are of course the part of speech categories and countries, respectively. The case of <em>tag:associatedTag</em>, however, gave us a surprising result. We expected this network to be as monotonic as the previous two, but to our surprise it seems to possess a complex network structure. The explanation for this is that seemingly basic relations (from a network point of view), such as a relation between concepts and their informal tags, can lead to complex networks if the relation is many-to-many. Concepts are indirectly linked to related concepts via their overlapping tags, thereby establishing a kind of relatedness network, which can exhibit complex structures.</p> 
+
+<figure id="skosvisualization_figure"><table><tbody>
+<tr>
+<td><em>skos:related</em><img src="img/v4.png" alt=""/></td>
+<td><em>skos:narrower</em><img src="img/v5.png" alt=""/></td>
+<td><em>skos:relatedMatch</em><img src="img/v10.png" alt=""/></td>
+</tr>
+<tr>
+<td><em>skos:broadMatch</em><img src="img/v7.png" alt=""/></td>
+<td><em>skos:narrowMatch</em><img src="img/v8.png" alt=""/></td>
+<td><em>skos:closeMatch</em><img src="img/v9.png" alt=""/></td>
+</tr>
+<tr>
+<td><em>skos:exactMatch</em><img src="img/v11.png" alt=""/></td>
+<td><em>skos:hasTopConcept</em><img src="img/v6.png" alt=""/></td>
+<td></td>
+</tr>
+</tbody></table>
+<figcaption>Network visualizations of SKOS predicates</figcaption>
+</figure>
+</div></section>
+
+<p>The RDF properties discussed above stem from different vocabularies, which were defined by different people and are used by different user groups. To find out whether the observed variety is possibly explained by these differences alone, we can look at the different relations from the SKOS vocabulary, which were all defined by the same people and presumably used by the same user groups.
+Figure <a href="#skosvisualization_figure">2</a> shows the visualizations of the chosen SKOS properties. While not quite as varied as the examples shown above, they nevertheless exhibit a striking variety of network structures.</p> 
+
+<section id="Metrics" rel="schema:hasPart" resource="#Metrics"><h3 property="schema:name">Metrics</h3>
+<div property="schema:description">
+
+<p>Visualization are good for exploration and for getting an intuitive feeling of the networks, but we now need an objective analysis by quantitative measures. Table <a href="#networksummary_table">5</a> shows the results for the chosen network metrics that were introduced above.</p>
+
+<table id="networksummary_table">
+<caption>Summary of network metrics</caption>
+<tbody>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th class="aligncenter bottomline" colspan="2">Clustering coefficient</th>
+<th></th>
+<th></th>
+<th class="aligncenter bottomline" colspan="2">Inequality</th>
+</tr>
+<tr>
+<th>Network</th>
+<th>Size</th>
+<th>Avg. degree</th>
+<th>Local</th>
+<th>Global</th>
+<th>Bi-partite?</th>
+<th>Power-law α</th>
+<th>Degree dist.</th>
+<th>Comp. size</th>
+</tr>
+<tr>
+<td><em>foaf:knows</em></td>
+<td class="red">Large</td>
+<td class="amber">2.673</td>
+<td class="amber">0.1017</td>
+<td class="red">0.0116</td>
+<td class="red">No</td>
+<td class="red">1.992</td>
+<td class="red">0.6047</td>
+<td class="red">0.7783</td>
+</tr>
+<tr>
+<td><em>foaf:knows</em> (Last.fm)</td>
+<td class="red">Large</td>
+<td class="amber">2.973</td>
+<td class="red">0.0932</td>
+<td class="red">0.0046</td>
+<td class="red">No</td>
+<td class="green">2.020</td>
+<td class="red">0.6095</td>
+<td class="red">0.9911</td>
+</tr>
+<tr>
+<td><em>geop:hasBorderWith</em></td>
+<td class="green">Small</td>
+<td class="red">3.470</td>
+<td class="amber">0.3920</td>
+<td class="amber">0.2304</td>
+<td class="red">No</td>
+<td class="red">4.559</td>
+<td class="green">0.4179</td>
+<td class="red">0.6174</td>
+</tr>
+<tr>
+<td><em>osspr:contains</em></td>
+<td class="amber">Medium</td>
+<td class="amber">2.611</td>
+<td class="green">0.6667</td>
+<td class="red">0.0076</td>
+<td class="red">No</td>
+<td class="red">1.9985</td>
+<td class="red">0.5696</td>
+<td class="red">0.7079</td>
+</tr>
+<tr>
+<td><em>osspr:within</em></td>
+<td class="amber">Medium</td>
+<td class="red">3.434</td>
+<td class="green">0.6512</td>
+<td class="red">0.0065</td>
+<td class="red">No</td>
+<td class="red">1.8653</td>
+<td class="red">0.5696</td>
+<td class="red">0.7286</td>
+</tr>
+<tr>
+<td><em>swrc:affiliation</em></td>
+<td class="amber">Medium</td>
+<td class="green">1.923</td>
+<td class="red">0.0</td>
+<td class="red">0.0</td>
+<td class="red">No</td>
+<td class="green">2.453</td>
+<td class="green">0.4305</td>
+<td class="red">0.6845</td>
+</tr>
+<tr>
+<td><em>lexinfo:partOfSpeech</em></td>
+<td class="amber">Medium</td>
+<td class="green">1.999</td>
+<td class="red">0.0</td>
+<td class="red">0.0</td>
+<td class="green">Yes</td>
+<td class="red">1.0277</td>
+<td class="green">0.4998</td>
+<td class="red">0.8949</td>
+</tr>
+<tr>
+<td><em>gn:parentCountry</em></td>
+<td class="red">Large</td>
+<td class="amber">2.000</td>
+<td class="red">0.0</td>
+<td class="red">0.0</td>
+<td class="red">No</td>
+<td class="red">1.253</td>
+<td class="green">0.5000</td>
+<td class="red">0.9032</td>
+</tr>
+<tr>
+<td><em>tag:associatedTag</em></td>
+<td class="amber">Medium</td>
+<td class="green">1.869</td>
+<td class="red">0.0</td>
+<td class="red">0.0</td>
+<td class="green">Yes</td>
+<td class="red">3.0444</td>
+<td class="green">0.4064</td>
+<td class="green">0.3638</td>
+</tr>
+<tr>
+<td><em>skos:related</em></td>
+<td class="red">Large</td>
+<td class="amber">2.886</td>
+<td class="amber">0.2624</td>
+<td class="amber">0.1119</td>
+<td class="red">No</td>
+<td class="green">2.857</td>
+<td class="green">0.4864</td>
+<td class="green">0.4862</td>
+</tr>
+<tr>
+<td><em>skos:narrower</em></td>
+<td class="red">Large</td>
+<td class="green">1.87</td>
+<td class="red">0.0304</td>
+<td class="amber">0.002</td>
+<td class="red">No</td>
+<td class="green">2.8528</td>
+<td class="green">0.4273</td>
+<td class="red">0.7326</td>
+</tr>
+<tr>
+<td><em>skos:relatedMatch</em></td>
+<td class="amber">Medium</td>
+<td class="amber">2.040</td>
+<td class="red">1.41E-04</td>
+<td class="red">2.03E-05</td>
+<td class="red">No</td>
+<td class="red">3.4793</td>
+<td class="green">0.3846</td>
+<td class="red">0.5465</td>
+</tr>
+<tr>
+<td><em>skos:broadMatch</em></td>
+<td class="green">Small</td>
+<td class="green">1.549</td>
+<td class="red">0.0</td>
+<td class="red">0.0</td>
+<td class="green">Yes</td>
+<td class="red">3.3594</td>
+<td class="green">0.3248</td>
+<td class="green">0.3961</td>
+</tr>
+<tr>
+<td><em>skos:narrowMatch</em></td>
+<td class="green">Small</td>
+<td class="green">1.481</td>
+<td class="red">0.0</td>
+<td class="red">0.0</td>
+<td class="green">Yes</td>
+<td class="green">2.1632</td>
+<td class="green">0.2898</td>
+<td class="green">0.2790</td>
+</tr>
+<tr>
+<td><em>skos:closeMatch</em></td>
+<td class="red">Large</td>
+<td class="green">1.549</td>
+<td class="red">2.14E-04</td>
+<td class="red">1.01E-04</td>
+<td class="red">No</td>
+<td class="red">3.1513</td>
+<td class="green">0.2808</td>
+<td class="green">0.2620</td>
+</tr>
+<tr>
+<td><em>skos:exactMatch</em></td>
+<td class="red">Large</td>
+<td class="green">1.620</td>
+<td class="amber">0.0878</td>
+<td class="amber">0.1758</td>
+<td class="red">No</td>
+<td class="red">3.212</td>
+<td class="green">0.3458</td>
+<td class="green">0.1940</td>
+</tr>
+<tr>
+<td><em>skos:hasTopConcept</em></td>
+<td class="amber">Medium</td>
+<td class="green">1.933</td>
+<td class="red">0.0</td>
+<td class="red">0.0</td>
+<td class="green">Yes</td>
+<td class="red">1.7919</td>
+<td class="green">0.4754</td>
+<td class="red">0.5665</td>
+</tr>
+</tbody></table>
+
+<p>The average degree ranges from 1.48 for <em>skos:narrowMatch</em> to above 3.4 for <em>geop:hasBorderWith</em> and <em>osspr:within</em>.
+As expected, our examples for comparison, <em>lexinfo:partOfSpeech</em>, <em>gn:parentCountry</em>, <em>tag:associatedTag</em>, and <em>skos:hasTopConcept</em>, show a bipartite network structure (i.e. no entities show up on both sides of the relation) or have at least zero or near-zero clustering coefficients.
+The remaining relations show a relatively broad range of clustering behavior up to around 0.65 for <em>osspr:contains</em> and <em>osspr:within</em> on the average local clustering coefficient, and up to 0.23 for the global coefficient and <em>geop:hasBorderWith</em>.</p>
+
+<p>Three networks exhibit an α exponent of a power law fit between 2 and 3, which is an indication of a scale-free structure: the Last.fm subset of <em>foaf:knows</em>, <em>swrc:affiliation</em>, <em>skos:related</em>, <em>skos:narrower</em>, and <em>skos:narrowMatch</em>. In addition, the full <em>foaf:knows</em> network, <em>osspr:contains</em>, and <em>tag:associatedTag</em> are outside but very close to the boundary values. Further investigation would be needed, however, to reliably determine whether these networks are indeed scale-free.</p>
+
+<p>The inequality measures in the form of the Gini coefficient on the degree distribution show that this distribution ranges from fairly equal for some of the SKOS predicates to fairly unequal in the case of <em>foaf:knows</em>. An even wider variety is manifested for the inequality with respect to the size of the network's connected components. From highly unequal (because one giant component includes almost all nodes in the network), such as 0.99 for the Last.fm subset of <em>foaf:knows</em>, to very equal in the case of <em>skos:exactMatch</em> with a value of 0.19.</p>
+
+</div>
+</section>
+
+<section id="Comparison" rel="schema:hasPart" resource="#Comparison"><h3 property="schema:name">Comparison</h3>
+<div property="schema:description">
+
+<p>So far, we have seen a large variety of results for the chosen network metrics in the LOD cloud, but we do not know so far how this variety compares to non-LOD networks, which have been studied extensively. For this comparison, we use nine well-studied networks that have been summarized in the literature, including their average degrees and average local clustering coefficient [<a class="ref" href="#ref-boccaletti2006">5</a>]. These networks include a social network of actors, the link structure of the Web, protein interactions, and server networks.</p>
+
+<figure id="degreecomparison_figure">
+<img src="img/degree-comparison.svg" />
+<figcaption>Comparison of average degree to other networks</figcaption>
+</figure>
+
+<p>Figure <a href="#degreecomparison_figure">3</a> shows the comparison between LOD networks and non-LOD networks with respect to their average degree (note the logarithmic <em>y</em>-axis). A majority of the other networks have a higher average degree than any of the analyzed LOD networks. Only four LOD networks have an average degree that is higher than the <em>lowest</em> of the non-LOD ones. Therefore, while LOD networks show a relatively wide range of average degrees, they do not reach near the top of the scale. This can be explained by the fact that LOD networks are by design incomplete (everybody is free to add more nodes and edges), whereas the other networks stem from data with stronger completeness claims.</p>
+
+<figure id="clusteringcomparison_figure">
+<img src="img/clustering-comparison.svg" />
+<figcaption>Comparison of global clustering coefficient to other networks</figcaption>
+</figure>
+
+<p>Figure <a href="#clusteringcomparison_figure">4</a> shows the same kind of comparison, but now with respect to the average local clustering coefficient. We see that the LOD networks in this case, apart from the bi-partite or almost bi-partite networks (for which the clustering coefficient is a meaningless metric), spread over the given range much more evenly. While they still do not reach to the very top, they come in this case at least close to it.
+Unfortunately, there is no data available for the non-LOD networks with respect to the remaining network metrics. Therefore such comparisons are at the moment only possible for the given two metrics.</p>
+
+</div>
+</section>
+
+</section>
+
+<section id="conclusions" rel="schema:hasPart" resource="#conclusions">
+<h2 property="schema:name">Discussion and Conclusions</h2>
+<div datatype="rdf:HTML" property="schema:description">
+
+<p>We have shown that there is a large variety of network structures in the LOD cloud. Their visualizations show striking differences, and sometimes the structure of a given network is hard to anticipate and the results can be surprising, which underscores the importance of our work. While the observed metrics are similar to some other networks reported in the literature, their distributions seem to be slightly different, which might be due to LOD's lack of completeness.</p>
+
+<p>The study of the degree of completeness and its consequences is in fact one of our future plans. We furthermore plan to conduct studies that take the directedness of LOD networks into account, instead of analyzing them only as if they were undirected networks. A further important point to consider in the future are entailed relations. Our two networks for <em>osspr:within</em> and <em>osspr:contains</em>, for example, entail each other, as they are defined as inverse properties. They therefore form just one network on the semantic level. Similarly, the different SKOS properties, as many other LOD properties, are arranged in a hierarchy, and their relation instances can therefore be inferred in well-defined cases, even if the instance has not been explicitly asserted.</p>
+
+<p>It is clear that the analyses shown in this paper have just scratched the surface, and there is much more to analyze and understand. We hope that our work can provide a basis for such future endeavors.</p>
+
+</div>
+</section>
+
+<section id="references">
+<h2>References</h2>
+<div>
+<ol>
+
+<li id="ref-albert2000" property="schema:citation">Albert, R., Jeong, H., &amp; Barabási, A. L. (2000). Error and attack tolerance of complex networks. nature, 406(6794), 378-382.</li>
+
+<li id="ref-beek2014" property="schema:citation">Beek, W., Rietveld, L., Bazoobandi, H. R., Wielemaker, J., &amp; Schlobach, S. (2014). LOD laundromat: a uniform way of publishing other people’s dirty data. In The Semantic Web–ISWC 2014 (pp. 213-228). Springer International Publishing.</li>
+
+<li id="ref-beek2016" property="schema:citation">Beek, W., Rietveld, L., Schlobach, S., &amp; van Harmelen, F. (2016). LOD Laundromat: Why the Semantic Web Needs Centralization (Even If We Don't Like It). IEEE Internet Computing, 20(2), 78-81.</li>
+
+<li id="ref-bizer2009" property="schema:citation">Bizer, C., Heath, T., &amp; Berners-Lee, T. (2009). Linked data-the story so far. Semantic Services, Interoperability and Web Applications: Emerging Concepts, 205-227.</li>
+
+<li id="ref-boccaletti2006" property="schema:citation">Boccaletti, S., Latora, V., Moreno, Y., Chavez, M., &amp; Hwang, D. U. (2006). Complex networks: Structure and dynamics. Physics reports, 424(4), 175-308.</li>
+
+<li id="ref-bullmore2009" property="schema:citation">Bullmore, E., &amp; Sporns, O. (2009). Complex brain networks: graph theoretical analysis of structural and functional systems. Nature Reviews Neuroscience,10(3), 186-198</li>
+
+<li id="ref-ding2006" property="schema:citation">Ding, L. &amp; Finin, T. (2006). Characterizing the Semantic Web on the Web. The Semantic Web -- ISWC, Springer, 242-257.</li>
+
+<li id="ref-gueret2012" property="schema:citation">Guéret, C., Groth, P., Stadler, C., & Lehmann, J. (2012). Assessing Linked Data Mappings Using Network Measures. The Semantic Web: Research and Applications, 87–102.</li>
+
+<li id="ref-jain2010" property="schema:citation">Jain, P., Hitzler, P., Sheth, A. P., Verma, K., &amp; Yeh, P. Z. (2010). Ontology alignment for linked open data. In The Semantic Web–ISWC 2010 (pp. 402-417). Springer Berlin Heidelberg.</li>
+
+<li id="ref-khatchadourian2010" property="schema:citation">Khatchadourian, S., &amp; Consens, M. (2010). ExpLOD: Summary-based exploration of interlinking and RDF usage in the linked open data cloud. The Semantic Web: Research and Applications, 272-287.</li>
+
+<li id="ref-krapivsky2001" property="schema:citation">Krapivsky, P. L., Rodgers, G. J., &amp; Redner, S. (2001). Degree distributions of growing networks. Physical Review Letters, 86(23), 5401.</li>
+
+<li id="ref-kuhn2014" property="schema:citation">Kuhn, T., Perc, M., &amp; Helbing, D. (2014). Inheritance Patterns in Citation Networks Reveal Scientific Memes. Physical Review X, 4(4). doi:10.1103/physrevx.4.041036</li>
+
+<li id="ref-lee2016" property="schema:citation">Lee, S., Sukumar, S. R., Hong, S., & Lim, S.-H. (2016). Enabling graph mining in RDF triplestores using SPARQL for holistic in-situ graph analysis. Expert Systems with Applications, 48, 9–25. doi:10.1016/j.eswa.2015.11.010</li>
+
+<li id="ref-lehmann2014" property="schema:citation">Lehmann, J., Isele, R., Jakob, M., Jentzsch, A., Kontokostas, D., Mendes, P. N., ... &amp; Bizer, C. (2014). DBpedia-a large-scale, multilingual knowledge base extracted from Wikipedia. Semantic Web Journal, 5, 1-29.</li>
+
+<li id="ref-miles2009" property="schema:citation">Miles, A. &amp; Bechhofer, S. (2009) SKOS Simple Knowledge Organization System Reference. W3C Recommendation 18 August 2009. https://www.w3.org/TR/skos-reference/</li>
+
+<li id="ref-opsahl2013" property="schema:citation">Opsahl, T. (2013). Triadic closure in two-mode networks: Redefining the global and local clustering coefficients. Social Networks, 35(2), 159-167.</li>
+
+<li id="ref-oren2008" property="schema:citation">Oren, E., Delbru, R., Catasta, M., Cyganiak, R., Stenzhorn, H., &amp; Tummarello, G.  (2008). Sindice.com: A Document-oriented Lookup Index for Open Linked Data. International Journal of Metadata, Semantics and Ontologies, 3(1), 37-52.</li>
+
+<li id="ref-oren2009" property="schema:citation">Oren, E., Kotoulas, S., Anadiotis, G., Siebes, R., ten Teije, A., &amp; van Harmelen, F. (2009). Marvin: Distributed reasoning over large-scale Semantic Web data. Web Semantics: Science, Services and Agents on the World Wide Web, 7(4), 305–316. doi:10.1016/j.websem.2009.09.002</li>
+
+<li id="ref-rietveld2015" property="schema:citation">Rietveld, L., Beek, W., &amp; Schlobach, S. (2015). LOD Lab: Experiments at LOD Scale. In The Semantic Web-ISWC 2015 (pp. 339-355). Springer International Publishing.</li>
+
+<li id="ref-rietveld2016" property="schema:citation">Rietveld, L., Beek, W., Schlobach, S.: Meta-Data for a lot of LOD. Semantic Web. 2016</li>
+
+<li id="ref-rietveld2014" property="schema:citation">Rietveld, L., Hoekstra, R., Schlobach, S., &amp; Guéret, C. (2014). Structural Properties as Proxy for Semantic Relevance in RDF Graph Sampling. In The Semantic Web–ISWC 2014 (pp. 81-96). Springer International Publishing.</li>
+
+<li id="ref-theoharis2008" property="schema:citation">Theoharis, Y., Tzitzikas, Y.,    Kotzinos, D., &amp;    Christophides, V. (2008). On Graph Features of Semantic Web schemas. IEEE Transactions on Knowledge and Data Engineering,  20(5), 692-702.</li>
+
+</ol>
+</div>
+
+</section>
+</div>
+
+</article>
+</main>
+</body>
+</html>
