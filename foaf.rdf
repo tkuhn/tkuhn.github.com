@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:cert="http://www.w3.org/ns/auth/cert#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:schema="http://schema.org/"
+>
+
+  <PersonalProfileDocument rdf:about="">
+    <rdfs:label>FOAF Description</rdfs:label>
+    <primaryTopic rdf:resource="#me"/>
+  </PersonalProfileDocument>
+
+  <Person rdf:about="#me">
+
+    <name>Tobias Kuhn</name>
+    <title>Dr</title>
+    <givenName>Tobias</givenName>
+    <familyName>Kuhn</familyName>
+    <homepage rdf:resource="http://www.tkuhn.org/"/>
+    <workplaceHomepage rdf:resource="http://ucds.cs.vu.nl"/>
+
+    <img rdf:resource="http://www.tkuhn.org/tk.jpg"/>
+
+    <mbox rdf:resource="mailto:kuhntobias@gmail.com"/>
+
+    <status>
+      I am an assistant professor at VU University Amsterdam working on the semantic web, social systems, controlled natural languages, artificial intelligence, computational linguistics, and bioinformatics.
+    </status>
+
+    <schema:jobTitle>
+      Assistant Professor
+    </schema:jobTitle>
+
+    <holdsAccount>
+      <OnlineAccount>
+        <name>Twitter</name>
+        <accountServiceHomepage rdf:resource="https://twitter.com/"/>
+        <accountName>txkuhn</accountName>
+      </OnlineAccount>
+    </holdsAccount>
+
+  </Person>
+
+
+</rdf:RDF>
