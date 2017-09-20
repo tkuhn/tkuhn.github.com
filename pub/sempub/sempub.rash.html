@@ -5,6 +5,7 @@ Basic RASH template - Version 1.1, December 31, 2016 by Silvio Peroni
 -->
 <html
   xmlns="http://www.w3.org/1999/xhtml"
+  lang="en"
   prefix="
     schema: http://schema.org/
     prism: http://prismstandard.org/namespaces/basic/2.0/
@@ -12,23 +13,17 @@ Basic RASH template - Version 1.1, December 31, 2016 by Silvio Peroni
 
 <head>
 
+<link rel="collection" href="http://www.tkuhn.org/pub/sempub/">
+
 <!-- Visualisation requirements (mandatory for optimal reading) -->
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<link rel="stylesheet" href="aux/rash/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="aux/rash/css/rash.css"/>
-<script src="aux/rash/js/jquery.min.js"> </script>
-<script src="aux/rash/js/bootstrap.min.js"> </script>
-<script src="aux/rash/js/rash.js"> </script>
-
-<!--
 <link rel="stylesheet" href="https://rawgit.com/essepuntato/rash/master/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="https://rawgit.com/essepuntato/rash/master/css/rash.css"/>
 <script src="https://rawgit.com/essepuntato/rash/master/js/jquery.min.js"> </script>
 <script src="https://rawgit.com/essepuntato/rash/master/js/bootstrap.min.js"> </script>
 <script src="https://rawgit.com/essepuntato/rash/master/js/rash.js"> </script>
--->
 
 <!-- MathJax for multi-browser support of LaTeX formulas and MathML -->
 <!--<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"> </script> -->
@@ -48,7 +43,7 @@ Basic RASH template - Version 1.1, December 31, 2016 by Silvio Peroni
 
 <!-- Affiliations -->
 <meta about="vu-cs" property="schema:name"
-  content="Department of Computer Science at VU University Amsterdam, Netherlands" />
+  content="Department of Computer Science at Vrije Universiteit Amsterdam, Netherlands" />
 <meta about="mu-ids" property="schema:name"
   content="Institute of Data Science, Maastricht University, Netherlands" />
 
@@ -119,9 +114,7 @@ paper:
 
 <section role="doc-abstract">
 <h1>Abstract</h1>
-<p>Several approaches and systems have been presented for what has been called <em>semantic publishing</em>. Closer inspection, however, reveals that these approaches are mostly not about publishing semantic representations, as the name seems to suggest. Rather, most approaches take the processes and outcomes of the current narrative-based publishing system for granted and only work with the already published papers. This includes semantic annotations, semantic interlinking, semantic integration, and semantic discovery, but with the semantics coming into play only after the publication of the original article. While these are interesting approaches, they fall short of providing a vision to transcend the current publishing paradigm. We argue for taking the term <em>semantic publishing</em> literally and work towards a vision of <em>genuine</em> semantic publishing, where computational tools and algorithms can help us with dealing with the wealth of human knowledge by letting researchers capture their research results with formal semantics from the start.
-We argue that genuine semantic publications should come with formal semantics as an integral and primary component at the time of publication, that these representations should have essential coverage in the sense that they cover the main results, that they should be authentic in the sense that they originate from the authors, and that they should be fine-grained and light-weight for optimized re-usability and minimized publication overhead.
-This paper is in fact not just advocating our concept, but is itself a genuine semantic publication, thereby demonstrating and illustrating our points.</p>
+<p>Various approaches and systems have been presented in the context of scholarly communication for what has been called <em>semantic publishing</em>. Closer inspection, however, reveals that these approaches are mostly not about publishing semantic representations, as the name seems to suggest. Rather, most approaches take the processes and outcomes of the current narrative-based publishing system for granted and only work with the already published papers. This includes semantic annotations, semantic interlinking, semantic integration, and semantic discovery, but with the semantics coming into play only after the publication of the original article. While these are interesting and important approaches, they fall short of providing a vision to transcend the current publishing paradigm. We argue for taking the term <em>semantic publishing</em> literally and work towards a vision of <em>genuine</em> semantic publishing, where computational tools and algorithms can help us with dealing with the wealth of human knowledge by letting researchers capture their research results with formal semantics from the start, as integral components of their publications. We argue that these semantic components should furthermore cover at least the main results, that they should originate from the authors themselves, and that they should be fine-grained and light-weight for optimized re-usability and minimized publication overhead. This paper is in fact not just advocating our concept, but is itself a genuine semantic publication, thereby demonstrating and illustrating our points.</p>
 </section>
 
 
@@ -136,18 +129,15 @@ Perhaps the most important shortcoming of the current publication system is that
 </p>
 
 <p>
-Semantic publishing <a href="#shotton2009ploscompbiol"></a><a href="#shotton2009lp"></a><a href="#dewaard2010is"></a> is a general approach to tackle this problem using the concepts and tools of the Semantic Web and related fields.
+Semantic publishing <a href="#shotton2009ploscompbiol"></a><a href="#shotton2009lp"></a><a href="#dewaard2010is"></a> is a general approach to tackle this problem of scholarly communication by using the concepts and tools of the Semantic Web and related fields.
 This idea was basically born together with the idea of the Semantic Web itself. In 2001, Tim Berners-Lee and James Hendler sketched how they expect researchers in the future to produce machine-readable descriptions of their experiments and findings, in the form of mark-up of their research papers or as independent representations made public on the web <a href="#bernerslee2001nature"></a>. Unfortunately, subsequent work has deviated from this general proposal.
 </p>
 
 <p>
-The topic of semantic publishing has received considerable attention during the last few years, with workshop series on 
-<a href="http://sepublica.mywikipaper.org">Semantic Publishing (SePublica)</a> and <a href="http://linkedscience.org/events/lisc2014/">Linked Science (LISC)</a> and Semantic Publishing Challenges at ESWC conferences <a href="#lange2014sempubchallenge"></a><a href="#diiorio2015sempubchallenge"></a><a href="#vahdati2016sempubchallenge"></a>.
-However, as we argue below, these approaches interpret the term <em>semantic publishing</em> in a non-intuitive way: Instead of changing the publishing process, they mostly take existing classical publications as their starting point and simply apply semantic technologies on them, mostly without touching the publishing process or the object that is being published. This leads them to propose solutions that are quite conventional, and fall short of providing a vision for the long-term future.
-</p>
-
-<p>
-Curiously, existing approaches that use the term <em>semantic publishing</em> are mostly not really about semantic publishing in the literal sense, while the approaches that <em>do</em> deal with it typically do not use that name. To resolve that confusion, we introduce below the notion of <em>genuine semantic publishing</em>.
+The topic of semantic publishing has received considerable attention during the last few years, most prominently in events that carry the term in their names, specifically the with workshop series on 
+<a href="http://sepublica.mywikipaper.org">Semantic Publishing (SePublica)</a> and the Semantic Publishing Challenges at ESWC conferences <a href="#lange2014sempubchallenge"></a><a href="#diiorio2015sempubchallenge"></a><a href="#vahdati2016sempubchallenge"></a>.
+However, the presented approaches mostly interpret the term <em>semantic publishing</em> in a non-intuitive way. Instead of changing the publishing process, they mostly take existing classical publications as their starting point and simply apply semantic technologies on them, mostly without touching the publishing process or the object that is being published. This leads them to propose solutions that are quite conventional, and fall short of providing a vision for the long-term future.
+We argue here that we should aim for semantic publishing in the literal sense, which we call <em>genuine semantic publishing</em> to distinguish it from the existing term.
 </p>
 
 </section>
@@ -157,21 +147,16 @@ Curiously, existing approaches that use the term <em>semantic publishing</em> ar
 <h1>Semantic Publishing</h1>
 
 <p>
-Semantic publishing has been defined as "anything that enhances the meaning of a published journal article, facilitates its automated discovery, enables its linking to semantically related articles, provides access to data within the article in actionable form, or facilitates integration of data between papers" <a href="#shotton2009lp"></a>.
-While this definition accurately reflects what has been referred to as "semantic publishing" in the recent literature, we think that it is in one way too restrictive and in another way too inclusive if we want to be faithful to the literal and intuitive meaning of the term and if we aim to follow the spirit of the Semantic Web vision.
+Semantic publishing has been defined as "anything that enhances the meaning of a published journal article, facilitates its automated discovery, enables its linking to semantically related articles, provides access to data within the article in actionable form, or facilitates integration of data between papers" <a href="#shotton2009lp"></a>, and this definition accurately reflects how the term "semantic publishing" has been used in the recent literature. We argue here, however, that this definition is in one way too restrictive and in another way too inclusive if we want to be faithful to the literal and intuitive meaning of the term and if we aim to follow the spirit of the Semantic Web vision.
 </p>
 
 <p>
-In our view, the definition above is too restrictive in the sense that semantic publications according to this definition are required to accompany a "journal article" or a "paper." An entity that contains only a semantic representation of a scientific result, without an accompanying narrative article, could not be considered a semantic publication. On the other hand the definition is too inclusive, in our view, in the sense that it covers very shallow approaches that add little &mdash; if anything &mdash; to established approaches of publishing. For example, letting authors choose keywords from standardized vocabularies for their paper &mdash; as many journals do &mdash; in fact "enables its linking to semantically related articles," and therefore by the definition above makes it a semantic publication. As another example, a semantic annotation performed by a third party on an article "enhances the meaning of a published journal article" and therefore would have to be called a semantic publication, even if the semantic annotation is not even made public.
-</p>
-
-<p>
-In general, the existing literature seems to interpret the term "semantic publishing" as "adding semantics to something that is published" instead of the more intuitive readings of "publishing something that is semantic" or "publishing in a semantic manner." (We are using the word <em>semantic</em> in its narrow technical sense of <em>carrying a formal logic-based representation of the content's meaning</em>.)
+In our view, the definition above is too restrictive because semantic publications according to this definition are required to accompany a "journal article" or a "paper." An entity that only contains a semantic representation of a scientific result, without an accompanying narrative article, could not be considered a semantic publication. On the other hand the definition is too inclusive, in our view, because it covers very shallow approaches that add little — if anything — to established approaches of publishing. For example, letting authors choose keywords from standardized vocabularies for their paper — as many journals do — in fact "enables its linking to semantically related articles," and therefore by the definition above makes it a semantic publication. As another example, a semantic annotation performed by a third party on an article "enhances the meaning of a published journal article" and therefore would have to be called a semantic publication, even if the semantic annotation is not even made public. In general, the existing literature seems to interpret the term "semantic publishing" as "adding semantics to something that is published" instead of the more intuitive readings of "publishing something that is semantic" or "publishing in a semantic manner." (We are using the word <em>semantic</em> in its narrow technical sense of <em>carrying a formal logic-based representation of the content's meaning</em>.)
 </p>
 
 <p>
 We argue here for a more intuitive definition of <em>semantic publishing</em> that is broader in the sense that no narrative article needs to be present, and that is at the same time narrower in the sense that the semantic representation has to be a first-class object created and published by the authors.
-We propose the definition that <em>genuine semantic publishing</em> occurs when somebody publishes a work that includes authentic and fine-grained representations of its content in a semantic notation, where these semantic representations have essential coverage and are a primary component of the published entity. We explain in more detail below what we mean by <em>authentic, fine-grained, essential coverage</em>, and <em>primary component</em>}.
+We propose the definition that <em>genuine semantic publishing</em> occurs when somebody publishes a work that includes authentic and fine-grained representations of its content in a shared and interoperable semantic notation, where these semantic representations have essential coverage and are a primary component of the published entity. We explain in more detail below what we mean by <em>authentic, fine-grained, essential coverage</em>, and <em>primary component</em>}.
 </p>
 
 <figure id="flowers_figure">
@@ -183,20 +168,24 @@ We propose the definition that <em>genuine semantic publishing</em> occurs when 
 
 <p>
 <a href="#flowers_figure"></a> illustrates our point with a simple analogy. Classical papers are shown on the left hand side as boxes that are closed and hard to access for automated techniques.
-Existing approaches to what has been called semantic publishing merely adorn this box with formal semantics &mdash; represented by flowers in the picture &mdash; but leaving it closed. This adornment is very useful, to be sure, but it does not reach to the main content of the box. By only looking at the formal semantics, one can possibly find out the topic of the paper but not what the paper is actually claiming: The main message is missed. Moreover, the adornment is often attached at a later point, after the box has been shipped so to say, and is therefore not a proper part of it.
+Existing approaches to what has been called semantic publishing merely adorn this box with formal semantics — represented by flowers in the picture — but leave it closed. This adornment is very useful, to be sure, but it does not reach to the main content of the box. By only looking at the formal semantics, one can possibly find out the topic of the paper but not its main message. Moreover, the adornment is often attached at a later point, after the box has been shipped so to say, and is therefore not a proper part of it.
 Speaking in terms of this metaphorical image, we argue that we should open the box and let semantics bloom right from the inside. We should represent the paper's main message with formal semantics. As we see on the right hand side of the figure, this metaphorically turns the box into a flowerpot. Now semantics is the main content, and the scientific paper has become a container for semantics instead of a closed box with a secondary usage as a pin board for semantic annotations.
 </p>
 
 <p>
-It seems to be a common unquestioned assumption that the semantic representation of knowledge has to start from a textual representation, and therefore writing a statement down in natural language always needs to be the first step.
-For example, we can read in a paper on semantic publishing that "learning how the brain creates and decodes meaning from text is essential if we are to provide better tools for scientific inquiry" and that we need to "train computers to help us read scientific text" <a href="#dewaard2010is"></a>. While these are certainly interesting and important problems, it is not obvious why they are essential if we take the approach of semantic publishing literally, i.e. if we ensure that the published artifacts come with semantic representations from the start.
-There is no law of nature that research findings can only be formalized after they have been expressed in a narrative text. It can very well be the other way round, such as a researcher writing a narrative text verbalizing existing formal statements she has come up with. More likely, these two will go hand in hand in an iterative process, but this does not require computers to help us read scientific text.
-However, many articles in the area of semantic publishing seem to make this implicit assumption, as exemplified by papers presented at semantic publishing workshops claiming that "annotations on all levels pave the way for shared knowledge understanding" <a href="#smrz2011sepublica"></a> and that "semantic publishing [...] can be defined as the activity of enhancing a document" <a href="#ruiz2014sepublica"></a>, among many others (e.g. <a href="#croset2011sepublica"></a><a href="#marcondes2011sepublica"></a><a href="#diiorio2014lisc"></a>). The entire approach of <em>semantic annotation</em> is based on this text-first paradigm, which is a perfectly valid approach but is surely not the only possibility.
+In the existing literature, we often encounter the implicit assumption that the semantic representation of knowledge has to start from a textual representation, and therefore writing a statement down in natural language always needs to be the first step.
+For example, we can read in a paper on semantic publishing that "learning how the brain creates and decodes meaning from text is essential if we are to provide better tools for scientific inquiry" and that we need to "train computers to help us read scientific text" <a href="#dewaard2010is"></a>. While these are certainly interesting problems, it is not obvious why they are essential if we take the approach of semantic publishing literally, i.e. if we ensure that the published artifacts come with semantic representations from the start.
+There is no law of nature that research findings can only be formalized after they have been expressed in a narrative text. It can very well be the other way round, such as a researcher writing a narrative text verbalizing existing formal statements she has come up with. More likely, these two will go hand in hand in an iterative process, much like manuscripts and their content typically being shaped through several rounds of revisions. It has in fact been argued — convincingly in our opinion — that this iterative process of scientific writing contributes in an important way to scientific understanding and discovery <a href="#holmes1987isis"></a>, and therefore it seems beneficial for the semantic representations to participate in these iterations from the start, and not to come into play only at the point where the text is already finalized.
+However, many articles in the area of semantic publishing seem to make this implicit text-first assumption, as exemplified by papers presented at semantic publishing workshops claiming that "annotations on all levels pave the way for shared knowledge understanding" <a href="#smrz2011sepublica"></a> and that "semantic publishing [...] can be defined as the activity of enhancing a document" <a href="#ruiz2014sepublica"></a>, among many others (e.g. <a href="#croset2011sepublica"></a><a href="#marcondes2011sepublica"></a><a href="#diiorio2014lisc"></a>). The entire approach of <em>semantic annotation</em> is based on this text-first paradigm, which is a perfectly valid approach but is surely not the only possibility.
 </p>
 
 <p>
 We get a similar picture if we look at the Semantic Publishing Challenge held at the Semantic Web conferences ESWC from 2014 until 2017 <a href="#lange2014sempubchallenge"></a><a href="#diiorio2015sempubchallenge"></a><a href="#vahdati2016sempubchallenge"></a>. There were three tasks defined for each of these three challenges, but none of them actually deals with publishing. Instead they are about automatically extracting and interlinking semantic data from existing publications. Only the "in-use" task of the first challenge was general enough to not exclude publishing ("showcase the potential of Semantic Web technology for enhancing and assessing the quality of scientific production"), but it did not specifically mention the publishing process either.
 Unsurprisingly then, the approaches presented at these challenges deal with extraction from and annotation of articles that are already written and published (with the only exception being a paper introducing a publishing platform for Research Objects <a href="#palma2014sempub"></a>).
+</p>
+
+<p>
+To be clear, we do not mean to deny the value or importance of this body of existing work. To the contrary, these approaches are highly valuable to deal with the wealth of existing publications and those that will become available in the near future. Besides this important work, however, we also need clear and bold visions for the future on how we can improve the form in which such publications are created in the first place.
 </p>
 
 </section>
@@ -211,9 +200,10 @@ These approaches include Research Objects, executable papers, scholarly HTML, St
 </p>
 
 <p>
-<a href="http://www.researchobject.org">Research Objects</a> <a href="#bechhofer2010fwcs"></a><a href="#bechhofer2013future"></a> are a proposal to extend the notion of a scientific publication beyond a narrative article to include additional resources like data, meta data, code, presentation slides, log files, and workflow definitions. In order to improve reusability and reproducibility of scientific findings, these different resources are interlinked and packaged together in zip files called Research Objects.
-These objects are therefore at a higher level of composition than classical articles in the sense that they can contain articles and other resources, and we can say that their publishing unit is on the level of a <em>project</em> rather than the level of an article.
+<a href="http://www.researchobject.org">Research Objects</a> <a href="#bechhofer2010fwcs"></a><a href="#bechhofer2013future"></a> are a proposal to extend the notion of a scientific publication beyond a narrative article to include additional resources like data, metadata, code, presentation slides, log files, and workflow definitions. In order to improve reusability and reproducibility of scientific findings, these different resources are interlinked and packaged together in zip files called Research Objects.
+These objects are therefore at a higher level of composition than classical articles, and we can say that their publishing unit is on the level of a <em>project</em> rather than the level of an article.
 The language RDF with its formal semantics is used as the underlying notation. The interpretation of a Research Object's content, however, would typically be performed by a human user, at least according to the main motivating scenario <a href="#bechhofer2013future"></a>. The authors claim that Research Objects can also include formally represented hypotheses and high-level findings, but no specifics are given about this. Later work by other researchers applied the proposed concepts and used embedded nanopublications (see below) to represent such higher-level claims and hypotheses <a href="#gonzalez2015plosone"></a>.
+A similar approach could probably be followed to express arguments and scientific discourse, but no concrete proposal exists for that.
 </p>
 
 <p>
@@ -224,12 +214,13 @@ Naturally, these approaches focus on algorithms, their source code, and the corr
 </p>
 
 <p>
-Yet another angle is taken by approaches on <a href="https://www.w3.org/community/scholarlyhtml/">scholarly HTML</a> that propose HTML-based replacements for today's role of PDF as universal file format for scientific articles. Many of these approaches do not explicitly focus on formal semantics, but &mdash; in contrast to PDF &mdash; semantic markup comes very naturally with HTML via technologies such as RDFa. Initiatives like Linked Research <a href="#capadisli2015cedem15"></a> propose general principles and directions of using HTML for scholarly communication to enable, among other things, the publication of semantic representations. Specific HTML-based formats such as RASH <a href="#diiorio2015iswcpd"></a> provide specific guidelines and tools of how that can be achieved.
-The semantic markup of such articles is mostly on the meta level, for example about the authors, the structure of the article, and the references to other articles. Furthermore, as the term <em>markup</em> indicates, these semantic representations are mostly not independent statements but tightly linked to the narrative text. The possible use of RDFa to formally represent not just meta data but also high-level claims, hypotheses, and arguments is sometimes proposed, but no concrete solutions are presented.
+Yet another angle, with a focus on scientific writing instead of source code and datasets, is taken by various approaches on scholarly HTML, including the work of a <a href="https://www.w3.org/community/scholarlyhtml/">W3C community group with that name</a>, that propose HTML-based replacements for today's role of PDF as universal file format for scientific articles. Not all these approaches explicitly focus on formal semantics, but — in contrast to PDF — semantic markup comes very naturally with HTML via technologies such as RDFa (but with special reader software, similar features can be achieved with PDF <a href="#attwood2010bioinformatics"></a>). On a higher level, the Linked Research initiative <a href="#capadisli2015cedem15"></a> proposes general principles and directions of how we should communicate research in the web age, including the use of semantically enriched HTML. Concrete solutions around scholarly HTML include RASH <a href="#diiorio2015iswcpd"></a> and Dokieli <a href="#capadisli2017icwe"></a>, each with its own tools and philosophy.
+The semantic markup that comes automatically with such types of HTML articles is mostly on the meta level, for example about the authors, the structure of the article, and the references to other articles. Furthermore, as the term <em>markup</em> indicates, these semantic representations are mostly not independent statements but tightly linked to the narrative text.
+Some of these scholarly HTML approaches explicitly point to the possibility of using RDF and RDFa to formally represent not just metadata but also high-level claims, hypotheses, and arguments, but they do not focus on concrete guidelines in this respect. In general, these approaches and technologies can enable what we call genuine semantic publishing but following their guidelines alone is no guarantee for achieving it.
 </p>
 
 <p>
-Structured Digital Abstracts <a href="#seringhaus2007bmcbioinform"></a><a href="#ceol2008febsletters"></a> having been first proposed ten years ago, are probably the oldest approach of this kind. They were revolutionary in the sense that they proposed to let authors capture the main claims of their scientific contributions, such as newly discovered protein-protein interactions, with machine-interpretable semantics. Even though these abstracts are attached to narrative articles, the formally represented findings can be processed and interpreted independently from the narrative text. We proposed a similar approach in previous work with abstracts in controlled natural language <a href="#kuhn2006dils"></a>.
+Structured Digital Abstracts <a href="#seringhaus2007bmcbioinform"></a><a href="#ceol2008febsletters"></a> having been first proposed ten years ago, are probably the oldest approach of this kind. Their basic idea is to require for articles to come with a machine-interpretable summary of the main claims, besides the classical abstract for human readers. They proposed to let authors themselves capture the claims of their own scientific contributions, such as a newly discovered protein-protein interaction, in a notation with formal semantics. Even though these abstracts are attached to narrative articles, the formally represented findings can be processed and interpreted independently from the narrative text. We proposed a similar approach in previous work with abstracts in controlled natural language <a href="#kuhn2006dils"></a>.
 </p>
 
 <p>
@@ -237,10 +228,9 @@ Micropublications <a href="#clark2014biomedsem"></a> are a further approach, whi
 </p>
 
 <p>
-Nanopublications are an approach to use the RDF language to represent "the smallest unit of publication" <a href="#mons2011naturegen"></a> or "core scientific statements with associated context" <a href="#groth2010isu"></a>. This statement-level approach is therefore at a more granular level than most other approaches whose unit of publication is at the article level.
-Nanopublications consist of three parts, each represented in RDF: an assertion containing the actual content in the form of an atomic small piece of knowledge (e.g. a scientific claim, or a data entry), a provenance part containing meta data about the origin and context of the assertion (e.g. how it was measured), and a publication information part with meta data about the nanopublication as a whole (e.g. when and by whom it was created).
+Nanopublications, finally, are an approach to use the RDF language to represent "the smallest unit of publication" <a href="#mons2011naturegen"></a> or "core scientific statements with associated context" <a href="#groth2010isu"></a>. This statement-level approach is therefore at a more granular level than most other approaches whose unit of publication is at the article level.
+Nanopublications consist of three parts, each represented in RDF: an assertion containing the actual content in the form of an atomic small piece of knowledge (e.g. a scientific claim, or a data entry), a provenance part containing metadata about the origin and context of the assertion (e.g. how it was measured), and a publication information part with metadata about the nanopublication as a whole (e.g. when and by whom it was created).
 Even though the details of their integration into the scientific publishing workflow have remained largely unspecified, nanopublications have received considerable attention during the last few years, with several large dataset having been published in this format <a href="#chichester2014querying"></a><a href="#banda2015iswc"></a><a href="#queralt2016publishing"></a>.
-In our own previous work, we have proposed a preliminary general approach of representing within nanopublications the structure among informal claims and hypotheses, which are themselves not necessarily formally represented <a href="#kuhn2013eswc"></a>, thereby addressing some of the points raised by micropublications.
 </p>
 
 <figure id="relatedwork_table">
@@ -257,27 +247,27 @@ In our own previous work, we have proposed a preliminary general approach of rep
 </tr>
 <tr>
 <td rowspan="5" colspan="1"><p>types of formal semantic representations</p></td>
-<td rowspan="1" colspan="1"><p>meta data</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>metadata</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 </tr>
 <tr>
 <td rowspan="1" colspan="1"><p>domain (input/output) data</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 <td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 </tr>
 <tr>
 <td rowspan="1" colspan="1"><p>program code</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 <td rowspan="1" colspan="1"><p></p></td>
@@ -287,24 +277,24 @@ In our own previous work, we have proposed a preliminary general approach of rep
 <td rowspan="1" colspan="1"><p>arguments / discourse</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 <td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
+<td rowspan="1" colspan="1"><p>(✓)</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>(✓)</p></td>
 </tr>
 <tr>
 <td rowspan="1" colspan="1"><p>high-level claims</p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
+<td rowspan="1" colspan="1"><p>(✓)</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>(✓)</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 </tr>
 <tr>
 <td rowspan="3" colspan="1"><p>publishing unit</p></td>
 <td rowspan="1" colspan="1"><p>project level</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 <td rowspan="1" colspan="1"><p></p></td>
@@ -314,10 +304,10 @@ In our own previous work, we have proposed a preliminary general approach of rep
 <tr>
 <td rowspan="1" colspan="1"><p>paper level</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 </tr>
 <tr>
@@ -327,25 +317,25 @@ In our own previous work, we have proposed a preliminary general approach of rep
 <td rowspan="1" colspan="1"><p></p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 <td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 </tr>
 <tr>
 <td rowspan="2" colspan="1"><p>necessary components</p></td>
 <td rowspan="1" colspan="1"><p>formal semantic data</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>(&#10003;)</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>(✓)</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 </tr>
 <tr>
 <td rowspan="1" colspan="1"><p>narrative text</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
-<td rowspan="1" colspan="1"><p>&#10003;</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
+<td rowspan="1" colspan="1"><p>✓</p></td>
 <td rowspan="1" colspan="1"><p></p></td>
 </tr>
 </table>
@@ -353,26 +343,17 @@ In our own previous work, we have proposed a preliminary general approach of rep
 </figure>
 
 <p>
-<a href="#relatedwork_table"></a> shows a comparison and summary of the different types of approaches introduced above. We see that they cover different types of semantic representations. We also observe from the table that none of the existing approaches covers all aspects, but a complete coverage could be achieved by a combination of them (and there do not seem to be any fundamental incompatibilities).
-We will argue below that high-level claims and arguments are the most important parts, because they are &mdash; and have always been &mdash; the core contributions of a scientific work.
-</p>
-
-<p>
-Executable papers, Structured Digital Abstracts, and Micropublications stick to the article as their unit of publication, whereas Research Objects operate at a higher level (at what we call the project level) and nanopublications at a lower one (statement level). We argue here that it is important to cover all these levels, which means that it has to be possible to publish something as small as an individual statement (i.e. an individual claim, hypothesis, data entry, or link between entities). Once this lowest level is covered, it is then relatively straightforward to compose larger objects out of the low-level ones, like the approach mentioned above of using nanopublications within Research Objects <a href="#gonzalez2015plosone"></a>.
-</p>
-
-<p>
-All these approaches, except some flavors of scholarly HTML, mandate that formal semantic data are part of the published entity, but three out of the five approaches also require or assume that a narrative text accompanies the data. Not coincidentally, these are also the approaches that work on the article level, and therefore stick to the classical unit of publication. We will argue below that narrative text necessarily remains an important part of scientific discourse and communication, but it also has to be possible to publish data that is self-explanatory due to its formal semantics without the need for a narrative.
+<a href="#relatedwork_table"></a> summarizes the different types of approaches introduced above, showing that they cover different types of semantic representations. We also observe from the table that none of the existing approaches covers all aspects, but a complete coverage could be achieved by a combination of them. Executable papers, Structured Digital Abstracts, and Micropublications stick to the article as their unit of publication, whereas Research Objects operate at a higher level (at what we call the project level) and nanopublications at a lower one (statement level). All these approaches, except some flavors of scholarly HTML, mandate that formal semantic data are part of the published entity, but three out of the five approaches also require or assume that a narrative text accompanies the data. Not coincidentally, these are also the approaches that work on the article level, and therefore stick to the classical unit of publication. While none of the presented approaches has yet managed to find widespread acceptance, small practical and less intrusive steps have already been successfully implemented, such as the use of unambiguous references to biomedical resources in the form of Research Resource Identifiers (RRIDs) <a href="#bandrowski2016neuron"></a>.
 </p>
 
 <p>
 To summarize, there are a number of existing approaches that cover important aspects of what we think deserves the term <em>semantic publishing</em> under its intuitive interpretation, but they are normally overshadowed by the more conventional approaches of semantic annotation and semantic interlinking introduced above. These conventional approaches, in fact, advocate the term <em>semantic publishing</em> more visibly, whereas approaches like Research Objects often do not use the term at all. This situation can lead to a general impression that the conventional approaches are the best we can do to apply the ideas of the Semantic Web to scientific publishing. It is our goal to convince the readers of this paper otherwise.
+While none of the existing approaches covers all aspects that we consider important for genuine semantic publishing, they provide — as we will show below — important and highly valuable building blocks towards that endeavor.
 </p>
 
 <p>
 To conclude our discussion of related work, we would like to point out that a large number of general technologies have been developed in the last years that can serve as the basis for approaches on genuine semantic publishing. They come in the form of data formats, ontologies, and software tools.
-The <a href="http://sempublishing.sourceforge.net">Semantic Publishing and Referencing Ontologies (SPAR)</a> <a href="#peroni2012websemantics"></a><a href="#peroni2012isemantics"></a>, for example, are a highly valuable suite of ontologies on the domain of scientific publishing. Other examples include the Annotation Ontology <a href="#ciccarese2011jbiomedsem"></a> that defines how to connect (scientific) text to the respective formal representations, the PROV Ontology <a href="#lebo2013prov"></a> to model provenance of digital object, and the <a href="http://linkedscience.org/lsc/ns/">Linked Science Core Vocabular</a> that covers relations between entities in the scientific workflows such as researchers, data, publications, and methods.
-There is also much existing work on modeling arguments and discourse with Semantic Web technology <a href="#schneider2013semanticweb"></a>, including approaches on formalizing uncertainty in scientific arguments <a href="#dewaard2012satbiswim"></a>.
+The <a href="http://sempublishing.sourceforge.net">Semantic Publishing and Referencing Ontologies (SPAR)</a> <a href="#peroni2012websemantics"></a><a href="#peroni2012isemantics"></a>, for example, are a highly valuable suite of ontologies to build semantic models and applications in the domain of scientific publishing. Other examples include the Annotation Ontology <a href="#ciccarese2011jbiomedsem"></a> and W3C's subsequent <a href="https://www.w3.org/annotation/">Web Annotation recommendations</a>, which define how to connect (scientific) text to the respective formal representations, the PROV Ontology <a href="#lebo2013prov"></a> to model provenance of digital objects, and the Semanticscience Integrated Ontology (SIO) <a href="#dumontier2014biomedsem"></a> and the <a href="http://linkedscience.org/lsc/ns/">Linked Science Core Vocabular</a>, which cover the different kinds of entities in scientific workflows such as researchers, data, publications, and methods, as well as the relations between them. There is also existing work on modeling arguments and discourse with Semantic Web technology <a href="#schneider2013semanticweb"></a>, including approaches on formalizing uncertainty in scientific arguments <a href="#dewaard2012satbiswim"></a>, as well as formal models of scientific experiments <a href="#soldatova2006interface"></a> and evidence <a href="#brush2016icbobiocreative"></a>.
 </p>
 
 </section>
@@ -382,30 +363,29 @@ There is also much existing work on modeling arguments and discourse with Semant
 <h1>Genuine Semantic Publishing</h1>
 
 <p>
-As we have shown above, most approaches that go under the label <em>semantic publishing</em> are not actually about publishing, and the approaches that <em>do</em> target the publication of semantic representations cover different aspects thereof that only partly overlap. We therefore think that there is a need for clear criteria of <em>genuine</em> semantic publishing. As we started to argue above, important aspects of semantic publishing concern the authoritativeness and essential coverage of semantic representations, as well as their status in relation to narrative articles and their granularity level.
+As we have shown above, most approaches that go under the label <em>semantic publishing</em> are not actually about publishing, and the approaches that <em>do</em> target the publication of semantic representations cover different aspects thereof that only partly overlap. We therefore think that there is a need for clear criteria of <em>genuine</em> semantic publishing that include concerns about the authoritativeness and essential coverage of semantic representations, as well as their status in relation to narrative articles and their granularity level.
 </p>
 
 <p>
-The first aspect we would like to discuss here is what we call <em>essential coverage</em> of semantic representations with respect to the entity to be published. A representation has essential coverage with respect to a work if it covers (at least) the essence of the work. The essence of a work is its main message, which for scientific articles normally consists of the main claims, findings, and arguments. A semantic representation may not cover all aspects discussed and described throughout a scientific work, but for it to have essential coverage it has to cover the main points: If you had to summarize a paper in one sentence, the content of this sentence has to be present in the semantic representation too.
-In other words, it is not sufficient to focus on what is <em>easy</em> to represent; we have to focus on what is <em>important</em>. One can also see it as a kind of democratization process of making automated agents first-class citizens: English speaking agents (e.g. human researchers) get the main content of the work in their English based representation (i.e. the narrative text); so RDF speaking agents (e.g. Linked Data aware software) should also get the main content of the work in their RDF based representation.
-As we will see below, this perspective aligns very well with the well-established Web technique of content negotiation.
+The first aspect we would like to discuss here is what we call <em>essential coverage</em> of semantic representations with respect to the entity to be published. A representation has essential coverage with respect to a work if it covers (at least) the essence of the work. The essence of a work is its main message, which for scientific articles normally consists of the main claims, findings, and arguments. A semantic representation may not cover all aspects discussed and described throughout a scientific work, but for it to have essential coverage it has to cover the main points: If you had to summarize a paper in one sentence, the content of this sentence has to be present in the semantic representation too. One can also see it as a kind of democratization process of making automated agents first-class citizens: English-speaking agents (e.g. human researchers) get the main content of the work in their English-based representation (i.e. the narrative text); so RDF-speaking agents (e.g. Linked Data aware software) should also get the main content of the work in their RDF-based representation.
+As we will see below, this perspective aligns very well with the well-established web technique of content negotiation.
 </p>
 
 <p>
-Another important aspect is the authoritativeness of the source of the semantic representations, which determines the authenticity of these representations. Semantic representations can only be considered authentic if they originate from an agent that is authoritative in the given situation. In the case of the publication of a scientific result, the only authoritative source are the researchers (which are called <em>authors</em> in this context). In other words, semantic representations of scientific results are only authentic if they are provided by the researchers themselves.
+Another important aspect is the authoritativeness of the source of the semantic representations, which determines their authenticity. Semantic representations can only be considered authentic if they originate from an agent that is authoritative in the given situation. In the case of the publication of a scientific result, the only authoritative source are the researchers (who are called <em>authors</em> in this context). Semantic representations of scientific results are only authentic if they are provided by the researchers themselves, and this relation can be made explicit with a precise provenance representation.
 It has long been known in the area of knowledge engineering that the process of formalizing expert knowledge is not merely a process of "transferring" or "converting" knowledge from existing representations inside the heads of experts to formal representations of a form that can be stored in a knowledge base. Rather it has to be seen as a creative <em>modeling process</em> <a href="#clancey1989ml"></a><a href="#studer1998dke"></a> where formal structures are generated that existed only in an incomplete, implicit, and unconscious form in the experts' heads.
-Explaining a result in a narrative is simpler than formally modeling it, in the sense that natural language allows the writer to remain vague and even ambiguous. Accurately modeling knowledge only from a narrative text without a further connection to the authoritative source is therefore in general not just difficult but strictly impossible.
-Genuine semantic publishing requires the authors of scientific results to perform the modeling task themselves, because they are &mdash; by definition &mdash; the only authoritative source.
-We claim that &mdash; contrary to many existing approaches &mdash; we should <em>not</em> try to relieve the authors of this burden (though we should of course try to help them). Otherwise, the semantic representations cannot be considered authoritative and should therefore not be considered part of the publication's content (unless the person who produces the formal representations becomes a co-author), and we would end up with a situation where semantic representations are disconnected from what is published, which is against the essence of the semantic publishing idea.
+Explaining a result in a narrative is simpler than formally modeling it, in the sense that natural language allows the writer to remain vague and even ambiguous. Accurately modeling knowledge only from such a narrative text with its inherent vagueness and ambiguity is therefore in general not just difficult but strictly impossible without a further connection to the authoritative source.
+Genuine semantic publishing requires the authors of scientific results to perform the modeling task themselves, because they are — by definition — the only authoritative source.
+We claim that — contrary to many existing approaches — we should <em>not</em> try to relieve the authors of this burden (though we should of course try to help them). Otherwise, the semantic representations cannot be considered authoritative and should therefore not be considered part of the publication's content (unless the person who produces the formal representations becomes a co-author).
 As Tim Berners-Lee and James Hendler made clear when the Semantic Web was just about to come into existence as a research field, it "involves asking people to make some extra effort" <a href="#bernerslee2001nature"></a>. In the case of scientific publishing, it involves asking authors to make the extra effort of providing formal semantic representations of their findings.
 </p>
 
 <p>
-Furthermore, we argue that the semantic representations need to be a primary component with an existence in their own right, to call it a genuine semantic publication. The main thing that is published needs to have a semantic representation, and this semantic representation needs to have an independent existence. We cannot call something a genuine semantic publication if the semantic representations are attached to an already published article at a later point, or if they can only be interpreted in the context of the narrative article. Neither should these semantic representations be considered just another type of supplementary material, listed somewhere at the very end of the article as an noncommittal extra file.
+To make the semantic representations first-class citizens, they furthermore need to have an existence in their own right. We cannot call something a genuine semantic publication if the semantic representations are attached to an already published article at a later point, or if they can only be interpreted in the context of the narrative article. Neither should these semantic representations be considered just another type of supplementary material, listed somewhere at the very end of the article as a noncommittal extra file. In fact, one of the defining properties and one of the big advantages of declarative and monotonic semantic notations like RDF is that statements are in an important sense self-explanatory and independent. Such a formal statement can be taken out of its context and stripped from natural language explanations attached to it, and it still means exactly the same thing, as far as the formal semantics are concerned.
 </p>
 
 <p>
-Finally, we argue that &mdash; for practical reasons &mdash; the semantic representations should be light-weight and fine-grained. More so than narrative texts, semantic representations can be broken down into independent pieces that can be interpreted independently. This is an important and valuable feature of declarative logic representations on which most semantic technologies are built. It would therefore be foolish to propose semantic publishing solutions that would not allow people to exploit this nice property. Such light-weight semantic publications might consists of just a single statement (like "X is related to Y"), and for larger chunks of semantic representations we should make it possible to refer to such individual statements in a fine-grained way (e.g. refer explicitly to the statement "A causes B" within a larger set of statements).
+In turn, this self-explanatory and independent nature allows for publications of semantic representation to be very light-weight and fine-grained. More so than narrative texts, formal representations with declarative and monotonic semantics can be easily broken down into independent pieces, and therefore we should allow people to exploit this nice property. Such light-weight semantic publications might consists of just a single statement (like "X is related to Y"), and for larger chunks of semantic representations we should make it possible to refer to such individual statements in a fine-grained way (e.g. refer explicitly to the statement "A causes B" within a larger set of statements).
 </p>
 
 <p>
@@ -415,13 +395,27 @@ Based on these arguments, we define that <em>genuine semantic publishing</em> ne
 <ol>
 <li>A scientific work needs to come with formal representations that are semantic, in the sense that they are not just machine processable but <em>machine interpretable</em>, and that are linked so they add to the existing formal body of knowledge.</li>
 <li>These semantic representations might be underspecified but need to have <em>essential coverage</em> in the sense that they cover (at least) the core of the main claims of the given work.</li>
-<li>They need to be <em>authentic</em> in the sense that the respective authoritative persons create or approve the semantic representations. Domain data can only come from the researchers, and meta data has to come from the people responsible for the form of the published work, i.e. the researchers and/or the editors.</li>
+<li>They need to be <em>authentic</em> in the sense that the respective authoritative persons create or approve the semantic representations. Domain data can only come from the researchers, and metadata has to come from the people responsible for the form of the published work, i.e. the researchers and/or the editors.</li>
 <li>The semantic representations need to be a <em>primary</em> component of the published work, made available together with everything else at the time of publication. They must furthermore have an independent existence in their own right and not merely be appended or attached to the main entity as noncommittal extra data.</li>
 <li>The semantic representations and their containers need to be <em>fine-grained and light-weight</em>. Even though such semantic representations might often be published in larger collections, the publication of minimal additions and corrections needs to be possible without a large overhead.</li>
 </ol>
 
 <p>
 Most, maybe all, existing approaches on what has been called semantic publishing comply with the first criterion, but only a few of them propose or support representations that comply with the others. We illustrate below that these criteria are in fact not difficult to achieve with existing technologies.
+</p>
+
+<p>
+Here, we should briefly discuss an aspect that we deliberately left out of our criteria. Several of the related approaches introduced above (in particular executable papers and scholarly HTML) have a specific focus on how semantic representations can enhance the user experience in the form of interactivity. While we think such interactivity can be highly valuable, we argue for a clear distinction between publication and use, where interactivity belongs to the latter. It is precisely the benefit of formal semantic representations that they facilitate all kinds of subsequent (interactive) use but are agnostic about the precise circumstances and technology. Genuine semantic publications may therefore come with specific interactive features, but it is not appropriate to make that a strict requirement.
+</p>
+
+<p>
+Furthermore, it is probably helpful to briefly discuss and illustrate what types of claims a scientific work can make. A large part of the body of scientific work deals with what has been called "normal" or "puzzle-solving" science <a href="#kuhn1962structure"></a>. In this type of science, known kinds of relations and properties are discovered for objects of known kinds, such as a statement that a given mutation of a given gene can be the cause for a given disease. Such types of statements are relatively straightforward to formalize, for example by connecting a concept identifier for the given gene mutation with the concept identifier for the given disease by the use of a relation denoting the causal relationship, possibly augmented with the needed qualifications and contexts (such as the species to which it applies).
+In a next step, such a statement as a whole can be formally linked to its authors and to the study from which they derived it (such as a clinical trial and its properties). If the authors represent these formula in a specific language like RDF (assuming existing established vocabularies cover all needed terms), save them in a file, and share and archive them on the web, then we have perfect case of a genuine semantic publication. The authors may want to add a narrative to it, but they do not need to, as the semantic representation speaks for itself.
+More disruptive and more abstract kinds of scientific contributions involve the criticism of existing concepts or arguments, and the advocation of new ones. In the most extreme case, this can consist of proposing a paradigm shift that can lead to a scientific revolution <a href="#kuhn1962structure"></a>. By their nature, these types of contributions are harder to formalize, but it is always possible to at least make the action of criticizing or advocating explicit and to position the objects in the space of related concepts, arguments, or paradigms.
+</p>
+
+<p>
+Finally, before we move on to demonstrate in detail how advocating a new concept can be achieved with a genuine semantic publication, let us reflect for a moment on the potential impact of such a proposal. The machine-interpretability of publications' main claims entails that software could automatically connect, aggregate, and reason about the body of published scientific work. For example, we could automatically answer complex questions or produce interactive science maps, not only at the meta-level of papers, authors and their relations, but also on the domain level of tangible and abstract concepts and objects of study. This will allow scientists (and others) to acquire a more accurate and more complete picture of the current state of science with much less effort, which in turn can accelerate scientific work and improve its quality. The support for small fine-grained publications can further speed up scientific discovery, as researchers no longer need to wait for a larger body of work to assemble, but can publish smaller findings as they come in. Results from such software solutions will never be error-free, but due to our authenticity requirement we can find out which authors are to blame for mistakes we find in the semantic representations, instead of some anonymous software component or human annotator. This in turn can put strong incentives on authors to provide good formal representations for their works. It is hard to foresee how all the involved technical — let alone social and institutional — aspects would unfold, but it is not hard to imagine that such technology could have a profound positive impact on the communication of science.
 </p>
 
 </section>
@@ -431,11 +425,11 @@ Most, maybe all, existing approaches on what has been called semantic publishing
 <h1>Genuine Semantic Publishing in Action</h1>
 
 <p>
-It turns out that all the technologies needed for applying genuine semantic publishing are already available and most of them are very mature and reliable. There are no technical obstacles preventing us from releasing our results from today on as genuine semantic publications (though more work is needed on nice and intuitive end-user interfaces to make this process as easy as possible).
+It turns out that all the technologies needed for applying genuine semantic publishing are already available and most of them are very mature and reliable. There are no technical obstacles preventing us from releasing our results from today on as genuine semantic publications, even though more work is needed on ontologies that cover all relevant aspects and areas and on nice and intuitive end-user interfaces to make this process as easy as possible.
 </p>
 
 <p>
-The paper that you are reading is in fact a genuine semantic publication. It has different representations for different types of usage. You might be reading these lines while sitting on a beach and reading from a sheet of paper printed from the article's PDF version, or you might be reading it in your office from a web page in HTML format within your browser window. In either case, these representations contain the narrative text, which we carefully wrote to explain and motivate our ideas to human readers. But we also make our work available to automated agents (i.e. any kind of software programs), for which we have different representations that consist of formal RDF statements instead of narrative text. Importantly, these RDF statements convey the same main message as the narrative text: They are different representations of the same work!
+The paper that you are reading is in fact a genuine semantic publication. It has different representations for different types of usage. You might be reading these lines while sitting on a beach and reading from a sheet of paper printed from the article's PDF version, or you might be reading it in your office from a web page in HTML format within your browser window. In either case, these representations contain the narrative text, which we carefully wrote to explain and motivate our ideas to human readers. But we also make our work available to software agents (i.e. any kind of software programs), for which we have different representations that consist of formal RDF statements instead of narrative text. Importantly, these RDF statements convey the same main message as the narrative text: They are different representations of the <em>same</em> work.
 </p>
 
 <p>
@@ -488,11 +482,15 @@ p:GenuineSemanticPublishingCriteria dct:hasPart
 </pre>
 
 <p>
-We can try to capture part of the content of these criteria in RDF as well, but at some point we have to stop and be content with an informal description in natural language (at the latest when we hit the symbol grounding problem). However, we believe that it is always possible to find a formal representation of the main content at the highest level, such as introducing and advocating a new concept, even though we will mostly not be able to provide a complete formal definition. In this sense, such a representation is underspecified but has essential coverage.
+We can try to capture part of the content of these criteria in RDF as well, but at some point we have to stop and be content with an informal description in natural language (at the latest when we hit the symbol grounding problem). However, we believe that it is always possible to build a formal representation of the main content at the highest level, such as introducing and advocating a new concept, even though we will mostly not be able to provide a complete formal definition. In this sense, such a representation is underspecified but has essential coverage.
 </p>
 
 <p>
-At this point, the benefits of such a representation of the main message of a paper might not seem obvious. One of the main benefits comes when <em>subsequent</em> papers or nanopublications start referring to these formal representations. As a fictitious example, a subsequent paper might propose the concept of "advanced semantic publishing" that includes our criteria 1 to 4, but criticizes number 5 and suggests to replace it with a different one:
+We would like to note here that — while we are confident in declaring that our own representation complies with our criteria — we do not intend to claim that it achieves them to the highest degree possible. It is, to the contrary, still a quite crude representation that leaves many details and aspects of our main claims and arguments untouched. For example, we state that our paper critiques the concept of semantic publishing, but we do not say why and in what way, namely that we claim its interpretation to be not intuitive and not visionary. We are not aware of any ontology that would allow us to express this, and we restricted ourselves for this demonstration to existing resources. More work will be needed on establishing such ontologies and best practices to facilitate more precise and more inclusive formal models of scientific findings and arguments, but the currently existing vocabularies already allow — at least in our case — to achieve a basic level of genuine semantic publishing.
+</p>
+
+<p>
+In any case, the benefits of such a representation of the main message of a paper might not seem obvious at this point. One of the main advantages comes when <em>subsequent</em> work starts referring to these formal representations. As a fictitious example, a subsequent paper might propose the concept of "advanced semantic publishing" that includes our criteria 1 to 4, but criticizes number 5 and suggests to replace it with a different one:
 </p>
 
 <pre>
@@ -519,11 +517,11 @@ This example shows how we can formally capture the high-level relation of papers
 
 <p>
 The above RDF representations are interpretable by machines, and thereby automated software agents of all sorts can read and process them. Human readers, of course, normally prefer a natural text representation of a paper's content. To account for such different demands, resources on the web can in general have different equivalent representations for different types of agents. <em>Content negotiation</em> can then be used in the background to find a suitable representation based on the agent's request (mediated by the browser) and the available representation formats on the server side.
-Alternatively, we can use special kinds of hyperlinks to achieve the same effect within HTML, which we will use for demonstration purposes here because it makes the different representations more explicit.
+Alternatively, we can use special kinds of hyperlinks on a landing page to achieve the same effect within HTML. We will use this landing page approach here for demonstration purposes because it makes the different representations more explicit, but the presence of a landing page is not required.
 </p>
 
 <p>
-We can create a simple landing page with links to the different (classical and semantic) representations of the work. With just a few lines of HTML code, we can define a canonical URL and some minimal metadata (such as title and authors of the work; more metadata is available in the actual representations):
+Such a landing page links to the different (classical and semantic) representations of the work. With just a few lines of HTML code, we can define a canonical URL and some minimal metadata, such as title and authors of the work (more metadata is available in the actual representations):
 </p>
 
 <pre>
@@ -571,7 +569,11 @@ And then we can link to different representations of the content of the given wo
 </figure>
 
 <p>
-<a href="#landingpage_figure"></a>  shows what such a minimal landing page looks like in a browser. Importantly, these list items point to different representations of the <em>same work</em>, each covering the work's main points and thereby satisfying the second requirement of genuine semantic publishing with respect to essential coverage. The RDF representations are machine interpretable, which satisfies our first criterion, and the fact that they appear on the same level as the narrative papers shows that they are a primary component of the published work, satisfying the fourth criterion. The fact that we as authors created and approved all these representations moreover satisfies the third criterion of authenticity.
+Specifically, we link to the PDF version of this work, two flavors of HTML (Dokieli and RASH), and RDF representations in Turtle (without provenance information and metadata) and TriG (with provenance information and metadata in the form of nanopublications), thereby also showcasing how existing technologies can contribute to achieve genuine semantic publishing.
+</p>
+
+<p>
+<a href="#landingpage_figure"></a>  shows what such a minimal landing page looks like in a browser, and the respective data can be found online (<a href="https://doi.org/10.6084/m9.figshare.5422726">dataset</a> and <a href="http://www.tkuhn.org/pub/sempub/">website</a>) and in the supplemental material. Importantly, these list items point to different representations of the <em>same work</em>, each covering the work's main points and thereby satisfying the second requirement of genuine semantic publishing with respect to essential coverage. The RDF representations are machine interpretable, which addresses our first criterion, and the fact that they appear on the same level as the narrative papers shows that they are a primary component of the published work, satisfying the fourth criterion. The fact that we as authors created and approved all these representations moreover covers the third criterion of authenticity.
 </p>
 
 <p>
@@ -621,11 +623,11 @@ We have to make sure, however, that we do not confuse our grand vision with the 
 </p>
 
 <p>
-In this position paper, we aimed to focus again on the grand vision, which we propose to call <em>genuine semantic publishing</em> to distinguish it from the existing approaches. We argued that genuine semantic publications should not only come with representations that are machine interpretable, but that these representations also need to have essential coverage of the work's main claims, that they need to be authentic in the sense that they are approved by the authors, that they should form a primary component of the work, and that they should allow for fine-grained and light-weight contributions.
+In this position paper, we aimed to focus again on the grand vision, which we propose to call <em>genuine semantic publishing</em>. We argued that genuine semantic publications should not only come with representations that are machine interpretable, but that these representations also need to have essential coverage of the work's main claims, that they need to be authentic and approved by the authors, that they should form a primary component of the work, and that they should allow for fine-grained and light-weight contributions.
 </p>
 
 <p>
-By explaining how this very paper was written as a genuine semantic publication, we demonstrated that &mdash; as far as technology is concerned &mdash; the vision is not that grand after all. Technically, genuine semantic publications are completely feasible nowadays with established and mature technologies. Of course, many grand challenges remain, including many details of the overarching formal models, reliable domain models in many fields, intuitive user interfaces, data publishing infrastructures, attribution and recognition of scientific efforts, and effective incentive structures. All these challenges can only be addressed, however, with a clear vision of how scientific publishing should develop in the future.
+By explaining how this very paper was written as a genuine semantic publication, we demonstrated that — as far as technology is concerned — the vision is not that grand after all. Technically, genuine semantic publications are at a basic level already feasible nowadays with established and mature technologies. But many grand challenges remain, including the development and deployment of stable overarching formal models that include aspects such as evidence and arguments, reliable domain ontologies for the various still under-resourced fields, intuitive user interfaces, data publishing infrastructures, methods for attribution and recognition of scientific efforts, and effective incentive structures. All these challenges can only be addressed, however, with a clear vision of how scientific publishing should develop in the future.
 </p>
 
 </section>
@@ -637,7 +639,7 @@ By explaining how this very paper was written as a genuine semantic publication,
 <h1>Acknowledgments</h1>
 
 <p>
-We would like to thank Silvio Peroni and Tim Clark for discussions on the topic.
+We would like to thank Silvio Peroni and Tim Clark for discussions on the topic, and the reviewers and Herbert van de Sompel for their very valuable suggestions to improve the article.
 <a href="#flowers_figure"></a> was designed by Germán Barboza, from <a href="http://designers.designcrowd.com/designer/32548/cordero-producciones">Cordero Producciones</a>.
 </p>
 
@@ -654,56 +656,59 @@ We would like to thank Silvio Peroni and Tim Clark for discussions on the topic.
 
 <li id="bechhofer2013future" role="doc-biblioentry"><p>
 S. Bechhofer, I. Buchan, D. De Roure, P. Missier, J. Ainsworth, J. Bhagat,
-  P. Couch, D. Cruickshank, M. Delderfield, I. Dunlop <em>et al.</em>,  "<a href="http://doi.org/10.1016/j.future.2011.08.004">Why
+  P. Couch, D. Cruickshank, M. Delderfield, I. Dunlop <em>et al.</em>,  "<a href="https://doi.org/10.1016/j.future.2011.08.004">Why
   linked data is not enough for scientists</a>," <em>Future Generation Computer
   Systems</em>, vol. 29, no. 2, pp. 599-611, 2013.
 </p></li>
 <li id="priem2013nature" role="doc-biblioentry"><p>
-J. Priem,  "<a href="http://doi.org/10.1038/495437a">Scholarship: Beyond the paper</a>," <em>Nature</em>, vol. 495, no. 7442,
+J. Priem,  "<a href="https://doi.org/10.1038/495437a">Scholarship: Beyond the paper</a>," <em>Nature</em>, vol. 495, no. 7442,
   pp. 437-440, 2013.
 </p></li>
 <li id="clark2014semanticweb" role="doc-biblioentry"><p>
-T. Clark,  "<a href="http://doi.org/10.3233/SW-140139">Next generation scientific publishing and the web of data</a>,"
+T. Clark,  "<a href="https://doi.org/10.3233/SW-140139">Next generation scientific publishing and the web of data</a>,"
   <em>Semantic Web</em>, vol. 5, no. 4, pp. 257-259, 2014.
 </p></li>
 <li id="shotton2009ploscompbiol" role="doc-biblioentry"><p>
-D. Shotton, K. Portwin, G. Klyne, and A. Miles,  "<a href="http://doi.org/10.1371/journal.pcbi.1000361">Adventures in semantic
+D. Shotton, K. Portwin, G. Klyne, and A. Miles,  "<a href="https://doi.org/10.1371/journal.pcbi.1000361">Adventures in semantic
   publishing: exemplar semantic enhancements of a research article</a>,"
   <em>PLoS computational biology</em>, vol. 5, no. 4, p. e1000361, 2009.
 </p></li>
 <li id="shotton2009lp" role="doc-biblioentry"><p>
-D. Shotton,  "<a href="http://doi.org/10.1087/2009202">Semantic publishing: the coming revolution in scientific journal
+D. Shotton,  "<a href="https://doi.org/10.1087/2009202">Semantic publishing: the coming revolution in scientific journal
   publishing</a>," <em>Learned Publishing</em>, vol. 22, no. 2, pp. 85-94, 2009.
 </p></li>
 <li id="dewaard2010is" role="doc-biblioentry"><p>
-A. de Waard,  "<a href="http://doi.org/10.1109/MIS.2010.49">From proteins to fairytales: directions in semantic
+A. de Waard,  "<a href="https://doi.org/10.1109/MIS.2010.49">From proteins to fairytales: directions in semantic
   publishing</a>," <em>Intelligent Systems, IEEE</em>, vol. 25, no. 2, pp. 83-88,
   2010.
 </p></li>
 <li id="bernerslee2001nature" role="doc-biblioentry"><p>
-T. Berners-Lee and J. Hendler,  "<a href="http://doi.org/10.1038/35074206">Publishing on the semantic web</a>,"
+T. Berners-Lee and J. Hendler,  "<a href="https://doi.org/10.1038/35074206">Publishing on the semantic web</a>,"
   <em>Nature</em>, vol. 410, no. 6832, pp. 1023-1024, 2001.
 </p></li>
 <li id="lange2014sempubchallenge" role="doc-biblioentry"><p>
-C. Lange and A. Di Iorio,  "<a href="http://doi.org/10.1007/978-3-319-12024-9_8">Semantic publishing challenge-assessing the
+C. Lange and A. Di Iorio,  "<a href="https://doi.org/10.1007/978-3-319-12024-9_8">Semantic publishing challenge-assessing the
   quality of scientific output</a>," in <em>Semantic Web Evaluation
   Challenge</em>. Springer, 2014, pp.
   61-76.
 </p></li>
 <li id="diiorio2015sempubchallenge" role="doc-biblioentry"><p>
-A. Di Iorio, C. Lange, A. Dimou, and S. Vahdati,  "<a href="http://doi.org/10.1007/978-3-319-25518-7_6">Semantic publishing
+A. Di Iorio, C. Lange, A. Dimou, and S. Vahdati,  "<a href="https://doi.org/10.1007/978-3-319-25518-7_6">Semantic publishing
   challenge-assessing the quality of scientific output by information
   extraction and interlinking</a>," in <em>Semantic Web Evaluation
-  Challenges</em>. Springer, 2015, pp.
+  Challenge</em>. Springer, 2015, pp.
   65-80.
 </p></li>
 <li id="vahdati2016sempubchallenge" role="doc-biblioentry"><p>
 S. Vahdati, A. Dimou, C. Lange, and A. Di Ioro,  "<a href="http://cs.unibo.it/save-sd/2016/papers/html/vahdati-savesd2016.html">Semantic publishing
   challenge: bootstrapping a value chain for scientific data</a>," 2016.
 </p></li>
+<li id="holmes1987isis" role="doc-biblioentry"><p>
+F. L. Holmes, "<a href="https://doi.org/10.1007/10.1086/354391">Scientific writing and scientific discovery</a>," <em>Isis</em>, vol. 78, no. 2, pp. 220–235, 1987.
+</p></li>
 <li id="smrz2011sepublica" role="doc-biblioentry"><p>
 P. Smrz and J. Dytrych,  "<a href="http://ceur-ws.org/Vol-721/paper-07.pdf">Towards new scholarly communication: A case study of
-  the 4a framework</a>," in <em>First Workshop on Semantic Publication
+  the 4A framework</a>," in <em>First Workshop on Semantic Publication
   (SePublica 2011)</em>. CEUR-WS, 2011.
 </p></li>
 <li id="ruiz2014sepublica" role="doc-biblioentry"><p>
@@ -724,11 +729,12 @@ C. H. Marcondes,  "<a href="http://ceur-ws.org/Vol-721/paper-06.pdf">A semantic 
 </p></li>
 <li id="diiorio2014lisc" role="doc-biblioentry"><p>
 A. Di Iorio, S. Peroni, F. Vitali, and J. Zingoni,  "<a href="http://dl.acm.org/citation.cfm?id=2878586">Semantic lenses to bring
-  digital and semantic publishing together</a>," 2014.
+  digital and semantic publishing together</a>," in <em>Proceedings of the 4th International
+Workshop on Linked Science (LISC 2014)</em>. CEUR-WS, 2014.
 </p></li>
 <li id="palma2014sempub" role="doc-biblioentry"><p>
 R. Palma, P. Ho lubowicz, O. Corcho, J. M. Gómez-Pérez, and C. Mazurek,
-  "<a href="http://doi.org/10.1007/978-3-319-12024-9_9">ROHub - a digital library of research objects supporting
+  "<a href="https://doi.org/10.1007/978-3-319-12024-9_9">ROHub - a digital library of research objects supporting
   scientists towards reproducible science</a>," in <em>Semantic Web Evaluation
   Challenge</em>. Springer, 2014, pp.
   77-82.
@@ -741,26 +747,29 @@ S. Bechhofer, D. De Roure, M. Gamble, C. Goble, and I. Buchan,  "<a href="http:/
 <li id="gonzalez2015plosone" role="doc-biblioentry"><p>
 A. González-Beltrán, P. Li, J. Zhao, M. S. Avila-Garcia, M. Roos,
   M. Thompson, E. van der Horst, R. Kaliyaperumal, R. Luo, T.-L. Lee
-  <em>et al.</em>,  "<a href="http://doi.org/10.1371/journal.pone.0127612">From peer-reviewed to peer-reproduced in scholarly
+  <em>et al.</em>,  "<a href="https://doi.org/10.1371/journal.pone.0127612">From peer-reviewed to peer-reproduced in scholarly
   publishing: the complementary roles of data models and workflows in
   bioinformatics</a>," <em>PLOS one</em>, vol. 10, no. 7, p. e0127612, 2015.
 </p></li>
 <li id="nowakowski2011procedia" role="doc-biblioentry"><p>
 P. Nowakowski, E. Ciepiela, D. Hareżlak, J. Kocot, M. Kasztelnik,
-  T. Bartyński, J. Meizner, G. Dyk, and M. Malawski,  "<a href="http://doi.org/10.1016/j.procs.2011.04.064">The collage
+  T. Bartyński, J. Meizner, G. Dyk, and M. Malawski,  "<a href="https://doi.org/10.1016/j.procs.2011.04.064">The collage
   authoring environment</a>," <em>Procedia Computer Science</em>, vol. 4, pp.
   608-617, 2011.
 </p></li>
 <li id="vangorp2011procedia" role="doc-biblioentry"><p>
-P. Van Gorp and S. Mazanek,  "<a href="http://doi.org/10.1016/j.procs.2011.04.062">Share: a web portal for creating and sharing
+P. Van Gorp and S. Mazanek,  "<a href="https://doi.org/10.1016/j.procs.2011.04.062">Share: a web portal for creating and sharing
   executable research papers</a>," <em>Procedia Computer Science</em>, vol. 4, pp.
   589-597, 2011.
 </p></li>
 <li id="kohlhase2011procedia" role="doc-biblioentry"><p>
 M. Kohlhase, J. Corneli, C. David, D. Ginev, C. Jucovschi, A. Kohlhase,
-  C. Lange, B. Matican, S. Mirea, and V. Zholudev,  "<a href="http://doi.org/10.1016/j.procs.2011.04.063">The planetary system: Web
+  C. Lange, B. Matican, S. Mirea, and V. Zholudev,  "<a href="https://doi.org/10.1016/j.procs.2011.04.063">The planetary system: Web
   3.0 & active documents for STEM</a>," <em>Procedia Computer Science</em>,
   vol. 4, pp. 598-607, 2011.
+</p></li>
+<li id="attwood2010bioinformatics" role="doc-biblioentry"><p>
+T. K. Attwood, D. B. Kell, P. McDermott, J. Marsh, S. Pettifer, and D. Thorne, "<a href="https://doi.org/10.1093/bioinformatics/btq383">Utopia documents: linking scholarly literature with research data</a>," <em>Bioinformatics</em>, vol. 26, no. 18, pp. i568–i574, 2010.
 </p></li>
 <li id="capadisli2015cedem15" role="doc-biblioentry"><p>
 S. Capadisli, R. Riedl, and S. Auer,  "<a href="http://csarven.ca/enabling-accessible-knowledge">Enabling accessible knowledge</a>,"
@@ -772,71 +781,74 @@ A. Di Iorio, A. G. Nuzzolese, F. Osborne, S. Peroni, F. Poggi, M. Smith,
   submissions in scholarly venues</a>," in <em>In Proceedings of the ISWC 2015
   Posters & Demonstrations Track</em>, 2015.
 </p></li>
+<li id="capadisli2017icwe" role="doc-biblioentry"><p>
+S. Capadisli, A. Guy, R. Verborgh, C. Lange, S. Auer, and T. Berners-Lee, "<a href="https://doi.org/10.1007/978-3-319-60131-1_33">Decentralised
+authoring, annotations and notifications for a read-write web with dokieli</a>," in <em>International Conference on Web Engineering</em>. Springer, 2017.
+</p></li>
 <li id="seringhaus2007bmcbioinform" role="doc-biblioentry"><p>
-M. R. Seringhaus and M. B. Gerstein,  "<a href="http://doi.org/10.1186/1471-2105-8-17">Publishing perishing? towards tomorrow's
+M. R. Seringhaus and M. B. Gerstein,  "<a href="https://doi.org/10.1186/1471-2105-8-17">Publishing perishing? towards tomorrow's
   information architecture</a>," <em>BMC bioinformatics</em>, vol. 8, no. 1, p. 17,
   2007.
 </p></li>
 <li id="ceol2008febsletters" role="doc-biblioentry"><p>
-A. Ceol, A. Chatr-Aryamontri, L. Licata, and G. Cesareni,  "<a href="http://doi.org/10.1016/j.febslet.2008.02.071">Linking entries in
-  protein interaction database to structured text: the febs letters
+A. Ceol, A. Chatr-Aryamontri, L. Licata, and G. Cesareni,  "<a href="https://doi.org/10.1016/j.febslet.2008.02.071">Linking entries in
+  protein interaction database to structured text: the FEBS letters
   experiment</a>," <em>FEBS letters</em>, vol. 582, no. 8, pp. 1171-1177, 2008.
 </p></li>
 <li id="kuhn2006dils" role="doc-biblioentry"><p>
-T. Kuhn, L. Royer, N. E. Fuchs, and M. Schroeder,  "<a href="http://doi.org/10.1007/11799511_7">Improving text mining with
+T. Kuhn, L. Royer, N. E. Fuchs, and M. Schroeder,  "<a href="https://doi.org/10.1007/11799511_7">Improving text mining with
   controlled natural language: A case study for protein interations</a>," in
   <em>3rd International Workshop on Data Integration in the Life Sciences
   2006 (DILS'06)</em>. Springer, 2006.
 </p></li>
 <li id="clark2014biomedsem" role="doc-biblioentry"><p>
-T. Clark, P. Ciccarese, and C. Goble,  "<a href="http://doi.org/10.1186/2041-1480-5-28">Micropublications: a semantic model for
+T. Clark, P. Ciccarese, and C. Goble,  "<a href="https://doi.org/10.1186/2041-1480-5-28">Micropublications: a semantic model for
   claims, evidence, arguments and annotations in biomedical communications</a>,"
   <em>Journal of Biomedical Semantics</em>, vol. 5, no. 1, p. 28, 2014.
 </p></li>
 <li id="mons2011naturegen" role="doc-biblioentry"><p>
 B. Mons, H. van Haagen, C. Chichester, J. T. den Dunnen, G. van Ommen, E. van
-  Mulligen, B. Singh, R. Hooft, M. Roos, J. Hammond <em>et al.</em>,  "<a href="http://doi.org/10.1038/ng0411-281">The value
+  Mulligen, B. Singh, R. Hooft, M. Roos, J. Hammond <em>et al.</em>,  "<a href="https://doi.org/10.1038/ng0411-281">The value
   of data</a>," <em>Nature genetics</em>, vol. 43, no. 4, pp. 281-283, 2011.
 </p></li>
 <li id="groth2010isu" role="doc-biblioentry"><p>
-P. Groth, A. Gibson, and J. Velterop,  "<a href="http://doi.org/10.3233/ISU-2010-0613">The anatomy of a nano-publication</a>,"
+P. Groth, A. Gibson, and J. Velterop,  "<a href="https://doi.org/10.3233/ISU-2010-0613">The anatomy of a nano-publication</a>,"
   <em>Information Services and Use</em>, vol. 30, no. 1, pp. 51-56, 2010.
 </p></li>
 <li id="chichester2014querying" role="doc-biblioentry"><p>
 C. Chichester, P. Gaudet, O. Karch, P. Groth, L. Lane, A. Bairoch, B. Mons, and
-  A. Loizou,  "<a href="http://doi.org/10.1016/j.websem.2014.05.001">Querying nextprot nanopublications and their value for insights
+  A. Loizou,  "<a href="https://doi.org/10.1016/j.websem.2014.05.001">Querying neXtProt nanopublications and their value for insights
   on sequence variants and tissue expression</a>," <em>Web Semantics: Science,
   Services and Agents on the World Wide Web</em>, 2014.
 </p></li>
 <li id="banda2015iswc" role="doc-biblioentry"><p>
-J. M. Banda, T. Kuhn, N. H. Shah, and M. Dumontier,  "<a href="http://doi.org/10.1007/978-3-319-25010-6_18">Provenance-centered
+J. M. Banda, T. Kuhn, N. H. Shah, and M. Dumontier,  "<a href="https://doi.org/10.1007/978-3-319-25010-6_18">Provenance-centered
   dataset of drug-drug interactions</a>," in <em>Proceedings of the 14th
   International Semantic Web Conference (ISWC 2015)</em>. Springer, 2015, pp. 293-300.
 </p></li>
 <li id="queralt2016publishing" role="doc-biblioentry"><p>
 N. Queralt-Rosinach, T. Kuhn, C. Chichester, M. Dumontier, F. Sanz, L. I.
-  Furlong <em>et al.</em>,  "<a href="http://doi.org/10.3233/SW-150189">Publishing disgenet as nanopublications</a>,"
+  Furlong <em>et al.</em>,  "<a href="https://doi.org/10.3233/SW-150189">Publishing DisGeNET as nanopublications</a>,"
   <em>Semantic Web-Interoperability, Usability, Applicability</em>, 2016.
 </p></li>
-<li id="kuhn2013eswc" role="doc-biblioentry"><p>
-T. Kuhn, P. E. Barbano, M. L. Nagy, and M. Krauthammer,  "<a href="http://doi.org/10.1007/978-3-642-38288-8_33">Broadening the scope
-  of nanopublications</a>," in <em>Proceedings of the 10th Extended Semantic Web
-  Conference (ESWC 2013)</em>. Springer,
-  2013.
+<li id="bandrowski2016neuron" role="doc-biblioentry"><p>
+A. E. Bandrowski and M. E. Martone, "<a href="https://doi.org/10.1016/j.neuron.2016.04.030">RRIDs: A simple step toward improving repro-
+ducibility through rigor and transparency of experimental methods</a>," <em>Neuron</em>, vol. 90,
+no. 3, pp. 434–436, 2016.
 </p></li>
 <li id="peroni2012websemantics" role="doc-biblioentry"><p>
-S. Peroni and D. Shotton,  "<a href="http://doi.org/10.1016/j.websem.2012.08.001">FaBiO and CiTO: ontologies for describing
+S. Peroni and D. Shotton,  "<a href="https://doi.org/10.1016/j.websem.2012.08.001">FaBiO and CiTO: ontologies for describing
   bibliographic resources and citations</a>," <em>Web Semantics: Science,
   Services and Agents on the World Wide Web</em>, vol. 17, pp. 33-43, 2012.
 </p></li>
 <li id="peroni2012isemantics" role="doc-biblioentry"><p>
-S. Peroni, D. Shotton, and F. Vitali,  "<a href="http://doi.org/10.1145/2362499.2362502">Scholarly publishing and linked data:
+S. Peroni, D. Shotton, and F. Vitali,  "<a href="https://doi.org/10.1145/2362499.2362502">Scholarly publishing and Linked Data:
   describing roles, statuses, temporal and contextual extents</a>," in
   <em>Proceedings of the 8th International Conference on Semantic
   Systems</em>. ACM, 2012, pp. 9-16.
 </p></li>
 <li id="ciccarese2011jbiomedsem" role="doc-biblioentry"><p>
-P. Ciccarese, M. Ocana, L. J. G. Castro, S. Das, and T. Clark,  "<a href="http://doi.org/10.1186/2041-1480-2-S2-S4">An open
+P. Ciccarese, M. Ocana, L. J. G. Castro, S. Das, and T. Clark,  "<a href="https://doi.org/10.1186/2041-1480-2-S2-S4">An open
   annotation ontology for science on web 3.0</a>," <em>Journal of biomedical
   semantics</em>, vol. 2, no. 2, p. 1, 2011.
 </p></li>
@@ -845,8 +857,14 @@ T. Lebo, S. Sahoo, D. McGuinness, K. Belhajjame, J. Cheney, D. Corsar,
   D. Garijo, S. Soiland-Reyes, S. Zednik, and J. Zhao,  "<a href="https://www.w3.org/TR/prov-o/">PROV-O: The PROV
   ontology</a>," <em>W3C Recommendation</em>, 2013.
 </p></li>
+<li id="dumontier2014biomedsem" role="doc-biblioentry"><p>
+M. Dumontier, C. J. Baker, J. Baran, A. Callahan, L. Chepelev, J. Cruz-Toledo, N. R.
+Del Rio, G. Duck, L. I. Furlong, N. Keath et al., "<a href="https://doi.org/10.1186/2041-1480-5-14">The semanticscience integrated ontology
+(SIO) for biomedical research and knowledge discovery</a>," <em>Journal of biomedical semantics</em>,
+vol. 5, no. 1, p. 14, 2014.
+</p></li>
 <li id="schneider2013semanticweb" role="doc-biblioentry"><p>
-J. Schneider, T. Groza, and A. Passant,  "<a href="http://doi.org/10.3233/SW-2012-0073">A review of argumentation for the
+J. Schneider, T. Groza, and A. Passant,  "<a href="https://doi.org/10.3233/SW-2012-0073">A review of argumentation for the
   social semantic web</a>," <em>Semantic Web</em>, vol. 4, no. 2, pp. 159-218,
   2013.
 </p></li>
@@ -855,14 +873,25 @@ A. De Waard and J. Schneider,  "<a href="http://dl.acm.org/citation.cfm?id=28876
   reasoning, certainty and attribution (ORCA)</a>," <em>Semantic Technologies
   Applied to Biomedical Informatics and Individualized Medicine</em>, 2012.
 </p></li>
+<li id="soldatova2006interface" role="doc-biblioentry"><p>
+L. N. Soldatova and R. D. King, "<a href="https://doi.org/10.1098/rsif.2006.0134">An ontology of scientific experiments</a>," <em>Journal of the
+Royal Society Interface</em>, vol. 3, no. 11, pp. 795–803, 2006.
+</p></li>
+<li id="brush2016icbobiocreative" role="doc-biblioentry"><p>
+M. H. Brush, K. Shefchek, and M. Haendel, "<a href="http://ceur-ws.org/Vol-1747/IT605_ICBO2016.pdf">SEPIO: A semantic model for the
+integration and analysis of scientific evidence</a>," in <em>ICBO/BioCreative</em>. CEUR-WS, 2016.
+</p></li>
 <li id="clancey1989ml" role="doc-biblioentry"><p>
-W. J. Clancey,  "<a href="http://doi.org/10.1023/A:1022602705960">The knowledge level reinterpreted: Modeling how systems
+W. J. Clancey,  "<a href="https://doi.org/10.1023/A:1022602705960">The knowledge level reinterpreted: Modeling how systems
   interact</a>," <em>Machine Learning</em>, vol. 4, no. 3-4, pp. 285-291, 1989.
 </p></li>
 <li id="studer1998dke" role="doc-biblioentry"><p>
-R. Studer, V. R. Benjamins, and D. Fensel,  "<a href="http://doi.org/10.1016/S0169-023X(97)00056-6">Knowledge engineering: Principles
+R. Studer, V. R. Benjamins, and D. Fensel,  "<a href="https://doi.org/10.1016/S0169-023X(97)00056-6">Knowledge engineering: Principles
   and methods</a>," <em>Data and Knowledge Engineering</em>, vol. 25, no. 1-2, pp.
   161-197, March 1998.
+</p></li>
+<li id="kuhn1962structure" role="doc-biblioentry"><p>
+T. S. Kuhn, <a href="https://isbnsearch.org/isbn/9780226458113"><em>The Structure of Scientific Revolutions</em></a>. University of Chicago Press, 1962.
 </p></li>
 <li id="miles2009skos" role="doc-biblioentry"><p>
 A. Miles and S. Bechhofer,  "<a href="https://www.w3.org/TR/skos-reference/">SKOS simple knowledge organization system
