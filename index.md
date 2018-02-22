@@ -48,15 +48,22 @@ More on
 
 ###### Journal Articles
 
+- Tobias Kuhn and Michel Dumontier.
+  [Genuine semantic publishing](https://doi.org/10.3233/DS-170010).
+  _Data Science_, 1(1-2), 2017.
+  [[index]](http://www.tkuhn.org/pub/sempub/)
+  [[HTML]](http://www.tkuhn.org/pub/sempub/sempub.dokieli.html)
+  [[PDF]](http://www.tkuhn.org/pub/sempub/sempub.pdf)
 - Tobias Kuhn​, Christine Chichester, Michael Krauthammer, Núria Queralt-Rosinach, Ruben Verborgh, George Giannakopoulos, Axel-Cyrille Ngonga Ngomo, Raffaele Viglianti, Michel Dumontier.
-  Decentralized provenance-aware publishing with nanopublications.
+  [Decentralized provenance-aware publishing with nanopublications](https://doi.org/10.7717/peerj-cs.78).
   _PeerJ Computer Science_, 2:e78, 2016.
-  [[Link]](https://peerj.com/articles/cs-78/)
+  [[HTML]](https://peerj.com/articles/cs-78/)
   [[PDF]](https://peerj.com/articles/cs-78.pdf)
-- Mark D Wilkinson, Michel Dumontier, et al.
-  The FAIR Guiding Principles for scientific data management and stewardship.
+- Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, Jildau Bouwman, Anthony J. Brookes, Tim Clark, Mercè Crosas, Ingrid Dillo, Olivier Dumon, Scott Edmunds, Chris T. Evelo, Richard Finkers, Alejandra Gonzalez-Beltran, Alasdair J.G. Gray, Paul Groth, Carole Goble, Jeffrey S. Grethe, Jaap Heringa, Peter A.C. 't Hoen, Rob Hooft, Tobias Kuhn, Ruben Kok, Joost Kok, Scott J. Lusher, Maryann E. Martone, Albert Mons, Abel L. Packer, Bengt Persson, Philippe Rocca-Serra, Marco Roos, Rene van Schaik, Susanna-Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris A. Swertz, Mark Thompson, Johan van der Lei, Erik van Mulligen, Jan Velterop, Andra Waagmeester, Peter Wittenburg, Katherine Wolstencroft, Jun Zhao, Barend Mons.
+  [The FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18).
   _Scientific Data_, 3:16001, 2016.
-  [[Link]](http://www.nature.com/articles/sdata201618)
+  [[HTML]](http://www.nature.com/articles/sdata201618)
+  [[PDF]](https://www.nature.com/articles/sdata201618.pdf)
 - Kurt Winkler and Tobias Kuhn.
   Fully automatic multi-language translation with a catalogue of phrases - successful employment for the Swiss avalanche bulletin.
   _Language Resources and Evaluation_, 2016.
