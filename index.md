@@ -126,6 +126,27 @@ More on
 
 ###### Papers at International Conferences and Workshops
 
+- Tobias Kuhn, Egon Willighagen, Chris Evelo, Núria Queralt-Rosinach, Emilio Centeno, Laura I Furlong.
+  [Reliable Granular References to Changing Linked Data](https://doi.org/10.1007/978-3-319-68288-4_26).
+  In _Proceedings of the 16th International Semantic Web Conference (ISWC 2017)_.
+  Springer, 2017.
+  [[PDF]](https://arxiv.org/pdf/1708.09193.pdf)
+- Benjamin Timmermans, Tobias Kuhn, Kaspar Beelen, Lora Aroyo.
+  [Computational Controversy](https://doi.org/10.1007/978-3-319-67256-4_23).
+  In _Proceedings of th 9th International Conference on Social Informatics (Socinfo2017)_.
+  Springer, 2017.
+  [[PDF]](https://arxiv.org/pdf/1706.07643.pdf)
+- Tom Jansen and Tobias Kuhn.
+  [Extracting Core Claims from Scientific Articles](https://doi.org/10.1007/978-3-319-67468-1_3).
+  In _Proceedings of the 28th Benelux Conference on Artificial Intelligence (BNAIC 2016)_.
+  Springer, 2017.
+  [[PDF]](https://arxiv.org/pdf/1707.07678.pdf)
+- Krishna Mangaladevi, Wouter Beek, Tobias Kuhn.
+  [Understanding Knowledge Networks](http://www.tkuhn.org/pub/lodnets/knowledge-networks.html).
+  In _Proceedings of the 5th International Workshop on Linked Data for Information Extraction (LD4IE 2017)_.
+  CEUR-WS, 2017.
+  [[HTML]](http://www.tkuhn.org/pub/lodnets/knowledge-networks.html)
+  [[PDF]](http://ceur-ws.org/Vol-1946/paper-05.pdf)
 - Niels Ockeloen, Victor de Boer, Tobias Kuhn, and Guus Schreiber.
   Data 2 Documents: Modular and Distributive Content Management in RDF.
   In _Proceedings of the 20th International Conference on Knowledge Engineering and Knowledge Management (EKAW 2016)_.
@@ -301,6 +322,8 @@ More on
 
 ###### Edited Proceedings
 
+- [http://ceur-ws.org/Vol-1934/](http://ceur-ws.org/Vol-1934/)
+- [http://ceur-ws.org/Vol-1931/](http://ceur-ws.org/Vol-1931/)
 - Brian Davis, Kaarel Kaljurand, and Tobias Kuhn (editors).
   _Proceedings of the Fourth International Workshop on Controlled Natural Language (CNL 2014)_,
   Lecture Notes in Computer Science 8625.
@@ -332,8 +355,13 @@ More on
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/reasoningweb2008_fuchs.pdf)
   [[BibTeX]](http://attempto.ifi.uzh.ch/site/pubs/papers/bibtex/reasoningweb2008_fuchs.bib)
 
-###### Consensus Statements
+###### Consensus Statements and Editorials
 
+- Tobias Kuhn and Michel Dumontier.
+  [Data Science – Methods, infrastructure, and applications](https://doi.org/10.3233/DS-170013) (editorial).
+  _Data Science_, 1(1-2), 2017.
+  [[HTML]](https://content.iospress.com/articles/data-science/ds013)
+  [[PDF]](https://content.iospress.com/download/data-science/ds013?id=data-science%2Fds013)
 - Adam Wyner, Krasimir Angelov, Guntis Barzdins, Danica Damljanovic, Brian Davis, Norbert Fuchs,
   Stefan Hoefler, Ken Jones, Kaarel Kaljurand, Tobias Kuhn, Martin Luts, Jonathan Pool, Mike
   Rosner, Rolf Schwitter, and John Sowa.
