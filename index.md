@@ -384,14 +384,30 @@ More on
 
 ### Organized Events
 
+- [DeSemWeb 2018](http://iswc2018.desemweb.org/)
+  Second Workshop on Decentralizing the Semantic Web, at ISWC 2018, Monterey, USA
+- [SemSci 2018](https://semsci.github.io/SemSci2018/)
+  Second International Workshop on Enabling Open Semantic Science, at ISWC 2018, Monterey, USA
+- [DeSemWeb 2017](http://iswc2017.desemweb.org/)
+  First Workshop on Decentralizing the Semantic Web, at ISWC 2017, Vienna, Austria
+- [SemSci 2017](https://semsci.github.io/semSci2017/)
+  First International Workshop on Enabling Open Semantic Science, at ISWC 2017, Vienna, Austria
 - [CNL 2014](http://attempto.ifi.uzh.ch/site/cnl2014/):
-  Fourth Workshop on Controlled Natural Language (organizer and chair)
+  Fourth Workshop on Controlled Natural Language, Galway, Ireland
 - [CNL 2012](http://attempto.ifi.uzh.ch/site/cnl2012/):
-  Third Workshop on Controlled Natural Language (organizer and chair)
+  Third Workshop on Controlled Natural Language, Zurich, Switzerland
 
 
 ### Selected Invited Talks
 
+- _Nanopublications and Decentralized Publishing_.
+  Invited talk at DANS Seminar on Linked Data in Research and Cultural Heritage, Den Haag, 1 May 2017.
+- _Linked Data Publishing with Nanopublication_.
+  Invited talk at IOS Press 30 Year Anniversary, Amsterdam, 4 April 2017.
+- _Nanopublications_.
+  Invited talk at the Bring Your Own Rett Syndrome Data workshop, Maastricht University, 1 November 2016.
+- _Nanopublications_.
+  Invited talk at LERU Doctoral Summer School 2016, Leiden University, 13 July 2016.
 - _A Decentralized Network for Publishing Linked Data_.
   Invited talk at the CERN Workshop on Innovations in Scholarly Communication (OAI9), Geneva, 17 June 2015.
   [[Slides]](http://www.slideshare.net/TobiasKuhn/trustypublishing)
