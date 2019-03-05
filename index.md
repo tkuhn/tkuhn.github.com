@@ -49,6 +49,9 @@ More on
 
 ##### Journal Articles
 
+- Niels Dekker, Tobias Kuhn, and Marieke van Erp.
+  [Evaluating social network extraction tools for fiction literature](https://doi.org/10.7287/peerj.preprints.27263v1).
+  PeerJ Computer Science, to appear.
 - Tobias Kuhn and Michel Dumontier.
   [Genuine semantic publishing](https://doi.org/10.3233/DS-170010).
   _Data Science_, 1(1-2), 2017.
