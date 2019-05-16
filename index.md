@@ -1,20 +1,22 @@
-Welcome to my website. I am an assistant professor at VU University Amsterdam
-working on the semantic web, social systems, controlled natural languages,
-artificial intelligence, computational linguistics, and bioinformatics.
-See my [CV](cv.pdf) (or its short version at the bottom of this page).
+Welcome to my website. I am a tenured assistant professor at VU University
+Amsterdam working on the semantic web, social systems, controlled natural
+languages, artificial intelligence, computational linguistics, and
+bioinformatics.
+<!--See my [CV](cv.pdf) (or its short version at the bottom of this page).-->
 
 More on
 [Orcid](http://orcid.org/0000-0002-1267-0234),
 [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ),
 [arXiv](http://arxiv.org/a/kuhn_t_2),
-[ImpactStory](https://profiles.impactstory.org/u/0000-0002-1267-0234),
 [LinkedIn](http://www.linkedin.com/profile/view?id=18606482),
-[GitHub](https://github.com/tkuhn),
+[GitHub](https://github.com/tkuhn), and
+[Twitter](https://twitter.com/txkuhn).
+<!--
+[ImpactStory](https://profiles.impactstory.org/u/0000-0002-1267-0234),
 [SlideShare](http://www.slideshare.net/TobiasKuhn),
 [Vimeo](https://vimeo.com/user21894821),
-[Videolectures](http://videolectures.net/tobias_kuhn), and
-[Twitter](https://twitter.com/txkuhn).
-
+[Videolectures](http://videolectures.net/tobias_kuhn),
+-->
 
 ### Products and Projects
 
