@@ -51,9 +51,9 @@ More on
 
 ##### Journal Articles
 
-- Niels Dekker, Tobias Kuhn, and Marieke van Erp.
-  [Evaluating social network extraction tools for fiction literature](https://doi.org/10.7287/peerj.preprints.27263v1).
-  PeerJ Computer Science, to appear.
+- <span class="hl">&#9733;</span> Niels Dekker, Tobias Kuhn, and Marieke van Erp.
+  [Evaluating named entity recognition tools for extracting social networks from novels](https://doi.org/10.7717/peerj-cs.189).
+  PeerJ Computer Science 5:e189, 2019.
 - Tobias Kuhn and Michel Dumontier.
   [Genuine semantic publishing](https://doi.org/10.3233/DS-170010).
   _Data Science_, 1(1-2), 2017.
@@ -114,6 +114,10 @@ More on
 
 ##### Papers at International Conferences and Workshops
 
+- Erika Fabris, Tobias Kuhn, Gianmaria Silvello.
+  [A Framework for Citing Nanopublications](http://www.dei.unipd.it/~silvello/papers/2019_TPDL2019_FKS.pdf)
+  In _Proceedings of TPDL 2019: 23rd International Conference on Theory and Practice of Digital Libraries_.
+  2019
 - Tobias Kuhn, Albert Meroño-Peñuela, Alexander
   Malic, Jorrit H Poelen, Allen H Hurlbert, Emilio Centeno Ortiz, Laura I
   Furlong, Núria Queralt-Rosinach, Christine Chichester, Juan M Banda, Egon
