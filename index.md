@@ -51,6 +51,15 @@ More on
 
 ##### Journal Articles
 
+- Hana Pergl Sustkova, Kristina Maria Hettne, Peter Wittenburg, Annika Jacobsen, Tobias Kuhn, Robert Pergl, Jan Slifka, Peter McQuilton, Barbara Magagna, Susanna-Assunta Sansone, Markus Stocker, Melanie Imming, Larry Lannom, Mark Musen, Erik Schultes.
+  [FAIR convergence matrix: Optimizing the reuse of existing FAIR-related resources](https://doi.org/10.1162/dint_a_00038).
+  Data Intelligence 2 (1/2), 2020.
+- Annika Jacobsen, Ricardo de Miranda Azevedo, Nick Juty, Dominique Batista, Simon Coles, Ronald Cornet, Mélanie Courtot, Mercè Crosas, Michel Dumontier, Chris T Evelo, Carole Goble, Giancarlo Guizzardi, Karsten Kryger Hansen, Ali Hasnain, Kristina Hettne, Jaap Heringa, Rob WW Hooft, Melanie Imming, Keith G Jeffery, Rajaram Kaliyaperumal, Martijn G Kersloot, Christine R Kirkpatrick, Tobias Kuhn, Ignasi Labastida, Barbara Magagna, Peter McQuilton, Natalie Meyers, Annalisa Montesanti, Mirjam van Reisen, Philippe Rocca-Serra, Robert Pergl, Susanna-Assunta Sansone, Luiz Olavo Bonino da Silva Santos, Juliane Schneider, George Strawn, Mark Thompson, Andra Waagmeester, Tobias Weigel, Mark D Wilkinson, Egon L Willighagen, Peter Wittenburg, Marco Roos, Barend Mons, Erik Schultes
+  [FAIR principles: Interpretations and implementation considerations](https://doi.org/10.1162/dint_r_00024).
+  Data Intelligence 2 (1/2), 2020.
+- Mark D Wilkinson, Michel Dumontier, Susanna-Assunta Sansone, Luiz Olavo Bonino da Silva Santos, Mario Prieto, Dominique Batista, Peter McQuilton, Tobias Kuhn, Philippe Rocca-Serra, Mercѐ Crosas, Erik Schultes
+  [Evaluating FAIR maturity through a scalable, automated, community-governed framework](https://doi.org/10.1038/s41597-019-0184-5).
+  Scientific Data 6 (174), 2019.
 - Niels Dekker, Tobias Kuhn, and Marieke van Erp.
   [Evaluating named entity recognition tools for extracting social networks from novels](https://doi.org/10.7717/peerj-cs.189).
   PeerJ Computer Science 5:e189, 2019.
@@ -115,9 +124,21 @@ More on
 ##### Papers at International Conferences and Workshops
 
 - Erika Fabris, Tobias Kuhn, Gianmaria Silvello.
-  [A Framework for Citing Nanopublications](http://www.dei.unipd.it/~silvello/papers/2019_TPDL2019_FKS.pdf)
+  [Nanocitation: Complete and Interoperable Citations of Nanopublications](https://doi.org/10.1007/978-3-030-39905-4_18).
+  Springer 2020.
+  In _Proceedings of the Italian Research Conference on Digital Libraries, 2020_.
+- Pasquale Lisena, Albert Meroño-Peñuela, Tobias Kuhn, Raphaël Troncy.
+  [Easy Web API Development with SPARQL Transformer](https://doi.org/10.1007/978-3-030-30796-7_28).
+  In _Proceedings of The 18th International Semantic Web Conference_.
+  Springer, 2019.
+- Cristina-Iulia Bucur, Tobias Kuhn, Davide Ceolin.
+  [Peer Reviewing Revisited: Assessing Research with Interlinked Semantic Comments](ttps://doi.org/10.1145/3360901.3364434).
+  In _K-CAP '19: Proceedings of the 10th International Conference on Knowledge Capture_.
+  2019.
+- Erika Fabris, Tobias Kuhn, Gianmaria Silvello.
+  [A Framework for Citing Nanopublications](http://www.dei.unipd.it/~silvello/papers/2019_TPDL2019_FKS.pdf).
   In _Proceedings of TPDL 2019: 23rd International Conference on Theory and Practice of Digital Libraries_.
-  2019
+  2019.
 - Tobias Kuhn, Albert Meroño-Peñuela, Alexander
   Malic, Jorrit H Poelen, Allen H Hurlbert, Emilio Centeno Ortiz, Laura I
   Furlong, Núria Queralt-Rosinach, Christine Chichester, Juan M Banda, Egon
@@ -125,9 +146,6 @@ More on
   [Nanopublications: A Growing Resource of Provenance-Centric Scientific Linked
   Data](https://arxiv.org/abs/1809.06532). In _Proceedings of IEEE eScience
   2018_. (Acceptance rate: 34%)
-- Cristina-Iulia Bucur (supervised by Tobias Kuhn). [Linkflows: Enabling a Web of Linked Semantic Publishing Workflows.](https://link.springer.com/chapter/10.1007/978-3-319-98192-5_45)
-  In _Proceedings of the PhD Symposion of the Extended Semantic Web Conference (ESWC) 2018_.
-  Springer, 2018.
 - Tobias Kuhn. [Using the AIDA Language to Formally Organize Scientific
   Claims](https://doi.org/10.3233/978-1-61499-904-1-52). In _Proceedings of the
   Sixth International Workshop on Controlled Natural Language (CNL 2018)_. IOS
