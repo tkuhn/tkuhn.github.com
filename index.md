@@ -51,7 +51,7 @@ More on
 
 ##### Journal Articles
 
-- <span class="hl">&#9733;</span> Niels Dekker, Tobias Kuhn, and Marieke van Erp.
+- Niels Dekker, Tobias Kuhn, and Marieke van Erp.
   [Evaluating named entity recognition tools for extracting social networks from novels](https://doi.org/10.7717/peerj-cs.189).
   PeerJ Computer Science 5:e189, 2019.
 - Tobias Kuhn and Michel Dumontier.
