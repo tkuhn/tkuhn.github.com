@@ -51,6 +51,10 @@ More on
 
 ##### Journal Articles
 
+- Tobias Kuhn, Ruben Taelman, Vincent Emonet, Haris Antonatos, Stian Soiland-Reyes, Michel Dumontier.
+  Semantic Micro-Contributions with Decentralized Nanopublication Services.
+  PeerJ Computer Science. To appear.
+- Remzi Celebi​​, Joao Rebelo Moreira​​, Ahmed A. Hassan, Sandeep Ayyar, Lars Ridder, Tobias Kuhn, Michel Dumontier. [Towards FAIR protocols and workflows: the OpenPREDICT use case](https://doi.org/10.7717/peerj-cs.281). PeerJ Computer Science 6:e281. 2020.
 - Hana Pergl Sustkova, Kristina Maria Hettne, Peter Wittenburg, Annika Jacobsen, Tobias Kuhn, Robert Pergl, Jan Slifka, Peter McQuilton, Barbara Magagna, Susanna-Assunta Sansone, Markus Stocker, Melanie Imming, Larry Lannom, Mark Musen, Erik Schultes.
   [FAIR convergence matrix: Optimizing the reuse of existing FAIR-related resources](https://doi.org/10.1162/dint_a_00038).
   Data Intelligence 2 (1/2), 2020.
@@ -123,6 +127,18 @@ More on
 
 ##### Papers at International Conferences and Workshops
 
+- Erik Schultes, Barbara Magagna, Kristina Maria Hettne, Robert Pergl, Marek Suchánek, and Tobias Kuhn.
+  [Reusable FAIR Implementation Profiles as Accelerators of FAIR Convergence]().
+  In Proceedings of International Conference on Conceptual Modeling
+  Springer, 2020.
+- Timo Let, Anna de Groot, Tobias Kuhn, Roser Morante. [Provenance for Linguistic Corpora through Nanopublications](https://arxiv.org/pdf/2006.06341.pdf).
+  In Proceedings of the 14th Linguistic Annotation Workshop.
+  2020.
+- Cristina-Iulia Bucur, Tobias Kuhn, Davide Ceolin.
+  [A Unified Nanopublication Model for Effective and User-Friendly Access to the Elements of Scientific Publishing](https://arxiv.org/abs/2006.06348).
+  In _Proceedings of the 22nd International Conference on Knowledge Engineering and Knowledge Management (EKAW)_.
+  2020.
+  (Acceptance rate: 17%)
 - Erika Fabris, Tobias Kuhn, Gianmaria Silvello.
   [Nanocitation: Complete and Interoperable Citations of Nanopublications](https://doi.org/10.1007/978-3-030-39905-4_18).
   Springer 2020.
