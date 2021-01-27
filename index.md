@@ -419,7 +419,7 @@ More on
 ##### Thesis
 
 - Tobias Kuhn.
-  [_Controlled English for Knowledge Representation_.](http://attempto.ifi.uzh.ch/site/pubs/papers/doctoral_thesis_kuhn.pdf)
+  [Controlled English for Knowledge Representation.](http://attempto.ifi.uzh.ch/site/pubs/papers/doctoral_thesis_kuhn.pdf)
   Doctoral thesis, Faculty of Economics, Business Administration and Information Technology of the
   University of Zurich, 2010.
   [[PDF]](http://attempto.ifi.uzh.ch/site/pubs/papers/doctoral_thesis_kuhn.pdf)
