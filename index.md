@@ -51,6 +51,9 @@ More on
 
 ##### Journal Articles
 
+- Anna-Lena Lamprecht, Magnus Palmblad, Jon Ison, ..., Tobias Kuhn, ..., Katherine Wolstencroft.
+  [Perspectives on automated composition of workflows in the life sciences](https://doi.org/10.12688/f1000research.54159.1).
+  _F1000Research_ 10, 2021.
 - Tobias Kuhn, Ruben Taelman, Vincent Emonet, Haris Antonatos, Stian Soiland-Reyes, Michel Dumontier.
   [Semantic Micro-Contributions with Decentralized Nanopublication Services](https://doi.org/10.7717/peerj-cs.387).
   _PeerJ Computer Science_ 7:e387. 2021.
@@ -127,12 +130,27 @@ More on
 
 ##### Papers at International Conferences and Workshops
 
+- Cristina-Iulia Bucur, Tobias Kuhn, Davide Ceolin, Jacco van Ossenbruggen.
+  [Expressing high-level scientific claims with formal semantics](https://doi.org/10.1145/3460210.3493561).
+  In _K-CAP '21: Proceedings of the 11th on Knowledge Capture Conference_.
+  ACM, 2021.
+  (Acceptance rate: 25%)
+- Robin A Richardson, Remzi Celebi, Sven Van Der Burg, Djura Smits, Lars Ridder, Michel Dumontier, Tobias Kuhn.
+  [User-friendly Composition of FAIR Workflows in a Notebook Environment](https://doi.org/10.1145/3460210.3493546).
+  In _K-CAP '21: Proceedings of the 11th on Knowledge Capture Conference_.
+  ACM, 2021.
+  (Acceptance rate: 25%)
+- Michel Wijkstra, Timo Lek, Tobias Kuhn, Kasper Welbers, Mickey Steijaert.
+  [Living Literature Reviews](https://doi.org/10.1145/3460210.3493567).
+  In _K-CAP '21: Proceedings of the 11th on Knowledge Capture Conference_.
+  ACM, 2021.
+  (Acceptance rate: 25%)
 - Erik Schultes, Barbara Magagna, Kristina Maria Hettne, Robert Pergl, Marek Suchánek, and Tobias Kuhn.
-  [Reusable FAIR Implementation Profiles as Accelerators of FAIR Convergence]().
-  In Proceedings of International Conference on Conceptual Modeling
+  [Reusable FAIR Implementation Profiles as Accelerators of FAIR Convergence](https://doi.org/10.1007/978-3-030-65847-2_13).
+  In _Proceedings of International Conference on Conceptual Modeling_.
   Springer, 2020.
 - Timo Let, Anna de Groot, Tobias Kuhn, Roser Morante. [Provenance for Linguistic Corpora through Nanopublications](https://arxiv.org/pdf/2006.06341.pdf).
-  In Proceedings of the 14th Linguistic Annotation Workshop.
+  In _Proceedings of the 14th Linguistic Annotation Workshop_.
   2020.
 - Cristina-Iulia Bucur, Tobias Kuhn, Davide Ceolin.
   [A Unified Nanopublication Model for Effective and User-Friendly Access to the Elements of Scientific Publishing](https://arxiv.org/abs/2006.06348).
@@ -334,6 +352,9 @@ More on
 
 ##### Edited Proceedings
 
+- Tobias Kuhn, Silvie Spreeuwenberg, Stijn Hoppenbrouwers, Norbert E. Fuchs.
+  _[Proceedings of the Seventh International Workshop on Controlled Natural Language (CNL 2020/21)](https://aclanthology.org/2021.cnl-1.0)_.
+  ACL Anthology, 2021.
 - Ruben Verborgh, Tobias Kuhn, Tim Berners-Lee.
   _[Proceedings of the 2nd Workshop on Decentralizing the Semantic Web](http://ceur-ws.org/Vol-2165/)_.
   CEUR-WS, 2018.
