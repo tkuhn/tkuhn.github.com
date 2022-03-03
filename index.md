@@ -20,15 +20,12 @@ More on
 
 ### Products and Projects
 
-- [FAIR Workflows](https://fair-workflows.github.io/) is a project on applying the FAIR ideas to workflows
-- [Capture Bias](https://capturebias.wordpress.com/) is a project on diversity-aware computation for accurate big media data analysis
-- [The Nanopublication Network](http://npmonitor.inn.ac/) is a decentralized server network
+- [The Nanopublication Network](https://purl.org/nanopub/monitor) is a decentralized server network
   to release and retrieve Linked Data as nanopublications in a reliable and trustworthy manner
 - [Trusty URIs](http://trustyuri.net) use cryptographic hash values to make URI references
   verifiable
 - [nanopub-java](https://github.com/Nanopublication/nanopub-java) is the official Java library for
   nanopublications
-- [Nanopub Validator](http://nanopub.inn.ac) is a validator interface for nanopublications
 - [AceWiki](http://attempto.ifi.uzh.ch/acewiki) is a semantic wiki based on controlled natural
   language
 - [ACE](http://attempto.ifi.uzh.ch/site/docs/ace_nutshell.html) is a controlled English that can be
@@ -42,8 +39,14 @@ More on
   [ACE Editor](http://attempto.ifi.uzh.ch/aceeditor),
   [Codeco](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2010_kuhn.pdf),
   [bchart](http://www.ctan.org/pkg/bchart)
-- Past projects: [ControCurator](http://controcurator.org/), [Attempto](http://attempto.ifi.uzh.ch/), [MOLTO](http://www.molto-project.eu/),
-  [ERGO](http://gem.med.yale.edu/ergo/), [REWERSE](http://rewerse.net/)
+- Past projects:
+  [FAIR Workflows](https://fair-workflows.github.io/),
+  [Capture Bias](https://capturebias.wordpress.com/),
+  [ControCurator](http://controcurator.org/),
+  [Attempto](http://attempto.ifi.uzh.ch/),
+  [MOLTO](http://www.molto-project.eu/),
+  [ERGO](http://gem.med.yale.edu/ergo/),
+  [REWERSE](http://rewerse.net/)
 
 
 ### Publications
