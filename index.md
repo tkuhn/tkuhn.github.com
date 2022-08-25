@@ -1,7 +1,5 @@
 Welcome to my website. I am a tenured assistant professor at VU University
-Amsterdam working on the semantic web, social systems, controlled natural
-languages, artificial intelligence, computational linguistics, and
-bioinformatics.
+Amsterdam and starting entrepreneur focussing on how we can apply semantic technologies in a user-friendly manner to radically improve the communication of knowledge.
 <!--See my [CV](cv.pdf) (or its short version at the bottom of this page).-->
 
 More on
@@ -18,29 +16,14 @@ More on
 [Videolectures](http://videolectures.net/tobias_kuhn),
 -->
 
-### Products and Projects
+### My Topics and Projects
 
-- [The Nanopublication Network](https://purl.org/nanopub/monitor) is a decentralized server network
-  to release and retrieve Linked Data as nanopublications in a reliable and trustworthy manner
-- [Trusty URIs](http://trustyuri.net) use cryptographic hash values to make URI references
-  verifiable
-- [nanopub-java](https://github.com/Nanopublication/nanopub-java) is the official Java library for
-  nanopublications
-- [AceWiki](http://attempto.ifi.uzh.ch/acewiki) is a semantic wiki based on controlled natural
-  language
-- [ACE](http://attempto.ifi.uzh.ch/site/docs/ace_nutshell.html) is a controlled English that can be
-  automatically translated into formal logic
-- More:
-  [Nanobrowser](http://nanobrowser.inn.ac/),
-  [Yale Image Finder](http://krauthammerlab.med.yale.edu/imagefinder/),
-  [Ontograph](http://attempto.ifi.uzh.ch/site/docs/ontograph/),
-  [Coral](http://attempto.ifi.uzh.ch/site/pubs/papers/kuhnhoefler2013coral.pdf),
-  [AceRules](http://attempto.ifi.uzh.ch/acerules),
-  [ACE Editor](http://attempto.ifi.uzh.ch/aceeditor),
-  [Codeco](http://attempto.ifi.uzh.ch/site/pubs/papers/cnl2010_kuhn.pdf),
-  [bchart](http://www.ctan.org/pkg/bchart)
+- A new endeavor to make scientific findings machine-interpretable from the start to be announced soon!
+- Small semantic packages called [nanopublications](https://nanopub.org/wordpress/) can be published through a [decentralized network](https://purl.org/nanopub/monitor), based on [trusty URIs](http://trustyuri.net) and the [nanopub-java](https://github.com/Nanopublication/nanopub-java) library
+- Controlled natural languages like [ACE](http://attempto.ifi.uzh.ch/site/docs/ace_nutshell.html) allow for formal yet fully intuitive knowledge representation, for example in the form of the semantic wiki [AceWiki](http://attempto.ifi.uzh.ch/acewiki)
+- The [FAIR Principles](https://www.go-fair.org/fair-principles/) aim to make research data machine-understandable across disciplines, for example in the social sciences through [ODISSEI](https://odissei-data.nl/)
 - Past projects:
-  [FAIR Workflows](https://fair-workflows.github.io/),
+  [FAIR is as FAIR does](https://www.esciencecenter.nl/projects/fair-is-as-fair-does/),
   [Capture Bias](https://capturebias.wordpress.com/),
   [ControCurator](http://controcurator.org/),
   [Attempto](http://attempto.ifi.uzh.ch/),
