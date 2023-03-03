@@ -20,6 +20,7 @@ More on
 
 - My new venture to build the ecosystem of semantic-born knowledge: [Knowledge Pixels](https://knowledgepixels.com/)
 - Small semantic packages called [nanopublications](https://nanopub.org/wordpress/) can be published through a [decentralized network](https://purl.org/nanopub/monitor), based on [trusty URIs](http://trustyuri.net) and the [nanopub-java](https://github.com/Nanopublication/nanopub-java) library
+- [Nanodash](https://nanodash.petapico.org/) ([code](https://github.com/knowledgepixels/nanodash)) is a web tool to browse and publish nanopublications, based on user-friendly templates
 - Controlled natural languages like [ACE](http://attempto.ifi.uzh.ch/site/docs/ace_nutshell.html) allow for formal yet fully intuitive knowledge representation, for example in the form of the semantic wiki [AceWiki](http://attempto.ifi.uzh.ch/acewiki)
 - The [FAIR Principles](https://www.go-fair.org/fair-principles/) aim to make research data machine-understandable across disciplines, for example in the social sciences through [ODISSEI](https://odissei-data.nl/)
 - Past projects:
