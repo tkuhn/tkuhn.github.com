@@ -6,7 +6,7 @@ More on
 [Orcid](http://orcid.org/0000-0002-1267-0234),
 [Google Scholar](http://scholar.google.com/citations?user=26_NNqEAAAAJ),
 [arXiv](http://arxiv.org/a/kuhn_t_2),
-[LinkedIn](http://www.linkedin.com/profile/view?id=18606482),
+[LinkedIn](https://www.linkedin.com/in/tkuhn/),
 [GitHub](https://github.com/tkuhn), and
 [Twitter](https://twitter.com/txkuhn).
 <!--
