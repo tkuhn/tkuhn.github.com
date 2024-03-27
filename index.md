@@ -8,7 +8,7 @@ More on
 [arXiv](http://arxiv.org/a/kuhn_t_2),
 [LinkedIn](https://www.linkedin.com/in/tkuhn/),
 [GitHub](https://github.com/tkuhn), and
-[Twitter](https://twitter.com/txkuhn).
+[Mastodon](https://mastodon.social/@tkuhn).
 <!--
 [ImpactStory](https://profiles.impactstory.org/u/0000-0002-1267-0234),
 [SlideShare](http://www.slideshare.net/TobiasKuhn),
