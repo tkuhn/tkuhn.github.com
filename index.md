@@ -1,5 +1,5 @@
-Welcome to my website. I am a tenured assistant professor at VU University
-Amsterdam and starting entrepreneur focussing on how we can apply semantic technologies in a user-friendly manner to radically improve the communication of knowledge.
+Welcome to my website.
+I am CEO and Founder at Knowledge Pixels (and a former academic) focussing on how we can apply semantic technologies in a user-friendly manner to radically improve the communication of knowledge.
 <!--See my [CV](cv.pdf) (or its short version at the bottom of this page).-->
 
 More on
@@ -500,8 +500,8 @@ More on
 
 ### Short CV
 
-- **since 2015:** Assistant professor at the Computer Science Department of the VU University Amsterdam
-  in the Web and Media group
+- **since 2023** Founder and CEO at Knowledge Pixels, Switzerland
+- **2015-2022** Assistant professor at the Computer Science Department of the VU University Amsterdam
 - **2013-2015:** Postdoc at the ETH Zurich in the Computational Social Science group
 - **2015:** Visiting researcher at Stanford University in the Dumontier Lab at
 the Center for Biomedical Informatics Research
