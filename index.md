@@ -33,6 +33,27 @@ More on
   [REWERSE](http://rewerse.net/)
 
 
+### My Latest Posts
+
+<ul>
+<nanopub-list
+  id="latest-news"
+  query-template="RAHCgNxuO4EPiN2xH2fcVEzTnOfu0vFfN32vwjg4j0nMs/get-posts-by-user"
+  params='{"author":"https://orcid.org/0000-0002-1267-0234"}'
+  date-field="date"
+  limit="10"
+><template>
+  <li data-bind-data-date="date" data-bind-data-nanopub="np">
+    <span>
+      <strong data-bind="title"></strong> – <span data-bind-html="text"></span> – <a data-bind="date" data-bind-href="np"></a>
+    </span>
+  </li>
+</template></nanopub-list>
+</ul>
+
+(these are published as [nanopublications](https://nanopub.net/))
+
+
 ### Publications
 
 
